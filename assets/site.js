@@ -732,12 +732,13 @@ if (res.ok) return await res.json();
   return null;
 }
 async function loadHome() {
-  const [docs, evs, rec] = await Promise.all(['documents.json', 'events.json', 'recognition.json'].map(getJson));
+  const [docs, evs, rec, sec] = await Promise.all(['documents.json', 'events.json', 'recognition.json', 'sections.json'].map(getJson));
   const ok = (a, ...need) => (Array.isArray(a) ? a : []).filter(d => d && need.every(k => d[k]));
   HOME = {
 docs: ok(docs, 'title', 'url'),
 evs: ok(Array.isArray(evs) ? evs : EVENTS_SEED, 'title', 'date'),
-rec: ok(rec, 'title', 'url')
+rec: ok(rec, 'title', 'url'),
+sections: sec && typeof sec === 'object' ? sec : {}
   };
   renderHome();
 }
@@ -774,6 +775,35 @@ gallery: FLICKR_POOL.length,
 monuments: 20
   };
   document.querySelectorAll('[data-count]').forEach(el => { el.textContent = counts[el.dataset.count]; });
+  sortSections();
+}
+
+/* ═══════════════════════════════════════════
+   HOMEPAGE — section tiles, most recently updated first
+   A section's date is the later of its entry in sections.json and,
+   for Library / Recognition / Events, the newest entry date in its JSON
+   (event dates count no later than today). Undated sections follow;
+   "coming soon" tiles always stay last.
+═══════════════════════════════════════════ */
+function sortSections() {
+  const grid = document.querySelector('.tile-grid');
+  if (!grid || !HOME) return;
+  const today = new Date().toISOString().slice(0, 10);
+  const newest = (list, pick) => list.map(pick).filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d || '')).sort().pop() || '';
+  const auto = {
+    library: newest(HOME.docs, d => d.date),
+    recognition: newest(HOME.rec, d => d.date),
+    events: newest(HOME.evs, e => (e.date > today ? today : e.date))
+  };
+  const dateOf = key => [auto[key] || '', String(HOME.sections[key] || '')].sort().pop();
+  const tiles = [...grid.children];
+  tiles.forEach((t, i) => { if (t.dataset.pos == null) t.dataset.pos = i; });
+  tiles.sort((a, b) => {
+    const sa = a.classList.contains('soon'), sb = b.classList.contains('soon');
+    if (sa !== sb) return sa ? 1 : -1;
+    const da = dateOf(a.dataset.section), db = dateOf(b.dataset.section);
+    return db.localeCompare(da) || a.dataset.pos - b.dataset.pos;
+  }).forEach(t => grid.appendChild(t));
 }
 
 /* ═══════════════════════════════════════════
