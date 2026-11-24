@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recognition of the Circassian Genocide · May21.org</title>
+  <meta name="description" content="Official acts by which parliaments have recognised the Circassian genocide, with full texts and translations." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400&family=DM+Sans:wght@300;400;500&family=Noto+Sans+Arabic:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+<body lang="en" data-page="recognition">
+
+  <nav id="siteNav">
+    <a class="nav-logo" href="index.html">May21<span>.</span>org</a>
+    <div class="nav-right">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="recognition.html" data-i18n="nav_recognition" class="active" aria-current="page">Recognition</a></li>
+        <li><a href="library.html" data-i18n="nav_library">Library</a></li>
+        <li><a href="events.html" data-i18n="nav_events">Events</a></li>
+        <li><a href="gallery.html" data-i18n="nav_gallery">Gallery</a></li>
+        <li><a href="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <div class="lang-switcher" id="langSwitcher">
+        <button class="lang-btn" onclick="toggleLangMenu()">
+          <span id="currentLangLabel">EN</span>
+          <span class="arrow">▼</span>
+        </button>
+        <div class="lang-dropdown" id="langDropdown">
+          <button class="lang-option active" onclick="setLang('en')">EN <span class="lang-native">English</span></button>
+          <button class="lang-option" onclick="setLang('kbd')">КАБ <span class="lang-native">Кабардинский</span></button>
+          <button class="lang-option" onclick="setLang('ady')">АДЫ <span class="lang-native">Адыгабзэ</span></button>
+          <button class="lang-option" onclick="setLang('ru')">РУС <span class="lang-native">Русский</span></button>
+          <button class="lang-option" onclick="setLang('tr')">TR <span class="lang-native">Türkçe</span></button>
+          <button class="lang-option" onclick="setLang('de')">DE <span class="lang-native">Deutsch</span></button>
+          <button class="lang-option" onclick="setLang('ar')">عر <span class="lang-native">العربية</span></button>
+        </div>
+      </div>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="navLinks" onclick="toggleMenu()">
+        <span class="menu-bars" aria-hidden="true"></span><span data-i18n="menu">Menu</span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="library recognition page-first" id="recognition">
+    <p class="crumbs"><a href="index.html" data-i18n="nav_home">Home</a><span aria-hidden="true"> / </span><span data-i18n="rec_label">Recognition</span></p>
+    <p class="section-label" data-i18n="rec_label">Recognition</p>
+    <h1 class="section-title" data-i18n="rec_title">Recognition of the<br>Circassian Genocide</h1>
+    <div class="divider"></div>
+    <p class="library-intro" data-i18n="rec_intro">Official acts by which parliaments have recognised the genocide of the Circassians, or demanded its recognition. Full texts in the original language, with our translations.</p>
+    <ul class="doc-list" id="rec-list"></ul>
+  </section>
+
+  <footer class="site-footer">
+    <div>
+      <a class="logo-small" href="index.html">May21<span>.</span>org</a>
+      <p>&copy; 2026 May21.org &middot; All rights reserved</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="recognition.html" data-i18n="nav_recognition">Recognition</a></li>
+      <li><a href="library.html" data-i18n="nav_library">Library</a></li>
+      <li><a href="events.html" data-i18n="nav_events">Events</a></li>
+      <li><a href="gallery.html" data-i18n="nav_gallery">Gallery</a></li>
+      <li><a href="about.html" data-i18n="nav_about">About</a></li>
+      <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <div class="footer-contact">
+      <a href="mailto:info@may21.org">info@may21.org</a>
+      <div class="social-row">
+        <a href="https://www.instagram.com/may21_org/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.flickr.com/photos/76905328@N05/albums/" target="_blank" rel="noopener">Flickr</a>
+        <a href="https://www.facebook.com/May21org/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/site.js"></script>
+  <script data-goatcounter="https://may21.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>May21.org</title>
+  <meta name="description" content="Circassian cultural and political activism: recognition of the Circassian genocide, library, events and photo archive." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400&family=DM+Sans:wght@300;400;500&family=Noto+Sans+Arabic:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css" />
+  <script>
+    (function () {
+      var map = { '#about': 'about.html', '#recognition': 'recognition.html', '#library': 'library.html',
+                  '#events': 'events.html', '#flickr': 'gallery.html', '#gallery': 'gallery.html', '#contact': 'contact.html' };
+      var to = map[location.hash];
+      if (to) location.replace(to + location.search);
+    })();
+  </script>
+</head>
+<body lang="en" data-page="home">
+
+  <nav id="siteNav">
+    <a class="nav-logo" href="index.html">May21<span>.</span>org</a>
+    <div class="nav-right">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="recognition.html" data-i18n="nav_recognition">Recognition</a></li>
+        <li><a href="library.html" data-i18n="nav_library">Library</a></li>
+        <li><a href="events.html" data-i18n="nav_events">Events</a></li>
+        <li><a href="gallery.html" data-i18n="nav_gallery">Gallery</a></li>
+        <li><a href="about.html" data-i18n="nav_about">About</a></li>
+        <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+      <div class="lang-switcher" id="langSwitcher">
+        <button class="lang-btn" onclick="toggleLangMenu()">
+          <span id="currentLangLabel">EN</span>
+          <span class="arrow">▼</span>
+        </button>
+        <div class="lang-dropdown" id="langDropdown">
+          <button class="lang-option active" onclick="setLang('en')">EN <span class="lang-native">English</span></button>
+          <button class="lang-option" onclick="setLang('kbd')">КАБ <span class="lang-native">Кабардинский</span></button>
+          <button class="lang-option" onclick="setLang('ady')">АДЫ <span class="lang-native">Адыгабзэ</span></button>
+          <button class="lang-option" onclick="setLang('ru')">РУС <span class="lang-native">Русский</span></button>
+          <button class="lang-option" onclick="setLang('tr')">TR <span class="lang-native">Türkçe</span></button>
+          <button class="lang-option" onclick="setLang('de')">DE <span class="lang-native">Deutsch</span></button>
+          <button class="lang-option" onclick="setLang('ar')">عر <span class="lang-native">العربية</span></button>
+        </div>
+      </div>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="navLinks" onclick="toggleMenu()">
+        <span class="menu-bars" aria-hidden="true"></span><span data-i18n="menu">Menu</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero hero-compact" id="home">
+    <p class="hero-eyebrow" data-i18n="hero_eyebrow">Circassian Cultural &amp; Political Activism</p>
+    <h1 class="hero-title" data-i18n="hero_title">The Day Of <em>Resistance</em></h1>
+    <p class="hero-sub" data-i18n="hero_sub">A space for radical culture, grassroots action, and collective memory. We document. We organise. We don't look away.</p>
+    <div class="hero-cta">
+      <a href="about.html" class="btn" data-i18n="hero_cta1">Our Mission</a>
+      <a href="contact.html" class="btn ghost" data-i18n="hero_cta2">Get Involved</a>
+    </div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker-wrap">
+    <div class="ticker" id="ticker">
+      <span>Culture as <em>Resistance</em> &nbsp;·&nbsp;</span>
+      <span>Document Everything &nbsp;·&nbsp;</span>
+      <span>Art Changes <em>Minds</em> &nbsp;·&nbsp;</span>
+      <span>Show Up &nbsp;·&nbsp;</span>
+      <span>Speak Louder &nbsp;·&nbsp;</span>
+      <span>No Pasarán &nbsp;·&nbsp;</span>
+      <span>Culture as <em>Resistance</em> &nbsp;·&nbsp;</span>
+      <span>Document Everything &nbsp;·&nbsp;</span>
+      <span>Art Changes <em>Minds</em> &nbsp;·&nbsp;</span>
+      <span>Show Up &nbsp;·&nbsp;</span>
+      <span>Speak Louder &nbsp;·&nbsp;</span>
+      <span>No Pasarán &nbsp;·&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- LATEST: newest items from documents.json, events.json and recognition.json -->
+  <section class="latest">
+    <div class="feed-header">
+      <h2 class="section-label" data-i18n="home_latest">Latest</h2>
+    </div>
+    <div class="latest-grid" id="latest-list"></div>
+  </section>
+
+  <!-- SECTIONS: one tile per page; add a tile when a new section goes live -->
+  <section class="explore">
+    <div class="feed-header">
+      <h2 class="section-label" data-i18n="home_explore">Sections</h2>
+    </div>
+    <div class="tile-grid">
+      <a class="tile" href="recognition.html"><span class="tile-count"><b data-count="recognition">–</b> <i data-i18n="n_entries">entries</i></span><span class="tile-name" data-i18n="nav_recognition">Recognition</span><span class="tile-desc" data-i18n="rec_intro">Official acts by which parliaments have recognised the genocide of the Circassians, or demanded its recognition. Full texts in the original language, with our translations.</span><span class="tile-go" data-i18n="view_all">View all →</span></a>
+      <a class="tile" href="library.html"><span class="tile-count"><b data-count="library">–</b> <i data-i18n="n_entries">entries</i></span><span class="tile-name" data-i18n="nav_library">Library</span><span class="tile-desc" data-i18n="lib_intro">Important articles, statements and documents published by our collective.</span><span class="tile-go" data-i18n="view_all">View all →</span></a>
+      <a class="tile" href="events.html"><span class="tile-count"><b data-count="events">–</b> <i data-i18n="n_entries">entries</i></span><span class="tile-name" data-i18n="nav_events">Events</span><span class="tile-desc" data-i18n="ev_intro">Rallies, commemorations, festivals and exhibitions in the homeland and across the diaspora.</span><span class="tile-go" data-i18n="view_all">View all →</span></a>
+      <a class="tile" href="gallery.html"><span class="tile-count"><b data-count="gallery">–</b> <i data-i18n="n_photos">photos</i></span><span class="tile-name" data-i18n="nav_gallery">Gallery</span><span class="tile-desc" data-i18n="gal_desc">Photographs from the May 21 archive — a new selection every day.</span><span class="tile-go" data-i18n="view_all">View all →</span></a>
+      <div class="tile soon"><span class="tile-count soon" data-i18n="coming_soon">Coming soon</span><span class="tile-name" data-i18n="nav_figures">Historical Figures</span><span class="tile-desc" data-i18n="fig_desc">Video biographies of Circassian historical figures, narrated in every language of this site.</span></div>
+      <div class="tile soon"><span class="tile-count soon" data-i18n="coming_soon">Coming soon</span><span class="tile-name" data-i18n="nav_monuments">Monuments</span><span class="tile-desc" data-i18n="mon_desc">Monuments to Russian commanders in Circassia, in the order they were erected.</span></div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="instagram instagram-compact" id="instagram">
+    <a class="ig-card" href="https://www.instagram.com/may21_org/" target="_blank" rel="noopener">
+      <svg class="ig-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor"/></svg>
+      <span class="ig-handle">@may21_org</span>
+      <span class="ig-text" data-i18n="ig_text">Short videos on the Circassian question, history and today’s cultural and political issues.</span>
+      <span class="btn" data-i18n="ig_follow">Follow on Instagram</span>
+    </a>
+  </section>
+
+  <footer class="site-footer">
+    <div>
+      <a class="logo-small" href="index.html">May21<span>.</span>org</a>
+      <p>&copy; 2026 May21.org &middot; All rights reserved</p>
+    </div>
+    <ul class="footer-links">
+      <li><a href="recognition.html" data-i18n="nav_recognition">Recognition</a></li>
+      <li><a href="library.html" data-i18n="nav_library">Library</a></li>
+      <li><a href="events.html" data-i18n="nav_events">Events</a></li>
+      <li><a href="gallery.html" data-i18n="nav_gallery">Gallery</a></li>
+      <li><a href="about.html" data-i18n="nav_about">About</a></li>
+      <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
+    </ul>
+    <div class="footer-contact">
+      <a href="mailto:info@may21.org">info@may21.org</a>
+      <div class="social-row">
+        <a href="https://www.instagram.com/may21_org/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.flickr.com/photos/76905328@N05/albums/" target="_blank" rel="noopener">Flickr</a>
+        <a href="https://www.facebook.com/May21org/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/site.js"></script>
+  <script data-goatcounter="https://may21.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>
