@@ -6,7 +6,7 @@
 ═══════════════════════════════════════════ */
 const i18n = {
   en: {
-    nav_home: "Home", menu: "Menu", home_latest: "Latest", home_explore: "Sections", view_all: "View all →", n_entries: "entries", n_photos: "photos", coming_soon: "Coming soon", gal_desc: "Photographs from the May 21 archive — a new selection every day.", nav_figures: "Historical Figures", fig_desc: "Video biographies of Circassian historical figures, narrated in every language of this site.", nav_monuments: "Monuments", mon_desc: "Monuments to Russian commanders in Circassia, in the order they were erected.", lib_search: "Search the library…", filter_all: "All", filter_own: "Our publications", show_more: "Show more", lib_noresults: "Nothing matches your search.", shown_of: "shown", ev_no_upcoming: "No upcoming events at the moment.",
+    nav_home: "Home", menu: "Menu", home_latest: "Latest", home_explore: "Sections", view_all: "View all →", n_entries: "entries", n_photos: "photos", coming_soon: "Coming soon", gal_desc: "Photographs from the May 21 archive — a new selection every day.", nav_figures: "Faces of Circassia", fig_desc: "Video biographies of Circassian historical figures, narrated in every language of this site.", nav_monuments: "Monuments", mon_desc: "Monuments to Russian commanders in Circassia, in the order they were erected.", lib_search: "Search the library…", filter_all: "All", filter_own: "Our publications", show_more: "Show more", lib_noresults: "Nothing matches your search.", shown_of: "shown", ev_no_upcoming: "No upcoming events at the moment.",
     nav_about: 'About', nav_gallery: 'Gallery', nav_contact: 'Contact', nav_library: 'Library',
     hero_eyebrow: 'Circassian Cultural & Political Activism',
     hero_title: 'The Day Of <em>Resistance</em>',
@@ -35,7 +35,7 @@ const i18n = {
     dir: 'ltr'
   },
   kbd: {
-    nav_home: "Нэхъыщхьэр", menu: "Меню", home_latest: "Нэхъ иужьрейхэр", home_explore: "Ӏыхьэхэр", view_all: "Псори →", n_entries: "тхыгъэ", n_photos: "сурэт", coming_soon: "Пасэу къыдэкӏынущ", gal_desc: "Накъыгъэм и 21-м и архивым щыщ сурэтхэр — махуэ къэс щӏэуэ.", nav_figures: "Тхыдэ цӏыхухэр", fig_desc: "Адыгэ тхыдэ цӏыхухэм я гъащӏэм теухуа видеохэр, сайтым и бзэ псомкӏэ.", nav_monuments: "Сынхэр", mon_desc: "Адыгэ щӏыналъэм урыс дзэпщхэм хуагъэува сынхэр, зэрагъэува илъэсым тету.", lib_search: "Лъыхъуэ…", filter_all: "Псори", filter_own: "Ди тхыгъэхэр", show_more: "Нэхъыбэ", lib_noresults: "Зыри къахуэкъым.", shown_of: "", ev_no_upcoming: "Иджыпстукӏэ къэблагъэ зэхыхьэ щыӏэкъым.",
+    nav_home: "Нэхъыщхьэр", menu: "Меню", home_latest: "Нэхъ иужьрейхэр", home_explore: "Ӏыхьэхэр", view_all: "Псори →", n_entries: "тхыгъэ", n_photos: "сурэт", coming_soon: "Пасэу къыдэкӏынущ", gal_desc: "Накъыгъэм и 21-м и архивым щыщ сурэтхэр — махуэ къэс щӏэуэ.", nav_figures: "Адыгэ Хэкум и нэгухэр", fig_desc: "Адыгэ тхыдэ цӏыхухэм я гъащӏэм теухуа видеохэр, сайтым и бзэ псомкӏэ.", nav_monuments: "Сынхэр", mon_desc: "Адыгэ щӏыналъэм урыс дзэпщхэм хуагъэува сынхэр, зэрагъэува илъэсым тету.", lib_search: "Лъыхъуэ…", filter_all: "Псори", filter_own: "Ди тхыгъэхэр", show_more: "Нэхъыбэ", lib_noresults: "Зыри къахуэкъым.", shown_of: "", ev_no_upcoming: "Иджыпстукӏэ къэблагъэ зэхыхьэ щыӏэкъым.",
     nav_about: 'Зытетыр', nav_gallery: 'Сурэтхэр', nav_contact: 'Зэпыщӏэныгъэ', nav_library: 'Тхылъхэр',
     hero_eyebrow: 'Адыгэ Щэнхабзэ Политикэ Лэжьыгъэ',
     hero_title: 'Зэпэщӏэтыныгъэм и <em>Махуэ</em>',
@@ -64,7 +64,7 @@ const i18n = {
     dir: 'ltr'
   },
   ady: {
-    nav_home: "Шъхьаӏэр", menu: "Меню", home_latest: "Анахь кӏэхэр", home_explore: "Ӏахьхэр", view_all: "Пстэури →", n_entries: "тхыгъэ", n_photos: "сурэт", coming_soon: "Шӏэхэу къыдэкӏыщт", gal_desc: "Жъоныгъуакӏэм и 21-м иархив щыщ сурэтхэр — мафэ къэс кӏэу.", nav_figures: "Тарихъ цӏыфхэр", fig_desc: "Адыгэ тарихъ цӏыфхэм ящыӏэныгъэ фэгъэхьыгъэ видеохэр, сайтым ибзэ пстэумкӏэ.", nav_monuments: "Саугъэтхэр", mon_desc: "Адыгэ чӏыгум урыс пащэхэм афагъэуцугъэ саугъэтхэр, зэрагъэуцугъэ илъэсым тетэу.", lib_search: "Лъыхъу…", filter_all: "Пстэури", filter_own: "Ти тхыгъэхэр", show_more: "Нахьыбэ", lib_noresults: "Зи къыхэкӏыгъэп.", shown_of: "", ev_no_upcoming: "Джырэкӏэ зэхахьэ къэблагъэрэ щыӏэп.",
+    nav_home: "Шъхьаӏэр", menu: "Меню", home_latest: "Анахь кӏэхэр", home_explore: "Ӏахьхэр", view_all: "Пстэури →", n_entries: "тхыгъэ", n_photos: "сурэт", coming_soon: "Шӏэхэу къыдэкӏыщт", gal_desc: "Жъоныгъуакӏэм и 21-м иархив щыщ сурэтхэр — мафэ къэс кӏэу.", nav_figures: "Адыгэ Хэкум инэгухэр", fig_desc: "Адыгэ тарихъ цӏыфхэм ящыӏэныгъэ фэгъэхьыгъэ видеохэр, сайтым ибзэ пстэумкӏэ.", nav_monuments: "Саугъэтхэр", mon_desc: "Адыгэ чӏыгум урыс пащэхэм афагъэуцугъэ саугъэтхэр, зэрагъэуцугъэ илъэсым тетэу.", lib_search: "Лъыхъу…", filter_all: "Пстэури", filter_own: "Ти тхыгъэхэр", show_more: "Нахьыбэ", lib_noresults: "Зи къыхэкӏыгъэп.", shown_of: "", ev_no_upcoming: "Джырэкӏэ зэхахьэ къэблагъэрэ щыӏэп.",
     nav_about: 'Тэ тыхэтхэр', nav_gallery: 'Сурэтхэр', nav_contact: 'Зэпхэныгъэ', nav_library: 'Тхылъхэр',
     hero_eyebrow: 'Адыгэ ШэнхабзэкӀэ Политикэ Лэжьыгъэ',
     hero_title: 'Пэуцужьыным и <em>Мафэ</em>',
@@ -93,7 +93,7 @@ const i18n = {
     dir: 'ltr'
   },
   ru: {
-    nav_home: "Главная", menu: "Меню", home_latest: "Новое", home_explore: "Разделы", view_all: "Все →", n_entries: "записей", n_photos: "фото", coming_soon: "Скоро", gal_desc: "Фотографии из архива 21 мая — каждый день новая подборка.", nav_figures: "Исторические личности", fig_desc: "Видеобиографии черкесских исторических личностей на всех языках сайта.", nav_monuments: "Памятники", mon_desc: "Памятники русским военачальникам в Черкесии — в порядке их установки.", lib_search: "Поиск по библиотеке…", filter_all: "Все", filter_own: "Наши публикации", show_more: "Показать ещё", lib_noresults: "Ничего не найдено.", shown_of: "показано", ev_no_upcoming: "Ближайших событий пока нет.",
+    nav_home: "Главная", menu: "Меню", home_latest: "Новое", home_explore: "Разделы", view_all: "Все →", n_entries: "записей", n_photos: "фото", coming_soon: "Скоро", gal_desc: "Фотографии из архива 21 мая — каждый день новая подборка.", nav_figures: "Лица Черкесии", fig_desc: "Видеобиографии черкесских исторических личностей на всех языках сайта.", nav_monuments: "Памятники", mon_desc: "Памятники русским военачальникам в Черкесии — в порядке их установки.", lib_search: "Поиск по библиотеке…", filter_all: "Все", filter_own: "Наши публикации", show_more: "Показать ещё", lib_noresults: "Ничего не найдено.", shown_of: "показано", ev_no_upcoming: "Ближайших событий пока нет.",
     nav_about: 'О нас', nav_gallery: 'Галерея', nav_contact: 'Контакт', nav_library: 'Библиотека',
     hero_eyebrow: 'Черкесская культурно-политическая активность',
     hero_title: 'День <em>Сопротивления</em>',
@@ -122,7 +122,7 @@ const i18n = {
     dir: 'ltr'
   },
   tr: {
-    nav_home: "Ana sayfa", menu: "Menü", home_latest: "En yeniler", home_explore: "Bölümler", view_all: "Tümü →", n_entries: "kayıt", n_photos: "fotoğraf", coming_soon: "Yakında", gal_desc: "21 Mayıs arşivinden fotoğraflar — her gün yeni bir seçki.", nav_figures: "Tarihî Şahsiyetler", fig_desc: "Çerkes tarihî şahsiyetlerinin video biyografileri, sitenin tüm dillerinde.", nav_monuments: "Anıtlar", mon_desc: "Çerkesya’daki Rus komutan anıtları, dikiliş sırasına göre.", lib_search: "Kütüphanede ara…", filter_all: "Tümü", filter_own: "Yayınlarımız", show_more: "Daha fazla", lib_noresults: "Sonuç bulunamadı.", shown_of: "gösteriliyor", ev_no_upcoming: "Şu an yaklaşan etkinlik yok.",
+    nav_home: "Ana sayfa", menu: "Menü", home_latest: "En yeniler", home_explore: "Bölümler", view_all: "Tümü →", n_entries: "kayıt", n_photos: "fotoğraf", coming_soon: "Yakında", gal_desc: "21 Mayıs arşivinden fotoğraflar — her gün yeni bir seçki.", nav_figures: "Çerkesya’nın Yüzleri", fig_desc: "Çerkes tarihî şahsiyetlerinin video biyografileri, sitenin tüm dillerinde.", nav_monuments: "Anıtlar", mon_desc: "Çerkesya’daki Rus komutan anıtları, dikiliş sırasına göre.", lib_search: "Kütüphanede ara…", filter_all: "Tümü", filter_own: "Yayınlarımız", show_more: "Daha fazla", lib_noresults: "Sonuç bulunamadı.", shown_of: "gösteriliyor", ev_no_upcoming: "Şu an yaklaşan etkinlik yok.",
     nav_about: 'Hakkımızda', nav_gallery: 'Galeri', nav_contact: 'İletişim', nav_library: 'Kütüphane',
     hero_eyebrow: 'Çerkes Kültürel ve Siyasi Aktivizm',
     hero_title: '<em>Direniş</em>in Günü',
@@ -151,7 +151,7 @@ const i18n = {
     dir: 'ltr'
   },
   de: {
-    nav_home: "Start", menu: "Menü", home_latest: "Neueste", home_explore: "Bereiche", view_all: "Alle →", n_entries: "Einträge", n_photos: "Fotos", coming_soon: "Demnächst", gal_desc: "Fotos aus dem Archiv des 21. Mai — jeden Tag eine neue Auswahl.", nav_figures: "Historische Persönlichkeiten", fig_desc: "Video-Biografien tscherkessischer Persönlichkeiten der Geschichte, in jeder Sprache dieser Seite.", nav_monuments: "Denkmäler", mon_desc: "Denkmäler für russische Befehlshaber in Tscherkessien, in der Reihenfolge ihrer Errichtung.", lib_search: "Bibliothek durchsuchen…", filter_all: "Alle", filter_own: "Unsere Veröffentlichungen", show_more: "Mehr anzeigen", lib_noresults: "Keine Treffer.", shown_of: "angezeigt", ev_no_upcoming: "Derzeit keine anstehenden Termine.",
+    nav_home: "Start", menu: "Menü", home_latest: "Neueste", home_explore: "Bereiche", view_all: "Alle →", n_entries: "Einträge", n_photos: "Fotos", coming_soon: "Demnächst", gal_desc: "Fotos aus dem Archiv des 21. Mai — jeden Tag eine neue Auswahl.", nav_figures: "Gesichter Tscherkessiens", fig_desc: "Video-Biografien tscherkessischer Persönlichkeiten der Geschichte, in jeder Sprache dieser Seite.", nav_monuments: "Denkmäler", mon_desc: "Denkmäler für russische Befehlshaber in Tscherkessien, in der Reihenfolge ihrer Errichtung.", lib_search: "Bibliothek durchsuchen…", filter_all: "Alle", filter_own: "Unsere Veröffentlichungen", show_more: "Mehr anzeigen", lib_noresults: "Keine Treffer.", shown_of: "angezeigt", ev_no_upcoming: "Derzeit keine anstehenden Termine.",
     nav_about: 'Über uns', nav_gallery: 'Galerie', nav_contact: 'Kontakt', nav_library: 'Bibliothek',
     hero_eyebrow: 'Tscherkessischer kultureller und politischer Aktivismus',
     hero_title: 'Der Tag des <em>Widerstands</em>',
@@ -180,7 +180,7 @@ const i18n = {
     dir: 'ltr'
   },
   ar: {
-    nav_home: "الرئيسية", menu: "القائمة", home_latest: "الأحدث", home_explore: "الأقسام", view_all: "عرض الكل ←", n_entries: "مدخلات", n_photos: "صورة", coming_soon: "قريباً", gal_desc: "صور من أرشيف 21 أيار — مختارات جديدة كل يوم.", nav_figures: "شخصيات تاريخية", fig_desc: "سِيَر مصوّرة لشخصيات شركسية تاريخية، بكل لغات الموقع.", nav_monuments: "النصب التذكارية", mon_desc: "نصب القادة الروس في شركيسيا، بحسب ترتيب إقامتها.", lib_search: "ابحث في المكتبة…", filter_all: "الكل", filter_own: "منشوراتنا", show_more: "عرض المزيد", lib_noresults: "لا توجد نتائج.", shown_of: "معروضة", ev_no_upcoming: "لا توجد فعاليات قادمة حالياً.",
+    nav_home: "الرئيسية", menu: "القائمة", home_latest: "الأحدث", home_explore: "الأقسام", view_all: "عرض الكل ←", n_entries: "مدخلات", n_photos: "صورة", coming_soon: "قريباً", gal_desc: "صور من أرشيف 21 أيار — مختارات جديدة كل يوم.", nav_figures: "وجوه شركيسيا", fig_desc: "سِيَر مصوّرة لشخصيات شركسية تاريخية، بكل لغات الموقع.", nav_monuments: "النصب التذكارية", mon_desc: "نصب القادة الروس في شركيسيا، بحسب ترتيب إقامتها.", lib_search: "ابحث في المكتبة…", filter_all: "الكل", filter_own: "منشوراتنا", show_more: "عرض المزيد", lib_noresults: "لا توجد نتائج.", shown_of: "معروضة", ev_no_upcoming: "لا توجد فعاليات قادمة حالياً.",
     nav_about: 'من نحن', nav_gallery: 'المعرض', nav_contact: 'اتصل بنا', nav_library: 'المكتبة',
     hero_eyebrow: 'النشاط الثقافي والسياسي الشركسي',
     hero_title: 'يوم <em>المقاومة</em>',
