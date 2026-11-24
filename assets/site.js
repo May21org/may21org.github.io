@@ -35,7 +35,7 @@ const i18n = {
     dir: 'ltr'
   },
   kbd: {
-    nav_home: "Нэхъыщхьэр", menu: "Меню", home_latest: "Нэхъ иужьрейхэр", home_explore: "Ӏыхьэхэр", view_all: "Псори →", n_entries: "тхыгъэ", n_photos: "сурэт", coming_soon: "Пасэу къыдэкӏынущ", gal_desc: "Гъатхэпэм и 21-м и архивым щыщ сурэтхэр — махуэ къэс щӏэуэ.", nav_figures: "Тхыдэ цӏыхухэр", fig_desc: "Адыгэ тхыдэ цӏыхухэм я гъащӏэм теухуа видеохэр, сайтым и бзэ псомкӏэ.", nav_monuments: "Сынхэр", mon_desc: "Адыгэ щӏыналъэм урыс дзэпщхэм хуагъэува сынхэр, зэрагъэува илъэсым тету.", lib_search: "Лъыхъуэ…", filter_all: "Псори", filter_own: "Ди тхыгъэхэр", show_more: "Нэхъыбэ", lib_noresults: "Зыри къахуэкъым.", shown_of: "", ev_no_upcoming: "Иджыпстукӏэ къэблагъэ зэхыхьэ щыӏэкъым.",
+    nav_home: "Нэхъыщхьэр", menu: "Меню", home_latest: "Нэхъ иужьрейхэр", home_explore: "Ӏыхьэхэр", view_all: "Псори →", n_entries: "тхыгъэ", n_photos: "сурэт", coming_soon: "Пасэу къыдэкӏынущ", gal_desc: "Накъыгъэм и 21-м и архивым щыщ сурэтхэр — махуэ къэс щӏэуэ.", nav_figures: "Тхыдэ цӏыхухэр", fig_desc: "Адыгэ тхыдэ цӏыхухэм я гъащӏэм теухуа видеохэр, сайтым и бзэ псомкӏэ.", nav_monuments: "Сынхэр", mon_desc: "Адыгэ щӏыналъэм урыс дзэпщхэм хуагъэува сынхэр, зэрагъэува илъэсым тету.", lib_search: "Лъыхъуэ…", filter_all: "Псори", filter_own: "Ди тхыгъэхэр", show_more: "Нэхъыбэ", lib_noresults: "Зыри къахуэкъым.", shown_of: "", ev_no_upcoming: "Иджыпстукӏэ къэблагъэ зэхыхьэ щыӏэкъым.",
     nav_about: 'Зытетыр', nav_gallery: 'Сурэтхэр', nav_contact: 'Зэпыщӏэныгъэ', nav_library: 'Тхылъхэр',
     hero_eyebrow: 'Адыгэ Щэнхабзэ Политикэ Лэжьыгъэ',
     hero_title: 'Зэпэщӏэтыныгъэм и <em>Махуэ</em>',
@@ -259,6 +259,7 @@ function setLang(lang, remember = true) {
   if (typeof renderRecognition === 'function') renderRecognition();
   if (typeof renderEvents === 'function') renderEvents();
   if (typeof renderHome === 'function') renderHome();
+  if (typeof window.monSetLang === 'function') window.monSetLang(lang);
 
   // close dropdown
   document.getElementById('langSwitcher').classList.remove('open');
@@ -769,7 +770,8 @@ return `<a class="latest-card" href="${escapeHtml(url)}"${external ? ' target="_
 library: HOME.docs.filter(visibleIn(lang)).length,
 recognition: HOME.rec.filter(visibleIn(lang)).length,
 events: HOME.evs.filter(visibleIn(lang)).length,
-gallery: FLICKR_POOL.length
+gallery: FLICKR_POOL.length,
+monuments: 20
   };
   document.querySelectorAll('[data-count]').forEach(el => { el.textContent = counts[el.dataset.count]; });
 }
