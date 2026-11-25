@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khabze in the Classroom — on Moscow&#x27;s Terms · May21.org</title>
+  <meta name="description" content="Kabardino-Balkaria says its schools will teach Adyghe Khabze from 2027. The official texts show the code is being folded into a new federal patriotism subject. In English, Turkish, Russian, German, Arabic and Circassian (Kabardian and Adyghe dialects)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400&family=DM+Sans:wght@300;400;500&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Noto+Sans+Arabic:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --black:#0a0a0a; --off-black:#111; --charcoal:#1c1c1c; --dim:#2a2a2a; --mid:#444;
+      --muted:#888; --smoke:#bbb; --white:#f0ede8; --accent:#c8382a; --accent2:#d47c2b;
+      --line:rgba(255,255,255,0.08);
+      --font-display:'Bebas Neue',sans-serif; --font-body:'DM Sans',sans-serif; --font-mono:'DM Mono',monospace;
+      --bg:var(--black); --fg:var(--white); --soft:var(--smoke);
+    }
+    *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+    body { background:var(--bg); color:var(--fg); font-family:var(--font-body); font-weight:300; line-height:1.75; }
+    a { color:var(--accent2); }
+    img { display:block; max-width:100%; }
+
+    .top { padding:18px 24px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; }
+    .top a { text-decoration:none; color:var(--fg); }
+    .logo { font-family:var(--font-display); font-size:1.5rem; letter-spacing:0.06em; }
+    .logo span { color:var(--accent); }
+    .top-links { display:flex; gap:20px; font-family:var(--font-mono); font-size:0.68rem; letter-spacing:0.12em; text-transform:uppercase; }
+    .top-links a { color:var(--muted); }
+    .top-links a:hover { color:var(--accent2); }
+
+    article { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+    .eyebrow { font-family:var(--font-mono); font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent); margin-bottom:16px; }
+    h1 { font-family:var(--font-display); font-weight:400; font-size:clamp(2.6rem,8vw,4.6rem); line-height:0.95; letter-spacing:0.02em; }
+    .dek { margin-top:24px; font-size:1.15rem; color:var(--soft); border-left:2px solid var(--accent); padding-left:18px; }
+    .byline { margin-top:28px; font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); }
+    .divider { width:48px; height:2px; background:var(--accent); margin:40px 0; }
+
+    article h2 { font-family:var(--font-display); font-weight:400; font-size:clamp(1.7rem,4vw,2.3rem); letter-spacing:0.03em; line-height:1.05; margin:56px 0 16px; }
+    article h3.who { font-family:var(--font-body); font-weight:500; font-size:1.1rem; color:var(--fg); margin:32px 0 8px; }
+    article h3.who span { font-family:var(--font-mono); font-weight:400; font-size:0.7rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-left:8px; }
+    article p { margin-bottom:20px; font-size:1.05rem; color:var(--soft); }
+    article p strong { color:var(--fg); font-weight:500; }
+    article blockquote { margin:28px 0; padding:4px 0 4px 20px; border-left:2px solid var(--accent2); }
+    article blockquote p { color:var(--fg); font-size:1.05rem; margin-bottom:6px; }
+    article blockquote .ru { font-family:var(--font-mono); font-size:0.78rem; color:var(--muted); }
+    article ul { margin:0 0 24px 20px; color:var(--soft); }
+    article li { margin-bottom:10px; }
+
+    .facts { background:var(--charcoal); border:1px solid var(--dim); padding:24px 26px; margin:32px 0; font-size:0.95rem; }
+    .facts h3 { font-family:var(--font-mono); font-weight:400; font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--accent); margin-bottom:12px; }
+    .facts dl { display:grid; grid-template-columns:170px 1fr; gap:8px 16px; color:var(--soft); }
+    .facts dt { font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.06em; color:var(--muted); text-transform:uppercase; padding-top:3px; }
+
+    .refs { margin-top:64px; padding-top:24px; border-top:1px solid var(--line); }
+    .refs h2 { margin-top:0; }
+    .refs ol { margin-left:20px; font-size:0.9rem; color:var(--soft); }
+    .refs li { margin-bottom:10px; }
+    sup a { text-decoration:none; font-family:var(--font-mono); font-size:0.7em; }
+
+    footer { padding:32px 24px; border-top:1px solid var(--line); font-family:var(--font-mono); font-size:0.65rem; letter-spacing:0.1em; color:var(--muted); text-align:center; }
+
+    body.reader { --bg:#f7f4ee; --fg:#1a1a1a; --soft:#2b2b2b; --muted:#6b6b6b; --charcoal:#ece7de; --dim:#d9d2c6; --line:rgba(0,0,0,0.1); }
+    body.reader article p, body.reader article li, body.reader .dek { font-family:'Source Serif 4',Georgia,serif; font-size:1.12rem; }
+    body.reader a { color:#9a2a1f; }
+
+    @media (max-width:640px) {
+      article { padding:40px 16px 72px; }
+      .facts dl { grid-template-columns:1fr; gap:2px 0; }
+      .facts dd { margin-bottom:10px; }
+    }
+
+    .top-right { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+    .tabs { display:flex; flex-wrap:wrap; gap:4px; }
+    .tabs button { background:transparent; border:1px solid var(--mid); color:var(--muted); font-family:var(--font-mono); font-size:0.66rem; letter-spacing:0.1em; padding:5px 9px; cursor:pointer; }
+    .tabs button:hover { border-color:var(--soft); color:var(--fg); }
+    .tabs button[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:#fff; }
+    .status { font-family:var(--font-mono); font-size:0.75rem; line-height:1.8; color:var(--soft); background:var(--charcoal); border:1px solid var(--accent2); padding:14px 18px; margin:0 0 32px; }
+    [dir="rtl"] { font-family:'Noto Sans Arabic',var(--font-body); }
+    [dir="rtl"] .dek { border-left:none; border-right:2px solid var(--accent); padding-left:0; padding-right:18px; }
+    [dir="rtl"] article blockquote, article [dir="rtl"] blockquote { border-left:none; border-right:2px solid var(--accent2); padding:4px 20px 4px 0; }
+    [dir="rtl"] ul { margin:0 20px 24px 0; }
+    [dir="rtl"] h3.who span { margin-left:0; margin-right:8px; letter-spacing:0; }
+    [dir="rtl"] .eyebrow, [dir="rtl"] .byline, [dir="rtl"] .facts dt { letter-spacing:0; }
+    [dir="rtl"] h1, [dir="rtl"] h2 { font-family:'Noto Sans Arabic',sans-serif; font-weight:500; letter-spacing:0; line-height:1.3; }
+    [dir="rtl"] h1 { font-size:clamp(2.2rem,6vw,3.4rem); }
+    [dir="rtl"] article p, [dir="rtl"] article li { font-size:1.12rem; line-height:2; }
+    body.reader [dir="rtl"] article p, body.reader [dir="rtl"] p, body.reader [dir="rtl"] li { font-family:'Noto Sans Arabic',sans-serif; }
+    .sched { width:100%; border-collapse:collapse; margin:8px 0 28px; font-size:0.95rem; }
+    .sched th { font-family:var(--font-mono); font-weight:400; font-size:0.7rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--accent); text-align:start; padding:8px 10px; border-bottom:1px solid var(--accent); }
+    .sched td { padding:10px; border-bottom:1px solid var(--line); color:var(--soft); vertical-align:top; }
+    [dir="rtl"] .sched th { letter-spacing:0; }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <a href="../index.html" class="logo">May21<span>.</span>org</a>
+    <div class="top-right">
+      <nav class="tabs" aria-label="Language"><button type="button" data-lang="en" title="English">EN</button><button type="button" data-lang="tr" title="Türkçe">TR</button><button type="button" data-lang="kbd" title="Адыгэбзэ (Къэбэрдей)">КАБ</button><button type="button" data-lang="ru" title="Русский">РУС</button><button type="button" data-lang="de" title="Deutsch">DE</button><button type="button" data-lang="ar" title="العربية">عر</button><button type="button" data-lang="ady" title="Адыгабзэ">АДЫ</button></nav>
+      <nav class="top-links">
+        <a href="../index.html#library" id="lib-link">← Library</a>
+        <a href="?view=reader" id="reader-toggle">Reader view</a>
+      </nav>
+    </div>
+  </header>
+
+  <article>
+<!-- ============================ EN ============================ -->
+    <div class="panel" id="lang-en" lang="en" hidden>
+    <p class="eyebrow">News · Education</p>
+    <h1>Khabze in the Classroom — on Moscow&#x27;s Terms</h1>
+    <p class="dek">Kabardino-Balkaria says its schools will teach Adyghe Khabze from 2027. The official texts tell a narrower story: the code of conduct is being used to support a new federal patriotism subject, not taught as a course of its own.</p>
+    <p class="byline">May21.org Collective · 25 November 2026</p>
+
+    <div class="divider"></div>
+
+    <p>On 23 November 2026, the republic's Ministry of Education and Science announced, via TASS, that pupils would study "Adyghe Khabze" and "Tau Adet". Khabze is the Adyghe (Circassian, Kabardian) ethical code. Tau Adet, "the custom of the mountains", is the Karachay-Balkar equivalent. Caucasian Knot, Lenta.ru and Ridus ran the news under headlines saying Khabze was coming to the classroom.</p>
+    <h2>What the new subject teaches</h2>
+    <p>The vehicle is "Spiritual and Moral Culture of Russia" (DNKR), a federal subject approved by Ministry of Education order No. 808 of 10 November 2025. Its stated aim is to give pupils "the foundations of traditional Russian spiritual and moral values".</p>
+    <p>The republic's own announcement describes the lessons as built around "the life paths and deeds of outstanding Russian figures: statesmen, scientists, military commanders and heroes of the special military operation". Values such as family, justice, patriotism and "service to the Fatherland" are to be taught through these biographies.</p>
+    <p>By the end of grade 7, pupils are expected to know concepts including patriotism, faith in God, civic duty, the unity of the peoples of Russia, a strong family, honour and dignity. DNKR replaces the earlier course on the spiritual and moral culture of the peoples of Russia, which included local history.</p>
+    <h2>Where Khabze fits, and where it doesn't</h2>
+    <p>The ministry's most detailed statement, published on 25 November in the republic's official e-newspaper, does not list Khabze or Tau Adet as modules or lesson topics. It says only that the region's moral norms are "enshrined in Adyghe Khabze among the Kabardians and Tau Adet among the Balkars", codes of "honour, hospitality and respect for elders", and that these principles are "in tune with" the new subject.</p>
+    <p>That is an argument for fit, not a curriculum. The federal programme, as reported, sets one national framework and does not mention any regional component, such as local codes of conduct. The ministry did not say who wrote the programme. No textbook titles, publishers or authors have been named.</p>
+    <h2>Format and timing</h2>
+    <table class="sched"><thead><tr><th>Grade</th><th>When</th><th>Hours</th></tr></thead><tbody><tr><td>5</td><td>Second half of 2026/27 (from early 2027)</td><td>17</td></tr><tr><td>6</td><td>From 2027/28</td><td>34 per year</td></tr><tr><td>7</td><td>From 2027/28</td><td>34 per year</td></tr></tbody></table>
+    <p>That adds up to 85 hours over three years. Press reports said "from 2027", while the ministry said "this school year". Both are right: grade 5 starts in the second half-year. The ministry says textbooks have been bought and will reach schools by 1 December, and that teacher training programmes are ready. It insists the subject is "neither a religion lesson" nor a replacement for the grade 4 religious-culture course (ORKSE). None of the reports quoted any reaction from parents, teachers or Circassian organisations.</p>
+    <h2>The Khabze lessons that already exist</h2>
+    <p>The only lessons on Khabze's actual content described so far come from smaller, separate projects:</p>
+    <ul>
+      <li><strong>Nalchik, school No. 17 (September 2026):</strong> a local-history lesson on Caucasian etiquette, reported by the republic's Ministry of Culture. It covered respect for elders, family values, hospitality and mutual help, along with atalychestvo (raising a child in another family), kunachestvo (sworn guest-friendship), avoidance customs and blood revenge, all set in historical context.</li>
+      <li><strong>"School of Traditions of the Peoples of Kabardino-Balkaria" (from March 2026):</strong> a youth-ministry project teaching the basics of Adyghe Khabze, Tau Adet, and Russian and Cossack traditions. It started at school No. 2 in Terek district with historian Amir Sheriev, and planned to reach 20 schools in the district this year.</li>
+    </ul>
+    <p>It is not clear whether either project will feed into the new subject.</p>
+    <h2>Why it matters</h2>
+    <p>On paper, Khabze in state schools answers a call the Public Chamber of Kabardino-Balkaria has made in past years. What is on offer, though, is Khabze as a regional illustration inside a single federal value system. That system's role models include soldiers fighting in Ukraine, and its framing is "service to the Fatherland".</p>
+    <p>The timing is part of the pattern. Moscow is preparing to mark the 470th anniversary of Kabardino-Balkaria's "accession" to Russia in 2027, and <a href="2026-11-mfa-round-table.html?lang=en">the foreign ministry's 28 October round table</a> cast Circassian history as centuries "hand in hand with Russia". Folding Khabze into DNKR fits the same pattern: Circassian heritage gets recognised, but only within a state narrative that leaves out the genocide and exile.</p>
+    <p>The open questions are concrete. Who wrote the programme? Which textbooks will be used? Will Khabze have any lesson time of its own, and will it be taught in Circassian?</p>
+    </div>
+<!-- ============================ TR ============================ -->
+    <div class="panel" id="lang-tr" lang="tr" hidden>
+    <p class="eyebrow">Haber · Eğitim</p>
+    <h1>Sınıfta Xabze — Moskova&#x27;nın Şartlarıyla</h1>
+    <p class="dek">Kabardey-Balkarya, okullarında 2027'den itibaren Adığe Xabze öğretileceğini söylüyor. Resmî metinler ise daha dar bir tablo çiziyor: bu davranış kuralları ayrı bir ders olarak okutulmayacak, yeni bir federal vatanseverlik dersini desteklemek için kullanılacak.</p>
+    <p class="byline">May21.org Kolektifi · 25 Kasım 2026</p>
+
+    <div class="divider"></div>
+
+    <p>Cumhuriyetin Eğitim ve Bilim Bakanlığı, 23 Kasım 2026'da TASS aracılığıyla öğrencilerin "Adığe Xabze" ve "Tau Adet" öğreneceğini duyurdu. Xabze, Adığe (Çerkes, Kabardey) etik kuralıdır. "Dağların töresi" anlamına gelen Tau Adet ise Karaçay-Balkar karşılığıdır. Kavkazski Uzel, Lenta.ru ve Ridus haberi, Xabze'nin sınıfa girdiğini söyleyen başlıklarla verdi.</p>
+    <h2>Yeni ders ne öğretiyor</h2>
+    <p>Araç, "Rusya'nın Manevi ve Ahlaki Kültürü" (DNKR) adlı federal ders. Ders, Eğitim Bakanlığı'nın 10 Kasım 2025 tarihli 808 sayılı kararıyla onaylandı. Belirtilen amacı, öğrencilere "geleneksel Rus manevi ve ahlaki değerlerinin temellerini" kazandırmak.</p>
+    <p>Cumhuriyetin kendi duyurusu dersleri "seçkin Rus şahsiyetlerinin, yani devlet adamlarının, bilim insanlarının, komutanların ve özel askerî harekât kahramanlarının hayat yolu ve eylemleri" üzerine kuruyor. Aile, adalet, vatanseverlik ve "Anavatana hizmet" gibi değerler bu biyografiler üzerinden öğretilecek.</p>
+    <p>Yedinci sınıfın sonunda öğrencilerden vatanseverlik, Tanrı'ya inanç, yurttaşlık bilinci, Rusya halklarının birliği, güçlü aile, onur ve haysiyet gibi kavramları bilmeleri bekleniyor. DNKR, yerel tarihi de kapsayan "Rusya halklarının manevi ve ahlaki kültürünün temelleri" dersinin yerini alıyor.</p>
+    <h2>Xabze nereye oturuyor, nereye oturmuyor</h2>
+    <p>Bakanlığın 25 Kasım'da cumhuriyetin resmî e-gazetesinde yayımlanan en ayrıntılı açıklaması, Xabze'yi ya da Tau Adet'i bir modül veya ders konusu olarak saymıyor. Yalnızca bölgenin ahlak normlarının "Kabardeylerde Adığe Xabze'de, Balkarlarda Tau Adet'te", yani "onur, misafirperverlik ve büyüklere saygı" kurallarında yer aldığını ve bu ilkelerin yeni dersle "uyumlu" olduğunu söylüyor.</p>
+    <p>Bu bir müfredat değil, bir uyum iddiası. Haberlere göre federal program tek bir ulusal çerçeve belirliyor ve yerel davranış kuralları gibi bölgesel bir bileşenden söz etmiyor. Bakanlık programı kimin yazdığını açıklamadı. Hiçbir ders kitabının adı, yayınevi ya da yazarı belirtilmedi.</p>
+    <h2>Biçim ve takvim</h2>
+    <table class="sched"><thead><tr><th>Sınıf</th><th>Ne zaman</th><th>Saat</th></tr></thead><tbody><tr><td>5</td><td>2026/27'nin ikinci yarısı (2027 başından itibaren)</td><td>17</td></tr><tr><td>6</td><td>2027/28'den itibaren</td><td>yılda 34</td></tr><tr><td>7</td><td>2027/28'den itibaren</td><td>yılda 34</td></tr></tbody></table>
+    <p>Üç yılda toplam 85 saat ediyor. Basın "2027'den itibaren", bakanlık ise "bu öğretim yılından itibaren" dedi. İkisi de doğru: 5. sınıf ikinci yarıyılda başlıyor. Bakanlığa göre ders kitapları satın alındı ve 1 Aralık'a kadar okullara ulaşacak; öğretmen eğitim programları da hazır. Bakanlık, dersin "bir din dersi olmadığını" ve 4. sınıftaki din kültürü dersinin (ORKSE) yerine geçmediğini vurguluyor. Haberlerin hiçbiri velilerden, öğretmenlerden ya da Çerkes örgütlerinden bir tepkiye yer vermedi.</p>
+    <h2>Hâlihazırda var olan Xabze dersleri</h2>
+    <p>Xabze'nin gerçek içeriğine dair şimdiye kadar anlatılan tek dersler, daha küçük ve ayrı projelerden geliyor:</p>
+    <ul>
+      <li><strong>Nalçik, 17 No'lu okul (Eylül 2026):</strong> Cumhuriyet Kültür Bakanlığı'nın aktardığı, Kafkas görgü kuralları üzerine bir yerel tarih dersi. Büyüklere saygı, aile değerleri, misafirperverlik ve yardımlaşmanın yanı sıra atalık (çocuğu başka bir ailede yetiştirme), kunaklık (yeminli misafir dostluğu), kaçınma âdetleri ve kan davası, tarihsel bağlamları içinde ele alındı.</li>
+      <li><strong>"Kabardey-Balkarya Halklarının Gelenekleri Okulu" (Mart 2026'dan itibaren):</strong> Gençlik Bakanlığı'nın Adığe Xabze, Tau Adet ile Rus ve Kazak geleneklerinin temellerini öğreten projesi. Terek ilçesindeki 2 No'lu okulda tarihçi Amir Şeriyev ile başladı ve bu yıl ilçedeki 20 okula ulaşmayı planlıyordu.</li>
+    </ul>
+    <p>Bu projelerden herhangi birinin yeni derse katkı sağlayıp sağlamayacağı belli değil.</p>
+    <h2>Neden önemli</h2>
+    <p>Kâğıt üzerinde devlet okullarında Xabze, Kabardey-Balkarya Kamu Odası'nın geçmiş yıllarda dile getirdiği bir talebe yanıt veriyor. Ancak önerilen şey, tek bir federal değer sistemi içinde bölgesel bir örnek olarak Xabze. Bu sistemin rol modelleri arasında Ukrayna'da savaşan askerler var ve çerçevesi "Anavatana hizmet".</p>
+    <p>Zamanlama da bu örüntünün parçası. Moskova, 2027'de Kabardey-Balkarya'nın Rusya'ya "katılışının" 470. yıl dönümünü kutlamaya hazırlanıyor. <a href="2026-11-mfa-round-table.html?lang=tr">Dışişleri Bakanlığı'nın 28 Ekim'deki yuvarlak masa toplantısı</a> da Çerkes tarihini yüzyıllar boyunca "Rusya ile el ele" olarak sundu. Xabze'nin DNKR'ye katılması aynı örüntüye uyuyor: Çerkes mirası tanınıyor, ama yalnızca soykırımı ve sürgünü dışarıda bırakan bir devlet anlatısının içinde.</p>
+    <p>Açık sorular somut. Programı kim yazdı? Hangi ders kitapları kullanılacak? Xabze'ye ayrı ders saati ayrılacak mı ve Çerkesce öğretilecek mi?</p>
+    </div>
+<!-- ============================ KBD ============================ -->
+    <div class="panel" id="lang-kbd" lang="kbd" hidden>
+    <p class="eyebrow">Хъыбар · Егъэджэныгъэ</p>
+    <h1>Хабзэр еджапӀэм — Мэзкуу и шэрту</h1>
+    <p class="dek">Къэбэрдей-Балъкъэрым и еджапӀэхэм 2027 гъэм щегъэжьауэ адыгэ хабзэ щрагъэджынущ, жаӀэ. Ауэ тхылъ официальнэхэм нэхъ гуэщӀэу къагъэлъагъуэ: хабзэр предмет щхьэхуэу ирагъэджынукъым, атӀэ хэкупсэныгъэм теухуа федеральнэ предмет щӀэм и дэӀэпыкъуэгъуу къагъэсэбэпынущ.</p>
+    <p class="byline">May21.org · 2026 гъэм щэкӀуэгъуэм и 25</p>
+
+    <div class="divider"></div>
+
+    <p>2026 гъэм щэкӀуэгъуэм и 23-м республикэм и ЕгъэджэныгъэмкӀэ и ЩӀэныгъэмкӀэ министерствэм ТАСС-м жриӀащ еджакӀуэхэм «Адыгэ хабзэ» и «Тау адет» ирагъэджынуу. Адыгэ хабзэр адыгэхэм (шэрджэсхэм, къэбэрдейхэм) я гъэсэныгъэ хабзэщ. «Тау адет» («Бгым и хабзэ») къэрэшей-балъкъэрхэм я хабзэщ. «Кавказский узел», Lenta.ru, «Ридус» сымэ хъыбарыр щыцӀагъэкӀым, хабзэр еджапӀэм къокӀуэ жаӀащ.</p>
+    <h2>Предмет щӀэм щрагъэджынур</h2>
+    <p>Ар «Урысейм и духовнэ-нравственнэ культурэ» (ДНКР) федеральнэ предметыращ. Урысей Федерацэм и ЕгъэджэныгъэмкӀэ министерствэм 2025 гъэм щэкӀуэгъуэм и 10-м къыдигъэкӀа № 808 унафэмкӀэ ар яӀэрагъэхьащ. Абы и мурадыр еджакӀуэхэм «урыс духовнэ-нравственнэ лъапӀэныгъэ хабзэжьхэм я лъабжьэр» хэлъхьэнырщ.</p>
+    <p>Республикэм и хъыбарым зэрыжиӀэмкӀэ, предметым и лъабжьэр «къэрал лэжьакӀуэхэм, щӀэныгъэлӀхэм, дзэпщхэм, дзэ операцэ хэхам и лӀыхъужьхэм» я гъащӀэ гъуэгуанэмрэ я ӀуэхущӀафэхэмрэщ. Унагъуэ, захуагъэ, хэкупсэныгъэ, «Хэкум хуэлэжьэн» хуэдэ лъапӀэныгъэхэр а биографиехэмкӀэ ирагъэщӀэнущ.</p>
+    <p>Ебланэ классыр яухыхуэрэ, еджакӀуэхэм хэкупсэныгъэ, Тхьэм и фӀэщ хъуныгъэ, цӀыхубэ жэуаплыныгъэ, Урысейм и лъэпкъхэм я зэкъуэтыныгъэ, унагъуэ быдэ, напэ, пщӀэ жыхуиӀэ гупсысэхэр ящӀэн хуейщ. ДНКР-м зэрихъуэжынур краеведенэр зыхэта «Урысейм и лъэпкъхэм я духовнэ-нравственнэ культурэм и лъабжьэхэр» курс блэкӀаращ.</p>
+    <h2>Хабзэр дэнэ щыӀэ, дэнэ щымыӀэ</h2>
+    <p>Министерствэм и хъыбар нэхъ убгъуар щэкӀуэгъуэм и 25-м республикэм и газет официальнэм къытехуащ. Абы адыгэ хабзэри тау адетри модулу е дерс темэу щытеткъым. ЖиӀэр мыращ: щӀыналъэм и гъэсэныгъэ хабзэхэр «къэбэрдейхэм я адыгэ хабзэмрэ балъкъэрхэм я тау адетымрэ» — «напэм, хьэщӀагъэм, нэхъыжьхэм пщӀэ хуэщӀыным» и хабзэхэм — хэлъщ, а принципхэр ДНКР-м «декӀу».</p>
+    <p>Ар зэтехуэныгъэм теухуа гупсысэщ, программэкъым. Хъыбархэм зэрыжаӀэмкӀэ, федеральнэ программэм къэрал псом папщӀэ гъуазэ закъуэ иӀэщ, щӀыналъэ Ӏыхьэ — щӀыпӀэ хабзэхэр хуэдэ — къыхэмыхуэу. Программэр хэт зэхилъхьами министерствэм жиӀакъым. Еджэныгъэ тхылъхэм я цӀэхэри, къыдэзыгъэкӀхэри, зытххэри къраӀуакъым.</p>
+    <h2>Зэрыщытыр икӀи зэманыр</h2>
+    <table class="sched"><thead><tr><th>Класс</th><th>Сыт щыгъуэ</th><th>Сыхьэт</th></tr></thead><tbody><tr><td>5</td><td>2026/27 гъэм и етӀуанэ ныкъуэм (2027 гъэм и пэм щегъэжьауэ)</td><td>17</td></tr><tr><td>6</td><td>2027/28 гъэм щегъэжьауэ</td><td>гъэм 34</td></tr><tr><td>7</td><td>2027/28 гъэм щегъэжьауэ</td><td>гъэм 34</td></tr></tbody></table>
+    <p>Гъэ щым сыхьэт 85-рэ мэхъу. Прессэм «2027 гъэм щегъэжьауэ» жиӀащ, министерствэм — «мы еджэгъуэ гъэм щегъэжьауэ». ТӀури пэжщ: етхуанэ классым предметыр етӀуанэ ныкъуэм щожьэ. Министерствэм зэрыжиӀэмкӀэ, тхылъхэр къащэхуащ, дыгъэгъазэм и 1-м нэс еджапӀэхэм ялъӀэсынущ; егъэджакӀуэхэм я Ӏэзагъыр егъэфӀэкӀуэным хуэгъэза программэхэри хьэзырщ. Министерствэм зэригъэбелджылымкӀэ, предметыр «дин дерскъым», еплӀанэ классым щаджа ОРКСЭ-ри зэрихъуэжыркъым. Хъыбархэм ящыщ зыми адэ-анэхэм, егъэджакӀуэхэм е адыгэ зэгухьэныгъэхэм я еплъыкӀэ къахьакъым.</p>
+    <h2>Иджыпсту щыӀэ хабзэ дерсхэр</h2>
+    <p>Адыгэ хабзэм и кӀуэцӀылъ дыдэм теухуа дерсу иджыри къэс къаӀуэтэжар проект цӀыкӀу щхьэхуэхэм къыхэкӀащ:</p>
+    <ul>
+      <li><strong>Налшык, еджапӀэ № 17 (фокӀадэ, 2026):</strong> Кавказ хабзэм теухуа краеведенэ дерс, КъБР-м и ЩэнхабзэмкӀэ министерствэм зэрыжиӀамкӀэ. Нэхъыжьхэм пщӀэ хуэщӀын, унагъуэ лъапӀэныгъэхэр, хьэщӀагъэ, зэдэӀэпыкъуныгъэ, абыхэм дэтегъуэу къан хабзэр (сабийр нэгъуэщӀ унагъуэм щапӀу), кунакъыгъэр (хьэщӀэ-ныбжьэгъугъэ), зыщӀэхъумэныгъэ хабзэхэр, лъыщӀэжьыр — тхыдэ зэхуэщам иритуу зэхагъэкӀащ.</li>
+      <li><strong>«Къэбэрдей-Балъкъэрым и лъэпкъхэм я хабзэхэм я школ» (гъатхэпэ, 2026 щегъэжьауэ):</strong> ЩӀалэгъуалэм и ӀуэхухэмкӀэ министерствэм и проектщ, адыгэ хабзэм, тау адетым, урыс икӀи къэзакъ хабзэхэм я лъабжьэхэр зыщрагъэдж. Тэрч щӀыналъэм и еджапӀэ № 2-м щригъэжьащ тхыдэдж Шериев Амир и гъусэу; мы гъэм щӀыналъэм и еджапӀэ 20-м нэсыну я мурадт.</li>
+    </ul>
+    <p>А проектхэм ящыщ зыр предмет щӀэм хыхьэнумэ, иджыри белджылкъым.</p>
+    <h2>Сыт щхьэкӀэ мыр мыхьэнэшхуэ зиӀэр</h2>
+    <p>Тхылъым тетымкӀэ, къэрал еджапӀэхэм адыгэ хабзэ щаджыныр Къэбэрдей-Балъкъэрым и Жылагъуэ палатэм гъэ блэкӀахэм къигъэлъэгъуа Ӏуэхум и жэуапщ. Ауэ къагъэлъагъуэр федеральнэ лъапӀэныгъэ системэ закъуэм хэт щӀыналъэ щапхъэ цӀыкӀуу хабзэращ. А системэм и щапхъэхэм Украинэм щызауэ дзэлӀхэри хэтщ, и гъуазэр «Хэкум хуэлэжьэныр» аращ.</p>
+    <p>Зэманри а Ӏуэхум и Ӏыхьэщ. Мэзкуу 2027 гъэм Къэбэрдей-Балъкъэрыр Урысейм «зэрыгухьэрэ» гъэ 470 зэрырикъум хуэхьэзырщ. <a href="2026-11-mfa-round-table.html?lang=kbd">Хамэ къэрал ӀуэхухэмкӀэ министерствэм жэпуэгъуэм и 28-м иригъэкӀуэкӀа «стӀол хъурейм»</a> адыгэ тхыдэр лӀэщӀыгъуэхэм «Урысейм Ӏэ зэрыхуэщӀауэ» щигъэлъэгъуащ. Хабзэр ДНКР-м хагъэхьэныр а гъуэгу дыдэм тетщ: адыгэ кӀэныр къалъытэ, ауэ лъэпкъгъэкӀуэдри хэкурахуэри къыхэмыхуэ къэрал Ӏуэтэжым и кӀуэцӀкӀэ фифищ.</p>
+    <p>УпщӀэ зэхэмыгъэкӀахэр белджылщ. Программэр хэт итхар? Сыт хуэдэ тхылъхэмкӀэ ирагъэджынур? Хабзэм езым и сыхьэтхэр иӀэнуракъэ, адыгэбзэкӀэ ирагъэджынуракъэ?</p>
+    </div>
+<!-- ============================ RU ============================ -->
+    <div class="panel" id="lang-ru" lang="ru" hidden>
+    <p class="eyebrow">Новости · Образование</p>
+    <h1>Хабзэ в школе — на условиях Москвы</h1>
+    <p class="dek">Кабардино-Балкария заявляет, что с 2027 года в ее школах будут преподавать адыгэ хабзэ. Официальные тексты рисуют более узкую картину: этический кодекс не станет отдельным предметом, а будет служить опорой для нового федерального предмета о патриотизме.</p>
+    <p class="byline">Коллектив May21.org · 25 ноября 2026</p>
+
+    <div class="divider"></div>
+
+    <p>23 ноября 2026 года Министерство просвещения и науки республики сообщило ТАСС, что школьники будут изучать «Адыгэ хабзэ» и «Тау адет». Хабзэ — этический кодекс адыгов (черкесов, кабардинцев). Тау адет, «Обычай гор», — его карачаево-балкарский аналог. «Кавказский узел», Lenta.ru и «Ридус» выпустили новость под заголовками о том, что хабзэ приходит в школу.</p>
+    <h2>Чему учит новый предмет</h2>
+    <p>Речь идет о федеральном предмете «Духовно-нравственная культура России» (ДНКР), утвержденном приказом Минпросвещения России № 808 от 10 ноября 2025 года. Его заявленная цель — «формирование у школьников основ традиционных российских духовно-нравственных ценностей».</p>
+    <p>В сообщении самой республики сказано, что содержательная основа предмета — «жизненный путь и поступки выдающихся отечественных деятелей: государственных мужей, учёных, военачальников, героев специальной военной операции». Такие ценности, как семья, справедливость, патриотизм и «служение Отечеству», будут передаваться через эти биографии.</p>
+    <p>К концу седьмого класса школьники должны знать такие понятия, как патриотизм, вера в Бога, гражданственность, единство народов России, крепкая семья, честь и достоинство. ДНКР заменяет прежний курс «Основы духовно-нравственной культуры народов России», в который входило краеведение.</p>
+    <h2>Где здесь хабзэ — и где его нет</h2>
+    <p>Самое подробное заявление министерства, опубликованное 25 ноября в официальной электронной газете республики, не называет хабзэ или тау адет ни модулями, ни темами уроков. В нем лишь сказано, что нравственные нормы региона «закреплены в адыгэ хабзэ у кабардинцев и тау адет у балкарцев – кодексах чести, гостеприимства и почитания старших», а эти принципы «созвучны содержанию ДНКР».</p>
+    <p>Это аргумент о созвучии, а не учебная программа. Судя по публикациям, федеральная программа задает единую общенациональную рамку и не упоминает регионального компонента — например, местных кодексов поведения. Министерство не уточнило, кто разрабатывал программу. Названия учебников, издательства и авторы не названы.</p>
+    <h2>Формат и сроки</h2>
+    <table class="sched"><thead><tr><th>Класс</th><th>Когда</th><th>Часы</th></tr></thead><tbody><tr><td>5</td><td>Второе полугодие 2026/27 (с начала 2027 года)</td><td>17</td></tr><tr><td>6</td><td>С 2027/28 учебного года</td><td>34 в год</td></tr><tr><td>7</td><td>С 2027/28 учебного года</td><td>34 в год</td></tr></tbody></table>
+    <p>Всего — 85 часов за три года. Пресса писала «с 2027 года», министерство — «с этого учебного года». Верно и то и другое: в пятом классе предмет начинается во втором полугодии. По словам министерства, учебники закуплены и поступят в школы до 1 декабря, а программы повышения квалификации для педагогов уже разработаны. Министерство подчеркивает, что предмет «не является ни «уроком религии», ни заменой ОРКСЭ в четвёртом классе». Ни в одной из публикаций нет реакции родителей, учителей или черкесских организаций.</p>
+    <h2>Уроки хабзэ, которые уже есть</h2>
+    <p>Единственные описанные до сих пор уроки о реальном содержании хабзэ — это небольшие отдельные проекты:</p>
+    <ul>
+      <li><strong>Нальчик, школа № 17 (сентябрь 2026):</strong> краеведческий урок о кавказском этикете, о котором сообщило Минкультуры КБР. Речь шла об уважении к старшим, семейных ценностях, гостеприимстве и взаимопомощи, а также об аталычестве, куначестве, обычаях избегания и кровной мести — в историческом контексте.</li>
+      <li><strong>«Школа традиций народов Кабардино-Балкарии» (с марта 2026):</strong> проект Минмолодежи КБР по знакомству с основами адыгэ хабзэ, тау адет, русских и казачьих традиций. Он начался в школе № 2 Терского района с историком Амиром Шериевым; в этом году планировалось охватить 20 школ района.</li>
+    </ul>
+    <p>Неясно, станет ли какой-либо из этих проектов частью нового предмета.</p>
+    <h2>Почему это важно</h2>
+    <p>На бумаге хабзэ в государственных школах отвечает на призыв, который Общественная палата Кабардино-Балкарии делала в прошлые годы. Но предлагается хабзэ лишь как региональная иллюстрация внутри единой федеральной системы ценностей. Среди ее образцов для подражания — солдаты, воюющие в Украине, а ее рамка — «служение Отечеству».</p>
+    <p>Время выбрано не случайно. Москва готовится отметить в 2027 году 470-летие «вхождения» Кабардино-Балкарии в состав России, а <a href="2026-11-mfa-round-table.html?lang=ru">круглый стол МИД 28 октября</a> представил черкесскую историю как путь «сквозь века рука об руку с Россией». Включение хабзэ в ДНКР вписывается в ту же логику: черкесское наследие признается, но только внутри государственного нарратива, в котором нет места геноциду и изгнанию.</p>
+    <p>Открытые вопросы вполне конкретны. Кто написал программу? По каким учебникам будут учить? Получит ли хабзэ собственные учебные часы и будут ли его преподавать на черкесском языке?</p>
+    </div>
+<!-- ============================ DE ============================ -->
+    <div class="panel" id="lang-de" lang="de" hidden>
+    <p class="eyebrow">Nachrichten · Bildung</p>
+    <h1>Khabze im Klassenzimmer – zu Moskaus Bedingungen</h1>
+    <p class="dek">Kabardino-Balkarien kündigt an, dass an seinen Schulen ab 2027 Adyghe Khabze unterrichtet wird. Die offiziellen Texte zeichnen ein engeres Bild: Der Verhaltenskodex wird nicht als eigenes Fach gelehrt, sondern dient als Stütze für ein neues föderales Fach über Patriotismus.</p>
+    <p class="byline">May21.org-Kollektiv · 25. November 2026</p>
+
+    <div class="divider"></div>
+
+    <p>Am 23. November 2026 gab das Ministerium für Bildung und Wissenschaft der Republik über TASS bekannt, dass Schülerinnen und Schüler „Adyghe Khabze“ und „Tau Adet“ lernen sollen. Khabze ist der ethische Kodex der Adyghe (Tscherkessen, Kabardiner). Tau Adet, „der Brauch der Berge“, ist das karatschai-balkarische Gegenstück. Kawkasski Usel, Lenta.ru und Ridus meldeten unter Schlagzeilen, Khabze komme in die Schule.</p>
+    <h2>Was das neue Fach lehrt</h2>
+    <p>Träger ist „Geistig-moralische Kultur Russlands“ (DNKR), ein föderales Fach, das mit Erlass Nr. 808 des Bildungsministeriums vom 10. November 2025 eingeführt wurde. Sein erklärtes Ziel ist es, Schülern „die Grundlagen traditioneller russischer geistig-moralischer Werte“ zu vermitteln.</p>
+    <p>Laut der eigenen Mitteilung der Republik stehen im Mittelpunkt „der Lebensweg und die Taten herausragender russischer Persönlichkeiten: Staatsmänner, Wissenschaftler, Heerführer und Helden der speziellen Militäroperation“. Werte wie Familie, Gerechtigkeit, Patriotismus und „Dienst am Vaterland“ sollen über diese Biografien vermittelt werden.</p>
+    <p>Am Ende der siebten Klasse sollen die Schüler Begriffe wie Patriotismus, Glaube an Gott, Bürgersinn, Einheit der Völker Russlands, starke Familie, Ehre und Würde kennen. DNKR ersetzt den bisherigen Kurs über die geistig-moralische Kultur der Völker Russlands, zu dem auch Heimatkunde gehörte.</p>
+    <h2>Wo Khabze vorkommt – und wo nicht</h2>
+    <p>Die ausführlichste Erklärung des Ministeriums, am 25. November in der offiziellen Online-Zeitung der Republik veröffentlicht, führt Khabze oder Tau Adet weder als Module noch als Unterrichtsthemen auf. Sie sagt nur, die moralischen Normen der Region seien „in Adyghe Khabze bei den Kabardinern und Tau Adet bei den Balkaren verankert“, Kodizes „der Ehre, der Gastfreundschaft und der Achtung vor den Älteren“, und diese Prinzipien stimmten mit dem neuen Fach „überein“.</p>
+    <p>Das ist ein Argument für Passung, kein Lehrplan. Laut den Berichten legt das föderale Programm einen einheitlichen nationalen Rahmen fest und erwähnt keine regionale Komponente wie lokale Verhaltenskodizes. Wer das Programm verfasst hat, sagte das Ministerium nicht. Titel, Verlage oder Autoren von Lehrbüchern wurden nicht genannt.</p>
+    <h2>Umfang und Zeitplan</h2>
+    <table class="sched"><thead><tr><th>Klasse</th><th>Wann</th><th>Stunden</th></tr></thead><tbody><tr><td>5</td><td>Zweites Halbjahr 2026/27 (ab Anfang 2027)</td><td>17</td></tr><tr><td>6</td><td>Ab 2027/28</td><td>34 pro Jahr</td></tr><tr><td>7</td><td>Ab 2027/28</td><td>34 pro Jahr</td></tr></tbody></table>
+    <p>Insgesamt sind das 85 Stunden über drei Jahre. Die Presse schrieb „ab 2027“, das Ministerium „ab diesem Schuljahr“. Beides stimmt: In der fünften Klasse beginnt das Fach im zweiten Halbjahr. Laut Ministerium sind die Lehrbücher gekauft und bis zum 1. Dezember an den Schulen; Fortbildungen für Lehrkräfte stehen bereit. Es betont, das Fach sei „weder Religionsunterricht“ noch Ersatz für den religionskundlichen Kurs der vierten Klasse (ORKSE). Keiner der Berichte zitiert Reaktionen von Eltern, Lehrkräften oder tscherkessischen Organisationen.</p>
+    <h2>Die Khabze-Stunden, die es schon gibt</h2>
+    <p>Die einzigen bisher beschriebenen Stunden zum tatsächlichen Inhalt von Khabze stammen aus kleineren, eigenständigen Projekten:</p>
+    <ul>
+      <li><strong>Naltschik, Schule Nr. 17 (September 2026):</strong> eine Heimatkundestunde über kaukasische Etikette, über die das Kulturministerium der Republik berichtete. Behandelt wurden Respekt vor den Älteren, Familienwerte, Gastfreundschaft und gegenseitige Hilfe, außerdem Atalytschestwo (Erziehung eines Kindes in einer anderen Familie), Kunatschestwo (beschworene Gastfreundschaft), Meidungsbräuche und Blutrache – jeweils im historischen Kontext.</li>
+      <li><strong>„Schule der Traditionen der Völker Kabardino-Balkariens“ (seit März 2026):</strong> ein Projekt des Jugendministeriums zu den Grundlagen von Adyghe Khabze, Tau Adet sowie russischen und Kosakentraditionen. Es begann an der Schule Nr. 2 im Bezirk Terek mit dem Historiker Amir Scheriew und sollte dieses Jahr 20 Schulen im Bezirk erreichen.</li>
+    </ul>
+    <p>Ob eines dieser Projekte in das neue Fach einfließt, ist unklar.</p>
+    <h2>Warum das wichtig ist</h2>
+    <p>Auf dem Papier erfüllt Khabze an staatlichen Schulen eine Forderung, die die Gesellschaftskammer Kabardino-Balkariens in früheren Jahren erhoben hat. Angeboten wird aber Khabze als regionales Anschauungsbeispiel innerhalb eines einheitlichen föderalen Wertesystems. Zu dessen Vorbildern gehören Soldaten, die in der Ukraine kämpfen, sein Rahmen ist der „Dienst am Vaterland“.</p>
+    <p>Auch der Zeitpunkt passt ins Bild. Moskau bereitet für 2027 den 470. Jahrestag des „Beitritts“ Kabardino-Balkariens zu Russland vor, und <a href="2026-11-mfa-round-table.html?lang=de">der Runde Tisch des Außenministeriums am 28. Oktober</a> stellte die tscherkessische Geschichte als Jahrhunderte „Hand in Hand mit Russland“ dar. Die Einbindung von Khabze in DNKR folgt demselben Muster: Das tscherkessische Erbe wird anerkannt, aber nur innerhalb einer staatlichen Erzählung, in der Genozid und Vertreibung nicht vorkommen.</p>
+    <p>Die offenen Fragen sind konkret. Wer hat das Programm geschrieben? Mit welchen Lehrbüchern wird unterrichtet? Bekommt Khabze eigene Unterrichtsstunden, und wird es auf Tscherkessisch gelehrt?</p>
+    </div>
+<!-- ============================ AR ============================ -->
+    <div class="panel" id="lang-ar" lang="ar" dir="rtl" hidden>
+    <p class="eyebrow">أخبار · تعليم</p>
+    <h1>الخابزه في الفصول الدراسية — بشروط موسكو</h1>
+    <p class="dek">تقول قبردينو-بلقاريا إن مدارسها ستُدرِّس «أديغه خابزه» ابتداءً من عام 2027. لكن النصوص الرسمية ترسم صورة أضيق: فهذا الميثاق الأخلاقي لن يُدرَّس مادةً مستقلة، بل سيُستخدَم سندًا لمادة فيدرالية جديدة عن الوطنية.</p>
+    <p class="byline">مجموعة May21.org · 25 تشرين الثاني/نوفمبر 2026</p>
+
+    <div class="divider"></div>
+
+    <p>في 23 تشرين الثاني/نوفمبر 2026 أعلنت وزارة التعليم والعلوم في الجمهورية، عبر وكالة تاس، أن التلاميذ سيدرسون «أديغه خابزه» و«تاو أديت». الخابزه هو الميثاق الأخلاقي للأديغة (الشركس، القبرداي). أما «تاو أديت»، أي «عرف الجبال»، فهو نظيره عند القراتشاي والبلقار. نشرت «كافكازسكي أوزيل» وLenta.ru و«ريدوس» الخبر بعناوين تقول إن الخابزه قادم إلى الفصول.</p>
+    <h2>ماذا تُعلِّم المادة الجديدة</h2>
+    <p>الإطار هو مادة «الثقافة الروحية والأخلاقية لروسيا»، وهي مادة فيدرالية أُقرَّت بالقرار رقم 808 الصادر عن وزارة التعليم في 10 تشرين الثاني/نوفمبر 2025. هدفها المعلن هو غرس «أسس القيم الروحية والأخلاقية الروسية التقليدية» لدى التلاميذ.</p>
+    <p>ويصف إعلان الجمهورية نفسها الدروس بأنها مبنية على «مسيرة حياة شخصيات روسية بارزة وأفعالها: رجال دولة وعلماء وقادة عسكريين وأبطال العملية العسكرية الخاصة». وستُنقَل عبر هذه السير قيمٌ مثل الأسرة والعدالة والوطنية و«خدمة الوطن».</p>
+    <p>وبنهاية الصف السابع يُتوقع أن يعرف التلاميذ مفاهيم مثل الوطنية، والإيمان بالله، والمواطنة، ووحدة شعوب روسيا، والأسرة المتينة، والشرف والكرامة. وتحلّ هذه المادة محلّ المقرر السابق عن الثقافة الروحية والأخلاقية لشعوب روسيا، الذي كان يشمل التاريخ المحلي.</p>
+    <h2>أين يقع الخابزه وأين لا يقع</h2>
+    <p>أكثر بيانات الوزارة تفصيلًا، المنشور في 25 تشرين الثاني/نوفمبر في الصحيفة الإلكترونية الرسمية للجمهورية، لا يذكر الخابزه أو تاو أديت وحداتٍ أو موضوعاتِ دروس. بل يقول فقط إن الأعراف الأخلاقية في المنطقة «مُرسَّخة في أديغه خابزه لدى القبرداي وتاو أديت لدى البلقار»، وهي مواثيق «للشرف والضيافة واحترام الكبار»، وإن هذه المبادئ «متناغمة» مع المادة الجديدة.</p>
+    <p>هذا حجّة على التناسب، وليس منهجًا دراسيًا. وبحسب التقارير، يضع البرنامج الفيدرالي إطارًا وطنيًا واحدًا ولا يذكر أي مكوّن إقليمي مثل مواثيق السلوك المحلية. ولم تُفصح الوزارة عمّن أعدّ البرنامج، ولم تُذكَر عناوين الكتب المدرسية أو ناشروها أو مؤلفوها.</p>
+    <h2>الشكل والجدول الزمني</h2>
+    <table class="sched"><thead><tr><th>الصف</th><th>متى</th><th>الساعات</th></tr></thead><tbody><tr><td>الخامس</td><td>النصف الثاني من العام الدراسي 2026/27 (من مطلع 2027)</td><td>17</td></tr><tr><td>السادس</td><td>ابتداءً من 2027/28</td><td>34 سنويًا</td></tr><tr><td>السابع</td><td>ابتداءً من 2027/28</td><td>34 سنويًا</td></tr></tbody></table>
+    <p>أي 85 ساعة على مدى ثلاث سنوات. قالت الصحافة «ابتداءً من 2027»، وقالت الوزارة «ابتداءً من هذا العام الدراسي»، وكلاهما صحيح: فالمادة تبدأ في الصف الخامس في الفصل الثاني. وبحسب الوزارة، اشتُريَت الكتب وستصل إلى المدارس قبل 1 كانون الأول/ديسمبر، وبرامج تدريب المعلمين جاهزة. وتؤكد الوزارة أن المادة «ليست درسًا دينيًا» ولا بديلًا عن مقرر الثقافة الدينية في الصف الرابع. ولم ينقل أي من التقارير أي رد فعل من الأهالي أو المعلمين أو المنظمات الشركسية.</p>
+    <h2>دروس الخابزه الموجودة فعلًا</h2>
+    <p>الدروس الوحيدة التي وُصفت حتى الآن عن المضمون الفعلي للخابزه تأتي من مشاريع أصغر ومنفصلة:</p>
+    <ul>
+      <li><strong>نالشيك، المدرسة رقم 17 (أيلول/سبتمبر 2026):</strong> درس في التاريخ المحلي عن آداب القوقاز، أعلنت عنه وزارة الثقافة في الجمهورية. تناول احترام الكبار وقيم الأسرة والضيافة والتعاون، إلى جانب «الأتاليق» (تربية الطفل في أسرة أخرى) و«الكوناك» (أخوّة الضيافة المؤكَّدة بالقسم) وأعراف التجنُّب والثأر، ضمن سياقها التاريخي.</li>
+      <li><strong>«مدرسة تقاليد شعوب قبردينو-بلقاريا» (منذ آذار/مارس 2026):</strong> مشروع لوزارة شؤون الشباب يعلّم أسس أديغه خابزه وتاو أديت والتقاليد الروسية والقوزاقية. بدأ في المدرسة رقم 2 في منطقة تيريك مع المؤرخ أمير شرييف، وكان يُخطَّط ليصل إلى 20 مدرسة في المنطقة هذا العام.</li>
+    </ul>
+    <p>وليس واضحًا إن كان أيٌّ من هذين المشروعين سيغذّي المادة الجديدة.</p>
+    <h2>لماذا يهمّ ذلك</h2>
+    <p>على الورق، يستجيب تدريس الخابزه في المدارس الحكومية لدعوة أطلقتها الغرفة المجتمعية في قبردينو-بلقاريا في سنوات سابقة. لكن المطروح هو الخابزه مثالًا إقليميًا داخل منظومة قيم فيدرالية واحدة، من نماذجها القدوة جنود يقاتلون في أوكرانيا، وإطارها «خدمة الوطن».</p>
+    <p>والتوقيت جزء من النمط نفسه. فموسكو تستعد لإحياء الذكرى الـ470 «لانضمام» قبردينو-بلقاريا إلى روسيا في 2027، وقدّمت <a href="2026-11-mfa-round-table.html?lang=ar">طاولة الحوار التي نظمتها وزارة الخارجية في 28 تشرين الأول/أكتوبر</a> التاريخ الشركسي على أنه قرون «يدًا بيد مع روسيا». وينسجم إدراج الخابزه في هذه المادة مع النمط نفسه: اعتراف بالتراث الشركسي، لكن فقط داخل رواية رسمية تُسقِط الإبادة الجماعية والتهجير.</p>
+    <p>والأسئلة المفتوحة محددة: من كتب البرنامج؟ أي كتب مدرسية ستُستخدم؟ هل سيحصل الخابزه على ساعات خاصة به، وهل سيُدرَّس باللغة الشركسية؟</p>
+    </div>
+<!-- ============================ ADY ============================ -->
+    <div class="panel" id="lang-ady" lang="ady" hidden>
+    <p class="eyebrow">Къэбар · Гъэсэныгъэ</p>
+    <h1>Хабзэр еджапӀэм — Москва ишапхъэкӀэ</h1>
+    <p class="dek">Къэбэртэе-Бэлъкъарым иеджапӀэхэм 2027-рэ илъэсым къыщегъэжьагъэу адыгэ хабзэр щарагъэшӀэщтэу аӀо. Ау тхылъ официальнэхэм нахь гъэкӀэкӀыгъэу къагъэлъагъо: хабзэр предмет шъхьаф фэдэу арагъэшӀэщтэп, хэгъэгу шӀулъэгъум фэгъэхьыгъэ федеральнэ предмет кӀэм иӀэпыӀэгъоу агъэфедэщт.</p>
+    <p class="byline">May21.org · 2026-рэ илъэсым шэкӀогъум и 25</p>
+
+    <div class="divider"></div>
+
+    <p>2026-рэ илъэсым шэкӀогъум и 23-м республикэм ГъэсэныгъэмкӀэ ыкӀи ШӀэныгъэмкӀэ и министерствэ ТАСС-м риӀуагъ кӀэлэеджакӀохэм «Адыгэ хабзэ» ыкӀи «Тау адет» зэрарагъэшӀэщтхэр. Адыгэ хабзэр адыгэхэм (шэрджэсхэм, къэбэртаехэм) ягъэсэныгъэ шапхъэ. «Тау адет» («Къушъхьэм ихабзэ») къэрэщэе-бэлъкъархэм яхабзэ. «Кавказский узел», Lenta.ru ыкӀи «Ридус» къэбарыр къызыхаутым, хабзэр еджапӀэм къэкӀо аӀуагъ.</p>
+    <h2>Предмет кӀэм щарагъэшӀэщтыр</h2>
+    <p>Ар «Урысыем идуховнэ-нравственнэ культурэ» (ДНКР) зыфиӀорэ федеральнэ предметыр ары. Урысые Федерацием ГъэсэныгъэмкӀэ и министерствэ 2025-рэ илъэсым шэкӀогъум и 10-м къыдигъэкӀыгъэ унашъоу № 808-мкӀэ ар аштагъ. Ащ имурад — кӀэлэеджакӀохэм «урыс духовнэ-нравственнэ лъапӀэныгъэ хабзэжъхэм алъапсэ» ахэлъхьаныр ары.</p>
+    <p>Республикэм икъэбар зэриӀорэмкӀэ, предметым ылъапсэр «къэралыгъо ӀофышӀэхэм, шӀэныгъэлэжьхэм, дзэпащэхэм, дзэ операцие гъэнэфагъэм илӀыхъужъхэм» ягъашӀэ гъогурэ яӀофхэмрэ ары. Унагъор, шъыпкъагъэр, хэгъэгу шӀулъэгъур, «Хэкум фэлэжьэныр» фэдэ лъапӀэныгъэхэр а биографиехэмкӀэ арагъэшӀэщтых.</p>
+    <p>Яблэнэрэ классыр аухыфэ, кӀэлэеджакӀохэм хэгъэгу шӀулъэгъур, Тхьэм шӀошъхъуныгъэ фыряӀэныр, цӀыф жэуаплыныгъэр, Урысыем илъэпкъхэм язэкъошныгъэ, унагъо пытэр, напэр, щытхъур ашӀэн фае. ДНКР-м ычӀыпӀэ ригъэуцорэр краеведениер зыхэтыгъэ «Урысыем илъэпкъхэм ядуховнэ-нравственнэ культурэ илъапсэхэр» зыфиӀорэ курсыр ары.</p>
+    <h2>Хабзэр тыдэ щыӀ, тыдэ щымыӀ</h2>
+    <p>Министерствэм икъэбар анахь убгъугъэр шэкӀогъум и 25-м республикэм игъэзет официальнэ къыхиутыгъ. Ащ адыгэ хабзэри тау адетыри модуль е урок темэ фэдэу къыщыгъэлъэгъуагъэхэп. ЫӀорэр мыр ары: шъолъырым игъэсэныгъэ шапхъэхэр «къэбэртаехэм яадыгэ хабзэрэ бэлъкъархэм ятау адетрэ» — «напэм, хьакӀагъэм, нахьыжъхэм шъхьэкӀафэ афэшӀыным» ишапхъэхэм — ахэлъых, а принципхэр ДНКР-м «декӀух».</p>
+    <p>Ар зэтефэныгъэм фэгъэхьыгъэ гупшыс, программэп. Къэбархэм зэраӀорэмкӀэ, федеральнэ программэм къэралыгъо пстэум апае гъэпсыкӀэ закъо иӀ, шъолъыр Ӏахь — чӀыпӀэ хабзэхэм афэдэ — хэмытэу. Программэр зэхэзгъэуцуагъэр министерствэм къыӀуагъэп. ЕджэпӀэ тхылъхэм ацӀэхэри, къыдэзгъэкӀыхэрэри, зытхыгъэхэри къаӀуагъэхэп.</p>
+    <h2>ШӀыкӀэр ыкӀи уахътэр</h2>
+    <table class="sched"><thead><tr><th>Класс</th><th>Сыдигъуа</th><th>Сыхьат</th></tr></thead><tbody><tr><td>5</td><td>2026/27 илъэсым ятӀонэрэ ныкъо (2027-рэ илъэсым ипэублэ къыщегъэжьагъэу)</td><td>17</td></tr><tr><td>6</td><td>2027/28 къыщегъэжьагъэу</td><td>илъэсым 34</td></tr><tr><td>7</td><td>2027/28 къыщегъэжьагъэу</td><td>илъэсым 34</td></tr></tbody></table>
+    <p>Илъэсищым сыхьат 85-рэ мэхъу. Прессэм «2027-рэ илъэсым къыщегъэжьагъэу» ыӀуагъ, министерствэм — «мы еджэгъу илъэсым къыщегъэжьагъэу». ТӀури шъыпкъэ: ятфэнэрэ классым предметыр ятӀонэрэ ныкъом щырагъажьэ. Министерствэм зэриӀорэмкӀэ, тхылъхэр къащэфыгъэх, тыгъэгъазэм и 1-м нэс еджапӀэхэм анэсыщтых; кӀэлэегъаджэхэм яӀэпэӀэсэныгъэ хагъэхъоным фэгъэхьыгъэ программэхэри хьазырых. Министерствэм къызэрэхигъэщыгъэмкӀэ, предметыр «дин урокэп», яплӀэнэрэ классым щарагъашӀэрэ ОРКСЭ-ми ычӀыпӀэ иуцорэп. Къэбархэм ащыщ горэми ны-тыхэм, кӀэлэегъаджэхэм е адыгэ общественнэ организациехэм яеплъыкӀэ къыхахыгъэп.</p>
+    <h2>Джырэ уахътэм щыӀэ хабзэ урокхэр</h2>
+    <p>Адыгэ хабзэм икӀоцӀылъ шъыпкъэ фэгъэхьыгъэ урокэу непэрэ мафэм нэс къаӀотагъэхэр проект цӀыкӀу шъхьафхэм къахэкӀых:</p>
+    <ul>
+      <li><strong>Налщык, еджапӀэу № 17 (Ӏоныгъу, 2026):</strong> Кавказ хабзэм фэгъэхьыгъэ краеведение урок, КъБР-м КультурэмкӀэ и министерствэ зэриӀуагъэмкӀэ. Нахьыжъхэм шъхьэкӀафэ афэшӀыныр, унэгъо лъапӀэныгъэхэр, хьакӀагъэр, зэдеӀэжьыныгъэр, джащ фэдэу пӀурылъэр (сабыир нэмыкӀ унагъо щапӀу), кунакъыгъэр (хьакӀэ-ныбджэгъугъэ), зыщытхъумэжьыгъэ хабзэхэр ыкӀи лъыщэжьыр — тарихъ лъэныкъомкӀэ азэхафыгъ.</li>
+      <li><strong>«Къэбэртэе-Бэлъкъарым илъэпкъхэм яхабзэхэм яеджапӀэ» (гъэтхапэ, 2026 къыщегъэжьагъэу):</strong> НыбжьыкӀэхэм яӀофхэмкӀэ министерствэм ипроект, адыгэ хабзэм, тау адетым, урыс ыкӀи къэзэкъ хабзэхэм алъапсэхэр щарагъашӀэх. Тэрч районым иеджапӀэу № 2-м тарихъымкӀэ шӀэныгъэлэжьэу Шериев Амир игъусэу щырагъэжьагъ; мы илъэсым районым иеджапӀэ 20-мэ анэсынхэу агу хэлъыгъ.</li>
+    </ul>
+    <p>А проектхэм ащыщ горэ предмет кӀэм хэхьащтмэ, джыри нафэп.</p>
+    <h2>Сыда мыщ мэхьанэшхо зыкӀиӀэр</h2>
+    <p>Тхылъым тетымкӀэ, къэралыгъо еджапӀэхэм адыгэ хабзэ щарагъашӀэныр Къэбэртэе-Бэлъкъарым и Общественнэ палатэ блэкӀыгъэ илъэсхэм ыгъэуцугъэ упчӀэм иджэуап. Ау къагъэлъагъорэр федеральнэ лъапӀэныгъэ системэ закъом хэт шъолъыр щысэ цӀыкӀоу хабзэр ары. А системэм ищысэхэм Украинэм щызаохэрэ дзэкӀолӀхэри ахэтых, игъэпсыкӀэр «Хэкум фэлэжьэныр» ары.</p>
+    <p>Уахътэри а гъэпсыкӀэм иӀахь. Москва 2027-рэ илъэсым Къэбэртэе-Бэлъкъарыр Урысыем «зэрэхэхьагъэр» илъэс 470-рэ зэрэхъурэм фэхьазыр. <a href="2026-11-mfa-round-table.html?lang=ady">ӀэкӀыб ӀофхэмкӀэ министерствэм чъэпыогъум и 28-м зэхищэгъэ «стол хъураем»</a> адыгэ тарихъыр лӀэшӀэгъухэм «Урысыем Ӏэ зэкӀэдзагъэу» щытыгъэу къыщигъэлъэгъуагъ. Хабзэр ДНКР-м хагъэхьаныр а гъогу дэдэм тет: адыгэ кӀэныр алъытэ, ау лъэпкъгъэкӀодыри хэкужъым зэрэрафыгъэхэри къызыхэмыхьэрэ къэралыгъо къэӀотэкӀэм икӀоцӀ ныӀэп.</p>
+    <p>УпчӀэхэу джыри зэхэмыфыгъэхэр гъэнэфагъэх. Программэр хэта зытхыгъэр? Сыд фэдэ тхылъхэмкӀэ арагъашӀэщтхэр? Хабзэм ежь исыхьат гъэнэфагъэхэр иӀэщтэхэта, адыгабзэкӀэ арагъашӀэщта?</p>
+    </div>
+
+    <section class="refs">
+      <h2 id="refs-title">Sources</h2>
+      <ol>
+        <li>Caucasian Knot, «Традиционные этические кодексы включены в программу школ Кабардино-Балкарии», 23 Nov 2026. <a href="https://www.kavkaz-uzel.eu/articles/428591" target="_blank" rel="noopener">kavkaz-uzel.eu</a> · English: <a href="https://www.eng.kavkaz-uzel.eu/articles/80447" target="_blank" rel="noopener">eng.kavkaz-uzel.eu</a>.</li>
+        <li>Lenta.ru, «В школах российского региона начнут преподавать „Адыгэ хабзэ“ и „Тау адет“», 23 Nov 2026 (citing TASS). <a href="https://lenta.ru/news/2026/11/23/v-shkolah-rossiyskogo-regiona-nachnut-prepodavat-adyge-habze-i-tau-adet/" target="_blank" rel="noopener">lenta.ru</a>.</li>
+        <li>Ridus, «Школы Кабардино-Балкарии начнут преподавать „Адыгэ хабзэ“», 23 Nov 2026 (citing TASS). <a href="https://www.ridus.ru/shkoly-kabardino-balkarii-nachnut-prepodavat-adyge-habze-994535.html" target="_blank" rel="noopener">ridus.ru</a>.</li>
+        <li>Электронная газета КБР, «Духовно-нравственная культура: в школах вводится новый предмет», 25 Nov 2026. <a href="https://elgkbr.ru/node/37006" target="_blank" rel="noopener">elgkbr.ru</a>.</li>
+        <li>Электронная газета КБР, «Школа традиций народов Кабардино-Балкарии», 30 Mar 2026. <a href="https://elgkbr.ru/node/33257" target="_blank" rel="noopener">elgkbr.ru</a>.</li>
+        <li>ppt.ru, on Order No. 808 of the Russian Ministry of Education of 10 Nov 2025 approving the programme «Духовно-нравственная культура России», 13 Feb 2026. <a href="https://ppt.ru/obzory/vstupaet-v-silu/prikaz-minprosveshcheniya-rossii-10-11-2025-808-ob-utverzhdenii-programmy-po-predmetu-dukhovno-nravstvennaya-kultura-rossii" target="_blank" rel="noopener">ppt.ru</a>.</li>
+        <li>Vechernyaya Moskva via Mail.ru, «Новый предмет: о чем будут рассказывать на уроках „Духовно-нравственной культуры России“», 1 Mar 2026. <a href="https://vfokuse.mail.ru/articles/69610238-novyij-predmet-o-chem-budut-rasskazyivat-na-urokah-duhovno-nravstvennoj-kulturyi-rossii/" target="_blank" rel="noopener">vfokuse.mail.ru</a>.</li>
+        <li>May21.org, «Hand in Hand With Whom?», 3 Nov 2026. <a href="2026-11-mfa-round-table.html">may21.org/documents/2026-11-mfa-round-table.html</a>.</li>
+      </ol>
+    </section>
+  </article>
+
+  <footer id="foot">© 2026 May21.org · Quotations from Russian sources are translated by May21.org.</footer>
+
+  <script>
+    var LANGS = ["en", "tr", "kbd", "ru", "de", "ar", "ady"];
+    var UI = {"en": ["← Library", "Reader view", "Standard view", "Sources", "© 2026 May21.org · Quotations from Russian sources are translated by May21.org."], "tr": ["← Kütüphane", "Okuma görünümü", "Standart görünüm", "Kaynaklar", "© 2026 May21.org · Rusça kaynaklardan yapılan alıntılar May21.org tarafından çevrilmiştir."], "kbd": ["← Тхылъхэр", "Еджэн", "Хабзэм тету", "Тхылъхэр", "© 2026 May21.org"], "ru": ["← Библиотека", "Режим чтения", "Обычный вид", "Источники", "© 2026 May21.org"], "de": ["← Bibliothek", "Leseansicht", "Standardansicht", "Quellen", "© 2026 May21.org · Zitate aus russischen Quellen wurden von May21.org übersetzt."], "ar": ["→ المكتبة", "وضع القراءة", "العرض العادي", "المصادر", "© 2026 May21.org · ترجم موقع May21.org الاقتباسات من المصادر الروسية."], "ady": ["← Тхылъхэр", "Еджэн", "Шапхъэм тетэу", "Тхылъхэр", "© 2026 May21.org"]};
+    var TITLE = {"en": "Khabze in the Classroom — on Moscow's Terms", "tr": "Sınıfta Xabze — Moskova'nın Şartlarıyla", "kbd": "Хабзэр еджапӀэм — Мэзкуу и шэрту", "ru": "Хабзэ в школе — на условиях Москвы", "de": "Khabze im Klassenzimmer – zu Moskaus Bedingungen", "ar": "الخابزه في الفصول الدراسية — بشروط موسكو", "ady": "Хабзэр еджапӀэм — Москва ишапхъэкӀэ"};
+    var params = new URLSearchParams(location.search);
+    var reader = params.get('view') === 'reader';
+    if (reader) document.body.classList.add('reader');
+    var current = 'en';
+    function link(lang, readerOn) {
+      var q = '?lang=' + lang + (readerOn ? '&view=reader' : '');
+      return location.pathname + q;
+    }
+    function show(lang) {
+      if (LANGS.indexOf(lang) < 0) lang = 'en';
+      current = lang;
+      document.querySelectorAll('.panel').forEach(function (p) { p.hidden = p.id !== 'lang-' + lang; });
+      document.querySelectorAll('.tabs button').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.lang === lang); });
+      document.documentElement.lang = lang;
+      var u = UI[lang];
+      document.getElementById('lib-link').textContent = u[0];
+      var t = document.getElementById('reader-toggle');
+      t.textContent = reader ? u[2] : u[1];
+      t.href = link(lang, !reader);
+      document.getElementById('refs-title').textContent = u[3];
+      document.getElementById('foot').textContent = u[4];
+      document.title = TITLE[lang] + ' · May21.org';
+      try { history.replaceState(null, '', link(lang, reader) + location.hash); } catch (e) {}
+    }
+    document.querySelectorAll('.tabs button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        show(b.dataset.lang);
+        try { localStorage.setItem('may21_lang', b.dataset.lang); } catch (e) {}
+      });
+    });
+    (function () {
+      var q = params.get('lang');
+      if (q) return show(q);
+      var saved = null;
+      try { saved = localStorage.getItem('may21_lang'); } catch (e) {}
+      if (saved && LANGS.indexOf(saved) >= 0) return show(saved);
+      var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
+      for (var i = 0; i < prefs.length; i++) {
+        var c = String(prefs[i]).toLowerCase().split('-')[0];
+        if (LANGS.indexOf(c) >= 0) return show(c);
+      }
+      show('en');
+    })();
+  </script>
+  <script data-goatcounter="https://may21.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

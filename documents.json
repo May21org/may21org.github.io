@@ -1,5 +1,58 @@
 [
   {
+    "type": "News",
+    "title": "Khabze in the Classroom — on Moscow's Terms",
+    "author": "May21.org Collective",
+    "date": "2026-11-25",
+    "lang": "EN · TR · РУС · DE · عر · КАБ · АДЫ",
+    "url": "documents/2026-11-khabze-schools.html?lang=en",
+    "description": "Kabardino-Balkaria says its schools will teach Adyghe Khabze from 2027. The official texts tell a narrower story: the code of conduct is being used to support a new federal patriotism subject, not taught as a course of its own.",
+    "editions": {
+      "tr": {
+        "type": "Haber",
+        "title": "Sınıfta Xabze — Moskova'nın Şartlarıyla",
+        "description": "Kabardey-Balkarya, okullarında 2027'den itibaren Adığe Xabze öğretileceğini söylüyor. Resmî metinler ise daha dar bir tablo çiziyor: bu davranış kuralları ayrı bir ders olarak okutulmayacak, yeni bir federal vatanseverlik dersini desteklemek için kullanılacak.",
+        "url": "documents/2026-11-khabze-schools.html?lang=tr",
+        "lang": "TR"
+      },
+      "kbd": {
+        "type": "Хъыбар",
+        "title": "Хабзэр еджапӀэм — Мэзкуу и шэрту",
+        "description": "Къэбэрдей-Балъкъэрым и еджапӀэхэм 2027 гъэм щегъэжьауэ адыгэ хабзэ щрагъэджынущ, жаӀэ. Ауэ тхылъ официальнэхэм нэхъ гуэщӀэу къагъэлъагъуэ: хабзэр предмет щхьэхуэу ирагъэджынукъым, атӀэ хэкупсэныгъэм теухуа федеральнэ предмет щӀэм и дэӀэпыкъуэгъуу къагъэсэбэпынущ.",
+        "url": "documents/2026-11-khabze-schools.html?lang=kbd",
+        "lang": "КАБ"
+      },
+      "ru": {
+        "type": "Новости",
+        "title": "Хабзэ в школе — на условиях Москвы",
+        "description": "Кабардино-Балкария заявляет, что с 2027 года в ее школах будут преподавать адыгэ хабзэ. Официальные тексты рисуют более узкую картину: этический кодекс не станет отдельным предметом, а будет служить опорой для нового федерального предмета о патриотизме.",
+        "url": "documents/2026-11-khabze-schools.html?lang=ru",
+        "lang": "РУС"
+      },
+      "de": {
+        "type": "Nachrichten",
+        "title": "Khabze im Klassenzimmer – zu Moskaus Bedingungen",
+        "description": "Kabardino-Balkarien kündigt an, dass an seinen Schulen ab 2027 Adyghe Khabze unterrichtet wird. Die offiziellen Texte zeichnen ein engeres Bild: Der Verhaltenskodex wird nicht als eigenes Fach gelehrt, sondern dient als Stütze für ein neues föderales Fach über Patriotismus.",
+        "url": "documents/2026-11-khabze-schools.html?lang=de",
+        "lang": "DE"
+      },
+      "ar": {
+        "type": "أخبار",
+        "title": "الخابزه في الفصول الدراسية — بشروط موسكو",
+        "description": "تقول قبردينو-بلقاريا إن مدارسها ستُدرِّس «أديغه خابزه» ابتداءً من عام 2027. لكن النصوص الرسمية ترسم صورة أضيق: فهذا الميثاق الأخلاقي لن يُدرَّس مادةً مستقلة، بل سيُستخدَم سندًا لمادة فيدرالية جديدة عن الوطنية.",
+        "url": "documents/2026-11-khabze-schools.html?lang=ar",
+        "lang": "عر"
+      },
+      "ady": {
+        "type": "Къэбар",
+        "title": "Хабзэр еджапӀэм — Москва ишапхъэкӀэ",
+        "description": "Къэбэртэе-Бэлъкъарым иеджапӀэхэм 2027-рэ илъэсым къыщегъэжьагъэу адыгэ хабзэр щарагъэшӀэщтэу аӀо. Ау тхылъ официальнэхэм нахь гъэкӀэкӀыгъэу къагъэлъагъо: хабзэр предмет шъхьаф фэдэу арагъэшӀэщтэп, хэгъэгу шӀулъэгъум фэгъэхьыгъэ федеральнэ предмет кӀэм иӀэпыӀэгъоу агъэфедэщт.",
+        "url": "documents/2026-11-khabze-schools.html?lang=ady",
+        "lang": "АДЫ"
+      }
+    }
+  },
+  {
     "type": "Statement",
     "title": "No One Will Write Our History for Us — Circassian Tribal Council in Syria",
     "author": "Circassian Tribal Council in Syria",
