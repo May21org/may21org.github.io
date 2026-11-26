@@ -41,3 +41,14 @@ Every article page loads the share bar with one line before `</body>`:
 It adds Facebook, X, WhatsApp, Telegram, VK, LinkedIn, email and copy-link buttons at the end of the article (before "Sources"), and a "Share ↓" link in the top menu. Shared links keep the language the reader is viewing (`?lang=`).
 
 For a good preview when the link is posted, the page `<head>` also carries `og:title`, `og:description`, `og:url`, `og:image` and `twitter:card` tags; copy them from an existing article and change title, description and URL.
+
+
+## Previews in every language
+
+Link previews (Facebook, X, WhatsApp, Telegram…) cannot run JavaScript, so the article page itself only shows its English title. For the other languages the share buttons use `share/<lang>/<page>`: a small page with the title and summary in that language that forwards readers to `<page>?lang=<lang>`.
+
+After adding or changing an article, rebuild them from the repository root:
+
+    python3 tools/make-share-pages.py
+
+Titles and summaries come from each language panel (`<h1>` and `<p class="dek">`). The Monuments page’s texts are in `tools/share-extra.json`.

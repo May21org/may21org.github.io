@@ -37,8 +37,12 @@
     var l = (document.documentElement.getAttribute('lang') || 'en').toLowerCase();
     return L[l] ? l : 'en';
   }
+  // English: the page itself. Other languages: share/<lang>/<page>, a small page whose
+  // link-preview tags are in that language and which forwards to <page>?lang=<lang>
+  // (built by tools/make-share-pages.py).
   function shareUrl() {
-    return 'https://may21.org' + location.pathname + '?lang=' + lang();
+    var l = lang(), path = location.pathname.replace(/^\/+/, '');
+    return l === 'en' ? 'https://may21.org/' + path + '?lang=en' : 'https://may21.org/share/' + l + '/' + path;
   }
   function title() {
     var h = document.querySelector('.panel:not([hidden]) h1, article:not([hidden]) h1, .mon h1, h1');
