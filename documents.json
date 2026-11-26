@@ -1,6 +1,59 @@
 [
   {
     "type": "News",
+    "title": "The Workshop That Made Circassian Cinema",
+    "author": "May21.org Collective",
+    "date": "2026-11-26",
+    "lang": "EN · TR · РУС · DE · عر · КАБ · АДЫ",
+    "url": "documents/2026-11-sokurov-circassian-cinema.html?lang=en",
+    "description": "Vladimir Putin has removed Alexander Sokurov from the presidential Human Rights Council. In Kabardino-Balkaria, the director is remembered for something else: a five-year workshop in Nalchik that produced a generation of filmmakers from the North Caucasus.",
+    "editions": {
+      "tr": {
+        "type": "Haber",
+        "title": "Çerkes Sinemasını Yaratan Atölye",
+        "description": "Vladimir Putin, Aleksandr Sokurov'u Cumhurbaşkanlığı İnsan Hakları Konseyi'nden çıkardı. Kabardey-Balkarya'da ise yönetmen başka bir şeyle anılıyor: Nalçik'te beş yıl süren ve Kuzey Kafkasya'dan bir sinemacı kuşağı yetiştiren bir atölyeyle.",
+        "url": "documents/2026-11-sokurov-circassian-cinema.html?lang=tr",
+        "lang": "TR"
+      },
+      "kbd": {
+        "type": "Хъыбар",
+        "title": "Адыгэ кинор къэзыгъэщӀа мастерскэр",
+        "description": "Владимир Путин Александр Сокуровыр президентым и ЦӀыхум и хуитыныгъэхэмкӀэ советым хигъэкӀащ. Къэбэрдей-Балъкъэрым режиссерыр нэгъуэщӀкӀэ щыгу щӀанэ: Налшык илъэситхукӀэ щылэжьа мастерскэм Кавказ Ищхъэрэм и кинорежиссер лӀэужьыгъуэ къыхигъэкӀащ.",
+        "url": "documents/2026-11-sokurov-circassian-cinema.html?lang=kbd",
+        "lang": "КАБ"
+      },
+      "ru": {
+        "type": "Новости",
+        "title": "Мастерская, создавшая черкесское кино",
+        "description": "Владимир Путин исключил Александра Сокурова из президентского Совета по правам человека. В Кабардино-Балкарии режиссера помнят за другое: пятилетнюю мастерскую в Нальчике, которая вырастила поколение кинематографистов Северного Кавказа.",
+        "url": "documents/2026-11-sokurov-circassian-cinema.html?lang=ru",
+        "lang": "РУС"
+      },
+      "de": {
+        "type": "Nachrichten",
+        "title": "Die Werkstatt, die das tscherkessische Kino schuf",
+        "description": "Wladimir Putin hat Alexander Sokurow aus dem Menschenrechtsrat des Präsidenten entfernt. In Kabardino-Balkarien erinnert man sich an den Regisseur aus einem anderen Grund: eine fünfjährige Werkstatt in Naltschik, aus der eine Generation von Filmschaffenden aus dem Nordkaukasus hervorging.",
+        "url": "documents/2026-11-sokurov-circassian-cinema.html?lang=de",
+        "lang": "DE"
+      },
+      "ar": {
+        "type": "أخبار",
+        "title": "الورشة التي صنعت السينما الشركسية",
+        "description": "أقال فلاديمير بوتين ألكسندر سوكوروف من مجلس حقوق الإنسان الرئاسي. أما في قبردينو-بلقاريا فيُذكَر المخرج لسبب آخر: ورشة استمرت خمس سنوات في نالشيك وخرّجت جيلًا من صانعي الأفلام من شمال القوقاز.",
+        "url": "documents/2026-11-sokurov-circassian-cinema.html?lang=ar",
+        "lang": "عر"
+      },
+      "ady": {
+        "type": "Къэбар",
+        "title": "Адыгэ кинор къэзыгъэхъугъэ мастерскаяр",
+        "description": "Владимир Путиным Александр Сокуровыр президентым ицӀыф фитыныгъэхэмкӀэ и Совет хигъэкӀыгъ. Къэбэртэе-Бэлъкъарым режиссерыр нэмыкӀкӀэ агу къагъэкӀыжьы: Налщык илъэситфэ щылэжьэгъэ мастерскаяр, Кавказ Темырым икинорежиссер лӀэужъ къыхэзыщыгъэр.",
+        "url": "documents/2026-11-sokurov-circassian-cinema.html?lang=ady",
+        "lang": "АДЫ"
+      }
+    }
+  },
+  {
+    "type": "News",
     "title": "Khabze in the Classroom — on Moscow's Terms",
     "author": "May21.org Collective",
     "date": "2026-11-25",

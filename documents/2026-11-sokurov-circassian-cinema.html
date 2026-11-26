@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Workshop That Made Circassian Cinema · May21.org</title>
+  <meta name="description" content="Putin has removed Alexander Sokurov from the presidential Human Rights Council. In Nalchik, the director is remembered for something else: the five-year workshop that gave Kabardino-Balkaria a generation of filmmakers. In English, Turkish, Russian, German, Arabic and Circassian (Kabardian and Adyghe dialects)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400&family=DM+Sans:wght@300;400;500&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Noto+Sans+Arabic:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --black:#0a0a0a; --off-black:#111; --charcoal:#1c1c1c; --dim:#2a2a2a; --mid:#444;
+      --muted:#888; --smoke:#bbb; --white:#f0ede8; --accent:#c8382a; --accent2:#d47c2b;
+      --line:rgba(255,255,255,0.08);
+      --font-display:'Bebas Neue',sans-serif; --font-body:'DM Sans',sans-serif; --font-mono:'DM Mono',monospace;
+      --bg:var(--black); --fg:var(--white); --soft:var(--smoke);
+    }
+    *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+    body { background:var(--bg); color:var(--fg); font-family:var(--font-body); font-weight:300; line-height:1.75; }
+    a { color:var(--accent2); }
+    img { display:block; max-width:100%; }
+
+    .top { padding:18px 24px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; }
+    .top a { text-decoration:none; color:var(--fg); }
+    .logo { font-family:var(--font-display); font-size:1.5rem; letter-spacing:0.06em; }
+    .logo span { color:var(--accent); }
+    .top-links { display:flex; gap:20px; font-family:var(--font-mono); font-size:0.68rem; letter-spacing:0.12em; text-transform:uppercase; }
+    .top-links a { color:var(--muted); }
+    .top-links a:hover { color:var(--accent2); }
+
+    article { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+    .eyebrow { font-family:var(--font-mono); font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent); margin-bottom:16px; }
+    h1 { font-family:var(--font-display); font-weight:400; font-size:clamp(2.6rem,8vw,4.6rem); line-height:0.95; letter-spacing:0.02em; }
+    .dek { margin-top:24px; font-size:1.15rem; color:var(--soft); border-left:2px solid var(--accent); padding-left:18px; }
+    .byline { margin-top:28px; font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); }
+    .divider { width:48px; height:2px; background:var(--accent); margin:40px 0; }
+
+    article h2 { font-family:var(--font-display); font-weight:400; font-size:clamp(1.7rem,4vw,2.3rem); letter-spacing:0.03em; line-height:1.05; margin:56px 0 16px; }
+    article h3.who { font-family:var(--font-body); font-weight:500; font-size:1.1rem; color:var(--fg); margin:32px 0 8px; }
+    article h3.who span { font-family:var(--font-mono); font-weight:400; font-size:0.7rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-left:8px; }
+    article p { margin-bottom:20px; font-size:1.05rem; color:var(--soft); }
+    article p strong { color:var(--fg); font-weight:500; }
+    article blockquote { margin:28px 0; padding:4px 0 4px 20px; border-left:2px solid var(--accent2); }
+    article blockquote p { color:var(--fg); font-size:1.05rem; margin-bottom:6px; }
+    article blockquote .ru { font-family:var(--font-mono); font-size:0.78rem; color:var(--muted); }
+    article ul { margin:0 0 24px 20px; color:var(--soft); }
+    article li { margin-bottom:10px; }
+
+    .facts { background:var(--charcoal); border:1px solid var(--dim); padding:24px 26px; margin:32px 0; font-size:0.95rem; }
+    .facts h3 { font-family:var(--font-mono); font-weight:400; font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--accent); margin-bottom:12px; }
+    .facts dl { display:grid; grid-template-columns:170px 1fr; gap:8px 16px; color:var(--soft); }
+    .facts dt { font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.06em; color:var(--muted); text-transform:uppercase; padding-top:3px; }
+
+    .refs { margin-top:64px; padding-top:24px; border-top:1px solid var(--line); }
+    .refs h2 { margin-top:0; }
+    .refs ol { margin-left:20px; font-size:0.9rem; color:var(--soft); }
+    .refs li { margin-bottom:10px; }
+    sup a { text-decoration:none; font-family:var(--font-mono); font-size:0.7em; }
+
+    footer { padding:32px 24px; border-top:1px solid var(--line); font-family:var(--font-mono); font-size:0.65rem; letter-spacing:0.1em; color:var(--muted); text-align:center; }
+
+    body.reader { --bg:#f7f4ee; --fg:#1a1a1a; --soft:#2b2b2b; --muted:#6b6b6b; --charcoal:#ece7de; --dim:#d9d2c6; --line:rgba(0,0,0,0.1); }
+    body.reader article p, body.reader article li, body.reader .dek { font-family:'Source Serif 4',Georgia,serif; font-size:1.12rem; }
+    body.reader a { color:#9a2a1f; }
+
+    @media (max-width:640px) {
+      article { padding:40px 16px 72px; }
+      .facts dl { grid-template-columns:1fr; gap:2px 0; }
+      .facts dd { margin-bottom:10px; }
+    }
+
+    .top-right { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+    .tabs { display:flex; flex-wrap:wrap; gap:4px; }
+    .tabs button { background:transparent; border:1px solid var(--mid); color:var(--muted); font-family:var(--font-mono); font-size:0.66rem; letter-spacing:0.1em; padding:5px 9px; cursor:pointer; }
+    .tabs button:hover { border-color:var(--soft); color:var(--fg); }
+    .tabs button[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:#fff; }
+    .status { font-family:var(--font-mono); font-size:0.75rem; line-height:1.8; color:var(--soft); background:var(--charcoal); border:1px solid var(--accent2); padding:14px 18px; margin:0 0 32px; }
+    [dir="rtl"] { font-family:'Noto Sans Arabic',var(--font-body); }
+    [dir="rtl"] .dek { border-left:none; border-right:2px solid var(--accent); padding-left:0; padding-right:18px; }
+    [dir="rtl"] article blockquote, article [dir="rtl"] blockquote { border-left:none; border-right:2px solid var(--accent2); padding:4px 20px 4px 0; }
+    [dir="rtl"] ul { margin:0 20px 24px 0; }
+    [dir="rtl"] h3.who span { margin-left:0; margin-right:8px; letter-spacing:0; }
+    [dir="rtl"] .eyebrow, [dir="rtl"] .byline, [dir="rtl"] .facts dt { letter-spacing:0; }
+    [dir="rtl"] h1, [dir="rtl"] h2 { font-family:'Noto Sans Arabic',sans-serif; font-weight:500; letter-spacing:0; line-height:1.3; }
+    [dir="rtl"] h1 { font-size:clamp(2.2rem,6vw,3.4rem); }
+    [dir="rtl"] article p, [dir="rtl"] article li { font-size:1.12rem; line-height:2; }
+    body.reader [dir="rtl"] article p, body.reader [dir="rtl"] p, body.reader [dir="rtl"] li { font-family:'Noto Sans Arabic',sans-serif; }
+    .sched { width:100%; border-collapse:collapse; margin:8px 0 28px; font-size:0.95rem; }
+    .sched th { font-family:var(--font-mono); font-weight:400; font-size:0.7rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--accent); text-align:start; padding:8px 10px; border-bottom:1px solid var(--accent); }
+    .sched td { padding:10px; border-bottom:1px solid var(--line); color:var(--soft); vertical-align:top; }
+    [dir="rtl"] .sched th { letter-spacing:0; }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <a href="../index.html" class="logo">May21<span>.</span>org</a>
+    <div class="top-right">
+      <nav class="tabs" aria-label="Language"><button type="button" data-lang="en" title="English">EN</button><button type="button" data-lang="tr" title="Türkçe">TR</button><button type="button" data-lang="kbd" title="Адыгэбзэ (Къэбэрдей)">КАБ</button><button type="button" data-lang="ru" title="Русский">РУС</button><button type="button" data-lang="de" title="Deutsch">DE</button><button type="button" data-lang="ar" title="العربية">عر</button><button type="button" data-lang="ady" title="Адыгабзэ">АДЫ</button></nav>
+      <nav class="top-links">
+        <a href="../index.html#library" id="lib-link">← Library</a>
+        <a href="?view=reader" id="reader-toggle">Reader view</a>
+      </nav>
+    </div>
+  </header>
+
+  <article>
+<!-- ============================ EN ============================ -->
+    <div class="panel" id="lang-en" lang="en" hidden>
+    <p class="eyebrow">News · Culture</p>
+    <h1>The Workshop That Made Circassian Cinema</h1>
+    <p class="dek">Vladimir Putin has removed Alexander Sokurov from the presidential Human Rights Council. In Kabardino-Balkaria, the director is remembered for something else: a five-year workshop in Nalchik that produced a generation of filmmakers from the North Caucasus.</p>
+    <p class="byline">May21.org Collective · 26 November 2026</p>
+
+    <div class="divider"></div>
+
+    <p>On 24 November 2026, Putin signed a decree changing the membership of the Council for the Development of Civil Society and Human Rights. Alexander Sokurov, a member since 2018, was removed. So were Yan Vlasov, Maksim Zamshev and the lawyer Vladimir Ryakhovsky. Caucasian Knot, which reported the decree, said no reason was given.</p>
+    <p>Sokurov has clashed openly with the authorities before. At a Council meeting in December 2025 he complained to Putin about censorship in the arts and spoke against the foreign-agents law. In 2019 he used the same forum to back Ingush protesters, and he asked whether Ramzan and Akhmat Kadyrov had earned the title Hero of Russia. Chechen officials reacted angrily.</p>
+
+    <h2>Nalchik, 2010–2015</h2>
+    <p>For Circassians, Sokurov's most important work was not in Moscow. In autumn 2010 he opened a film and television directing workshop at Kabardino-Balkarian State University (KBSU) in Nalchik and headed the department. The university's rector, Barasbi Karamurzov, had spent years persuading him to come. Sokurov said he wanted to build a strong group of young cultural professionals in a provincial city. According to his press secretary, Margarita Afonina, the workshop ran until its only class graduated in 2015. There were no later intakes.</p>
+    <p>The tie was also personal. Sokurov was born in the Irkutsk region in 1951. He learned of his Kabardian ancestry in January 2006, when the Sokurov family of Kabardino-Balkaria welcomed him at a retrospective of his films in Nalchik.</p>
+
+    <h2>What the workshop produced</h2>
+    <p>Caucasian Knot lists twelve graduates: Vladimir Bitokov, Beslan Zakurayev, Marianna Kazancheva, Maryana Kalmykova, Kira Kovalenko, Tina Mastafova, Malika Musaeva, Oleg Khamokov, Gadzhimurat Efendiev, Kantemir Balagov, Anzor Dokhov and Alexander Zolotukhin. Students' work was screened at Cannes in their final year. Within a few years, several had made their names:</p>
+    <ul>
+      <li><strong>Kantemir Balagov</strong> (born in Nalchik, 1991). His debut <em>Closeness</em> (<em>Tesnota</em>, 2017), set in Nalchik in 1998, won best debut at Kinotavr and was selected for Cannes' Un Certain Regard. His second film, <em>Beanpole</em> (<em>Dylda</em>, 2019), won best director in Un Certain Regard and was shortlisted for the Oscar for best international feature.</li>
+      <li><strong>Vladimir Bitokov</strong>. <em>Deep Rivers</em> (<em>Glubokie reki</em>) is shot in Circassian and screened with subtitles. It was filmed in the Adyl-Su gorge in the Elbrus area, where a mudflow destroyed the set in September 2017. It won the debut competition at Kinotavr and best director at Baltic Debuts, and screened in competition at Karlovy Vary. Sokurov said Bitokov's student film <em>Anker</em> convinced him that "a professional Kabardian national feature film" was being born.</li>
+      <li><strong>Kira Kovalenko</strong>. <em>Sofichka</em>, based on Fazil Iskander's novella, was filmed in Abkhazia in the Abkhaz language and won prizes in Dublin in 2016. Her second feature, <em>Unclenching the Fists</em>, won the Un Certain Regard prize at Cannes in 2021.</li>
+      <li><strong>Malika Musaeva</strong>. <em>The Bird Looks for a Cage</em>, about a Chechen family in Ingushetia with non-professional actors speaking their own language, was selected for the Encounters section of the 2023 Berlinale.</li>
+    </ul>
+    <p>"Circassian cinema has appeared," Sokurov said, pointing to the many graduates preparing new features.</p>
+
+    <h2>A school without a sequel</h2>
+    <p>The story did not end well. Sokurov has said that many of his students from the region did not know their native language, and would probably never learn it. Balagov said in 2017 that he does not speak Circassian, and Sokurov said the same of Bitokov. In a February 2023 Telegram post he wrote that his attempt to change local interest in film and culture had failed. He said distributors in the Caucasus had blocked his foundation's efforts to show North Caucasus directors' films, and that local officials and audiences were not interested. He urged the republic's leadership to support young talent with a film department, a youth theatre, and Circassian-run radio, television and a newspaper. None of these has appeared. In 2023 Sokurov said refusals from distributors and the authorities had left him unable to shoot or teach. Balagov left Russia in March 2022.</p>
+
+    <h2>Why it matters</h2>
+    <p>For about five years, a university in Nalchik trained directors who took stories from Kabardino-Balkaria, Abkhazia and Chechnya to Cannes, Berlin and Karlovy Vary, and in at least one case made a festival feature in Circassian. It came from one director's personal commitment, not from any state policy for Circassian culture. When he left, nothing replaced it.</p>
+    <p>His removal from the Council does not change that history. But it comes as Moscow promotes an official version of Circassian heritage, with <a href="2026-11-mfa-round-table.html?lang=en">the foreign ministry's 28 October round table</a> and <a href="2026-11-khabze-schools.html?lang=en">Khabze folded into a federal patriotism subject</a>. Against that, the Nalchik workshop is a reminder that Circassian culture grows when it is given tools, a language and room of its own.</p>
+
+    <div class="facts">
+      <h3>At a glance</h3>
+      <dl>
+        <dt>Workshop</dt><dd>Film &amp; TV directing, KBSU, Nalchik, 2010–2015 (one graduating class)</dd>
+        <dt>Founded with</dt><dd>KBSU rector Barasbi Karamurzov</dd>
+        <dt>Best-known graduates</dt><dd>Kantemir Balagov, Kira Kovalenko, Vladimir Bitokov, Malika Musaeva, Alexander Zolotukhin</dd>
+        <dt>Film in Circassian</dt><dd><em>Deep Rivers</em> (Vladimir Bitokov)</dd>
+        <dt>Council removal</dt><dd>Presidential decree of 24 Nov 2026; no reason given</dd>
+      </dl>
+    </div>
+    </div>
+<!-- ============================ TR ============================ -->
+    <div class="panel" id="lang-tr" lang="tr" hidden>
+    <p class="eyebrow">Haber · Kültür</p>
+    <h1>Çerkes Sinemasını Yaratan Atölye</h1>
+    <p class="dek">Vladimir Putin, Aleksandr Sokurov'u Cumhurbaşkanlığı İnsan Hakları Konseyi'nden çıkardı. Kabardey-Balkarya'da ise yönetmen başka bir şeyle anılıyor: Nalçik'te beş yıl süren ve Kuzey Kafkasya'dan bir sinemacı kuşağı yetiştiren bir atölyeyle.</p>
+    <p class="byline">May21.org Kolektifi · 26 Kasım 2026</p>
+
+    <div class="divider"></div>
+
+    <p>Putin, 24 Kasım 2026'da Sivil Toplumu ve İnsan Haklarını Geliştirme Konseyi'nin üyeliğini değiştiren bir kararname imzaladı. 2018'den beri üye olan Aleksandr Sokurov konseyden çıkarıldı. Yan Vlasov, Maksim Zamşev ve avukat Vladimir Ryahovski de çıkarılanlar arasındaydı. Kararnameyi haberleştiren Kavkazski Uzel, herhangi bir gerekçe gösterilmediğini bildirdi.</p>
+    <p>Sokurov daha önce de yetkililerle açıkça karşı karşıya gelmişti. Aralık 2025'teki bir konsey toplantısında Putin'e sanattaki sansürden yakınmış ve yabancı ajan yasasına karşı çıkmıştı. 2019'da aynı platformda İnguş protestocuları desteklemiş, Ramzan ve Ahmat Kadirov'un Rusya Kahramanı unvanını hak edip etmediğini sormuştu. Çeçen yetkililer buna öfkeyle tepki göstermişti.</p>
+
+    <h2>Nalçik, 2010–2015</h2>
+    <p>Çerkesler için Sokurov'un en önemli işi Moskova'da değildi. 2010 sonbaharında Nalçik'teki Kabardey-Balkar Devlet Üniversitesi'nde (KBGU) bir sinema ve televizyon yönetmenliği atölyesi açtı ve bölümün başına geçti. Üniversitenin rektörü Barasbi Karamurzov onu gelmeye yıllarca ikna etmeye çalışmıştı. Sokurov, bir taşra şehrinde güçlü bir genç kültür insanları grubu oluşturmak istediğini söyledi. Basın sözcüsü Margarita Afonina'ya göre atölye, tek sınıfı 2015'te mezun olana kadar sürdü. Sonrasında yeni öğrenci alınmadı.</p>
+    <p>Bağ kişisel de. Sokurov 1951'de İrkutsk bölgesinde doğdu. Kabardey kökenini Ocak 2006'da, Nalçik'teki filmlerinin retrospektifinde Kabardey-Balkaryalı Sokurov ailesi onu karşıladığında öğrendi.</p>
+
+    <h2>Atölyeden neler çıktı</h2>
+    <p>Kavkazski Uzel on iki mezunu sayıyor: Vladimir Bitokov, Beslan Zakurayev, Marianna Kazançeva, Maryana Kalmıkova, Kira Kovalenko, Tina Mastafova, Malika Musayeva, Oleg Hamokov, Gacimurat Efendiyev, Kantemir Balagov, Anzor Dohov ve Aleksandr Zolotuhin. Öğrencilerin çalışmaları son yıllarında Cannes'da gösterildi. Birkaç yıl içinde birçoğu adını duyurdu:</p>
+    <ul>
+      <li><strong>Kantemir Balagov</strong> (1991, Nalçik doğumlu). 1998 Nalçik'inde geçen ilk filmi <em>Tesnota</em> (<em>Closeness</em>, 2017) Kinotavr'da en iyi ilk film ödülünü aldı ve Cannes'ın Belirli Bir Bakış bölümüne seçildi. İkinci filmi <em>Dılda</em> (<em>Beanpole</em>, 2019) Belirli Bir Bakış'ta en iyi yönetmen ödülünü kazandı ve en iyi uluslararası film dalında Oscar ön listesine girdi.</li>
+      <li><strong>Vladimir Bitokov</strong>. <em>Derin Nehirler</em> (<em>Glubokie reki</em>) Çerkesce çekildi ve altyazılı gösteriliyor. Film, Elbruz bölgesindeki Adıl-Su vadisinde çekildi; Eylül 2017'de bir sel çamuru seti yok etti. Kinotavr'ın ilk filmler yarışmasını ve Baltık İlk Filmler Festivali'nde en iyi yönetmen ödülünü kazandı, Karlovy Vary'de yarışmada gösterildi. Sokurov, Bitokov'un öğrenci filmi <em>Anker</em>'in kendisini "profesyonel bir Kabardey ulusal uzun metrajlı sinemasının" doğmakta olduğuna ikna ettiğini söyledi.</li>
+      <li><strong>Kira Kovalenko</strong>. Fazıl İskender'in öyküsüne dayanan <em>Sofiçka</em>, Abhazya'da Abhazca çekildi ve 2016'da Dublin'de ödüller aldı. İkinci uzun metrajı <em>Yumrukları Açmak</em> (<em>Razjimaya kulaki</em>), 2021'de Cannes'da Belirli Bir Bakış ödülünü kazandı.</li>
+      <li><strong>Malika Musayeva</strong>. İnguşetya'daki bir Çeçen aileyi, kendi dillerini konuşan profesyonel olmayan oyuncularla anlatan <em>Kuş Kafes Arıyor</em> (<em>Ptitsa işçet kletku</em>), 2023 Berlinale'nin Encounters bölümüne seçildi.</li>
+    </ul>
+    <p>Sokurov, yeni uzun metrajlar hazırlayan çok sayıda mezunu göstererek "Çerkes sineması ortaya çıktı" dedi.</p>
+
+    <h2>Devamı gelmeyen bir okul</h2>
+    <p>Hikâye iyi bitmedi. Sokurov, bölgeden gelen öğrencilerinin çoğunun ana dilini bilmediğini ve muhtemelen hiç öğrenmeyeceğini söyledi. Balagov 2017'de Çerkesce konuşmadığını söyledi; Sokurov da aynısını Bitokov için söyledi. Şubat 2023'teki bir Telegram paylaşımında, yerel halkın sinemaya ve kültüre ilgisini değiştirme girişiminin başarısız olduğunu yazdı. Kafkasya'daki dağıtımcıların, vakfının Kuzey Kafkasyalı yönetmenlerin filmlerini gösterme çabalarını engellediğini, yerel yetkililerin ve seyircinin de ilgisiz kaldığını söyledi. Cumhuriyet yönetimini genç yetenekleri bir sinema bölümü, bir gençlik tiyatrosu ve Çerkeslerin yönettiği radyo, televizyon ve gazeteyle desteklemeye çağırdı. Bunların hiçbiri hayata geçmedi. Sokurov 2023'te, dağıtımcıların ve yetkililerin retleri yüzünden film çekemez ve ders veremez hâle geldiğini söyledi. Balagov Mart 2022'de Rusya'dan ayrıldı.</p>
+
+    <h2>Neden önemli</h2>
+    <p>Yaklaşık beş yıl boyunca Nalçik'teki bir üniversite, Kabardey-Balkarya'dan, Abhazya'dan ve Çeçenya'dan hikâyeleri Cannes'a, Berlin'e ve Karlovy Vary'ye taşıyan yönetmenler yetiştirdi; en az bir örnekte Çerkesce bir festival filmi çekildi. Bu, Çerkes kültürüne yönelik bir devlet politikasından değil, tek bir yönetmenin kişisel bağlılığından doğdu. O ayrıldığında yerini hiçbir şey almadı.</p>
+    <p>Konseyden çıkarılması bu tarihi değiştirmiyor. Ancak bu karar, Moskova'nın Çerkes mirasının resmî bir versiyonunu öne çıkardığı bir döneme denk geliyor: <a href="2026-11-mfa-round-table.html?lang=tr">Dışişleri Bakanlığı'nın 28 Ekim yuvarlak masası</a> ve <a href="2026-11-khabze-schools.html?lang=tr">Xabze'nin federal bir vatanseverlik dersine katılması</a>. Bunun karşısında Nalçik atölyesi, Çerkes kültürünün kendisine araç, dil ve alan tanındığında büyüdüğünü hatırlatıyor.</p>
+
+    <div class="facts">
+      <h3>Kısaca</h3>
+      <dl>
+        <dt>Atölye</dt><dd>Sinema ve TV yönetmenliği, KBGU, Nalçik, 2010–2015 (tek mezun sınıfı)</dd>
+        <dt>Birlikte kuran</dt><dd>KBGU rektörü Barasbi Karamurzov</dd>
+        <dt>En tanınmış mezunlar</dt><dd>Kantemir Balagov, Kira Kovalenko, Vladimir Bitokov, Malika Musayeva, Aleksandr Zolotuhin</dd>
+        <dt>Çerkesce film</dt><dd><em>Derin Nehirler</em> (Vladimir Bitokov)</dd>
+        <dt>Konseyden çıkarılma</dt><dd>24 Kasım 2026 tarihli cumhurbaşkanlığı kararnamesi; gerekçe gösterilmedi</dd>
+      </dl>
+    </div>
+    </div>
+<!-- ============================ KBD ============================ -->
+    <div class="panel" id="lang-kbd" lang="kbd" hidden>
+    <p class="eyebrow">Хъыбар · Щэнхабзэ</p>
+    <h1>Адыгэ кинор къэзыгъэщӀа мастерскэр</h1>
+    <p class="dek">Владимир Путин Александр Сокуровыр президентым и ЦӀыхум и хуитыныгъэхэмкӀэ советым хигъэкӀащ. Къэбэрдей-Балъкъэрым режиссерыр нэгъуэщӀкӀэ щыгу щӀанэ: Налшык илъэситхукӀэ щылэжьа мастерскэм Кавказ Ищхъэрэм и кинорежиссер лӀэужьыгъуэ къыхигъэкӀащ.</p>
+    <p class="byline">May21.org · 2026 гъэм шэкӀуэгъуэм и 26</p>
+
+    <div class="divider"></div>
+
+    <p>2026 гъэм шэкӀуэгъуэм и 24-м Путин Граждан обществэр зегъэужьынымкӀэ икӀи цӀыхум и хуитыныгъэхэмкӀэ советым хэтхэр зэрихъуэж указ Ӏэ щӀидзащ. 2018 гъэ лъандэрэ абы хэта Александр Сокуровыр хагъэкӀащ. Ян Власов, Максим Замшев, адвокат Владимир Ряховский сымэри хагъэкӀащ. Указым и хъыбар зытха «Кавказский узел»-м зэритхымкӀэ, щхьэусыгъуэ къаӀуакъым.</p>
+    <p>Сокуров ипэкӀи властхэм нахуэу къапэщӀэтащ. 2025 гъэм дыгъэгъазэм советым и зэӀущӀэм гъуазджэм цензурэ зэрыхэлъым теухуауэ Путин хуэтхьэусыхащ, «хамэ агентхэм» я хабзэми пэщӀэтащ. 2019 гъэм а щӀыпӀэ дыдэм ингуш протестхэм я хуитыныгъэр иӀыгъащ, Рамзанрэ Ахьмэдрэ Кадыровхэм «Урысейм и ЛӀыхъужь» цӀэр къалэжьауэ пIэрэ жиӀэри еупщӀащ. Шэшэн унафэщӀхэм гуауэу къыпэджэжащ.</p>
+
+    <h2>Налшык, 2010–2015</h2>
+    <p>Адыгэхэм папщӀэ Сокуровым и лэжьыгъэ нэхъ мыхьэнэшхуэ зиӀэр Мэзкуу щыӀэкъым. 2010 гъэм бжьыхьэм Налшык дэт Къэбэрдей-Балъкъэр къэрал университетым (КъБКъУ) кинорэ телевиденэмрэ я режиссурэм и мастерскэ къыщызэӀуихащ, кафедрэм и унафэщӀу щытащ. Университетым и ректор Къэрмырзэ Барасбий илъэс бжыгъэкӀэ къигъэгугъащ. Сокуров жиӀащ провинцэ къалэм щӀалэгъуалэ щэнхабзэ лэжьакӀуэ гуп лъэрызехьэ щызэхуихьэсыну зэрыхуейр. И пресс-секретарь Афонинэ Маргаритэ зэрыжиӀэмкӀэ, мастерскэр и курс закъуэм 2015 гъэм ауха щӀыхуэдэ лэжьащ. Абы иужькӀэ еджакӀуэщӀэ къащтакъым.</p>
+    <p>ЗэпыщӀэныгъэр езым ейуэ щытащ. Сокуров 1951 гъэм Иркутск областым къыщалъхуащ. И лъабжьэр къэбэрдейуэ зэрыщытыр 2006 гъэм щӀышылэм къищӀащ, Налшык и фильмхэм я ретроспективэм Къэбэрдей-Балъкъэрым щыпсэу Сокуровхэ я унагъуэм щыпежьам.</p>
+
+    <h2>Мастерскэм къыхэкӀар</h2>
+    <p>«Кавказский узел»-м еджапӀэр къэзыуха пщыкӀутӀ къегъэлъагъуэ: Битокъуэ Владимир, Закъурей Беслъэн, Къэзэнчэ Марианнэ, Къалмыкъ Марьянэ, Коваленко Кирэ, Мастафовэ Тинэ, Мусаевэ Маликэ, Хьэмокъуэ Олег, Эфендиев Гаджимурат, Балэгъ Къантемир, Дохъуэ Анзор, Золотухин Александр. ЕджакӀуэхэм я лэжьыгъэхэр я курс кӀэщӀым Каннхэм щагъэлъэгъуащ. Илъэс зыбжанэ дэкӀри, абыхэм ящыщ куэд цӀэрыӀуэ хъуащ:</p>
+    <ul>
+      <li><strong>Балэгъ Къантемир</strong> (1991 гъэм Налшык къыщалъхуащ). И япэ фильм «Теснота» (2017) 1998 гъэм Налшык щекӀуэкӀ Ӏуэхум теухуащ; «Кинотавр»-м япэ фильм нэхъыфӀым и саугъэтыр къыщихьащ, Канн фестивалым и «ЕплъыкӀэ хэха» программэм хагъэхьащ. И етӀуанэ фильм «Дылда» (2019) «ЕплъыкӀэ хэха»-м режиссурэ нэхъыфӀым и саугъэтыр къыщихьащ, «Оскар»-м и шорт-листым хыхьащ.</li>
+      <li><strong>Битокъуэ Владимир</strong>. «Глубокие реки» фильмыр адыгэбзэкӀэ трахащ, субтитрхэр щӀыгъуу ягъэлъагъуэ. ЯтрахакӀэ Ӏуащхьэмахуэ щӀыналъэм хыхьэ Адыл-Су и къуэладжэм; 2017 гъэм фокӀадэм къахэкӀа псыпцӀэм декорацэхэр икъутащ. «Кинотавр»-м и япэ фильм зэпеуэм текӀуащ, «Балтийские дебюты»-м режиссурэм и саугъэтыр къыщихьащ, Карловы Вары и зэпеуэм хэтащ. Сокуров жиӀащ Битокъуэм и студент фильм «Анкер» зэригъэгугъар «къэбэрдей лъэпкъ кино профессионалыр» къызэралъхум.</li>
+      <li><strong>Коваленко Кирэ</strong>. Искандер Фазиль и повестым тещӀыхьа «Софичка» Абхъазым абхъазыбзэкӀэ щытрахащ, 2016 гъэм Дублин саугъэтхэр къыщихьащ. И етӀуанэ фильм «Разжимая кулаки» 2021 гъэм Канн «ЕплъыкӀэ хэха» программэм и саугъэт нэхъыщхьэр къыщихьащ.</li>
+      <li><strong>Мусаевэ Маликэ</strong>. Ингушым щыпсэу шэшэн унагъуэм теухуа «Птица ищет клетку» фильмым актёр профессионалхэр хэткъым, я бзэкӀэ мэпсалъэ; 2023 гъэм Берлинале и «Встречи» программэм хагъэхьащ.</li>
+    </ul>
+    <p>«Адыгэ кинор къежьащ», — жиӀащ Сокуровым, фильм щӀэхэм хуэхьэзыр еджапӀэр къэзыуха куэдым и гугъу ищӀу.</p>
+
+    <h2>Пыщэныгъэ зимыӀэ школ</h2>
+    <p>Тхыдэр фӀыуэ иухакъым. Сокуров жиӀащ щӀыналъэм къикӀа и еджакӀуэ куэдым я анэдэлъхубзэр ямыщӀэу, зэи зрамыгъэщӀэнкӀэ хъунуи. Балэгъ 2017 гъэм адыгэбзэкӀэ зэрымыпсалъэр жиӀащ, Сокуровым Битокъуэми апхуэдэ жиӀащ. 2023 гъэм мазаем Telegram-м итха постым щитхащ щӀыпӀэ цӀыхухэм кинорэ щэнхабзэмрэ зэрахущыту зэхъуэкӀыну и гугъэр къызэрыдэмыхъуар. Кавказым и прокатчикхэм Кавказ Ищхъэрэм и режиссерхэм я фильмхэр игъэлъэгъуэну и фондым и хьэлэмэтхэр ягъэувыӀауэ, щӀыпӀэ унафэщӀхэмрэ еплъакӀуэхэмрэ гу лъамытауэ жиӀащ. Республикэм и унафэщӀхэм ялъэӀуащ щӀалэ зэчиифӀэхэм кино факультет, щӀалэгъуалэ театр, адыгэхэм яӀыгъ радио, телевиденэ, газет ящӀыну. Абыхэм ящыщ зыри къэунэхуакъым. 2023 гъэм Сокуров жиӀащ прокатчикхэмрэ властхэмрэ хуамыдэу фильм трихыфу е ирагъэджыфу зэрымыхъужыр. Балэгъ Урысейм 2022 гъэм гъатхэпэм икӀащ.</p>
+
+    <h2>Сыт щхьэкӀэ ар мыхьэнэшхуэ зиӀэр</h2>
+    <p>Илъэситху хуэдизкӀэ Налшык дэт университетым Къэбэрдей-Балъкъэрым, Абхъазым, Шэшэным я тхыдэхэр Канн, Берлин, Карловы Вары нэзыхьэс режиссерхэр щагъэсащ, зы щыхъукӀи адыгэбзэкӀэ фестиваль фильм трахащ. Ар къэралым адыгэ щэнхабзэм хуиӀэ политикэм къыхэкӀакъым, зы режиссерым и гумрэ и псэмрэ къыхэкӀащ. Ар щыкӀуэжым, и пӀэ зыри иувакъым.</p>
+    <p>Советым зэрыхагъэкӀам а тхыдэр зэрихъуэжкъым. Ауэ ар къызэрыхъуар Мэзкуу адыгэ кӀэным и версиэ официальнэр щигъэлъагъуэ зэманыращ: <a href="2026-11-mfa-round-table.html?lang=kbd">Хамэ къэрал ӀуэхухэмкӀэ министерствэм жэпуэгъуэм и 28-м иригъэкӀуэкӀа «стӀол хъурейр»</a>, <a href="2026-11-khabze-schools.html?lang=kbd">адыгэ хабзэр хэкупсэныгъэм теухуа федеральнэ предметым зэрыхагъэхьар</a>. Абы пэщӀэту Налшык и мастерскэм игу къегъэкӀыж адыгэ щэнхабзэр Ӏэмэпсымэ, бзэ, езым и щӀыпӀэ щратым зэрызиужьыр.</p>
+
+    <div class="facts">
+      <h3>КӀэщӀу</h3>
+      <dl>
+        <dt>Мастерскэр</dt><dd>Кинорэ ТВ-мрэ я режиссурэ, КъБКъУ, Налшык, 2010–2015 (зы курс закъуэ)</dd>
+        <dt>Къызэзыгъэпэщар</dt><dd>КъБКъУ-м и ректор Къэрмырзэ Барасбий и гъусэу</dd>
+        <dt>Нэхъ цӀэрыӀуэ хъуахэр</dt><dd>Балэгъ Къантемир, Коваленко Кирэ, Битокъуэ Владимир, Мусаевэ Маликэ, Золотухин Александр</dd>
+        <dt>АдыгэбзэкӀэ фильм</dt><dd>«Глубокие реки» (Битокъуэ Владимир)</dd>
+        <dt>Советым хагъэкӀыныр</dt><dd>2026 гъэм шэкӀуэгъуэм и 24-м президентым и указ; щхьэусыгъуэ къаӀуакъым</dd>
+      </dl>
+    </div>
+    </div>
+<!-- ============================ RU ============================ -->
+    <div class="panel" id="lang-ru" lang="ru" hidden>
+    <p class="eyebrow">Новости · Культура</p>
+    <h1>Мастерская, создавшая черкесское кино</h1>
+    <p class="dek">Владимир Путин исключил Александра Сокурова из президентского Совета по правам человека. В Кабардино-Балкарии режиссера помнят за другое: пятилетнюю мастерскую в Нальчике, которая вырастила поколение кинематографистов Северного Кавказа.</p>
+    <p class="byline">Коллектив May21.org · 26 ноября 2026</p>
+
+    <div class="divider"></div>
+
+    <p>24 ноября 2026 года Путин подписал указ об изменении состава Совета по развитию гражданского общества и правам человека. Из него исключен Александр Сокуров, входивший в Совет с 2018 года. Исключены также Ян Власов, Максим Замшев и адвокат Владимир Ряховский. «Кавказский узел», сообщивший об указе, отметил, что причины не названы.</p>
+    <p>Сокуров и раньше открыто спорил с властями. На заседании Совета в декабре 2025 года он пожаловался Путину на цензуру в искусстве и выступил против закона об иноагентах. В 2019 году на той же площадке он поддержал ингушских протестующих и спросил, заслужили ли Рамзан и Ахмат Кадыровы звание Героя России. Чеченские чиновники отреагировали гневно.</p>
+
+    <h2>Нальчик, 2010–2015</h2>
+    <p>Для черкесов главная работа Сокурова была не в Москве. Осенью 2010 года он открыл мастерскую режиссуры кино и телевидения в Кабардино-Балкарском государственном университете (КБГУ) в Нальчике и возглавил кафедру. Ректор университета Барасби Карамурзов несколько лет уговаривал его приехать. Сокуров говорил, что хочет создать в провинциальном городе сильную группу молодых деятелей культуры. По словам его пресс-секретаря Маргариты Афониной, мастерская работала до выпуска своего единственного курса в 2015 году. Новых наборов не было.</p>
+    <p>Связь была и личной. Сокуров родился в Иркутской области в 1951 году. О своих кабардинских корнях он узнал в январе 2006 года, когда на ретроспективе его фильмов в Нальчике его встретила кабардино-балкарская семья Сокуровых.</p>
+
+    <h2>Что дала мастерская</h2>
+    <p>«Кавказский узел» называет двенадцать выпускников: Владимир Битоков, Беслан Закураев, Марианна Казанчева, Марьяна Калмыкова, Кира Коваленко, Тина Мастафова, Малика Мусаева, Олег Хамоков, Гаджимурат Эфендиев, Кантемир Балагов, Анзор Дохов и Александр Золотухин. Работы студентов показывали в Каннах на последнем курсе. Через несколько лет многие из них стали известны:</p>
+    <ul>
+      <li><strong>Кантемир Балагов</strong> (родился в Нальчике в 1991 году). Его дебют «Теснота» (2017), действие которого происходит в Нальчике в 1998 году, получил приз за лучший дебют на «Кинотавре» и был отобран в программу «Особый взгляд» Каннского фестиваля. Второй фильм, «Дылда» (2019), получил приз за режиссуру в «Особом взгляде» и вошел в шорт-лист «Оскара» в категории «Лучший международный фильм».</li>
+      <li><strong>Владимир Битоков</strong>. «Глубокие реки» сняты на черкесском языке и идут с субтитрами. Фильм снимали в ущелье Адыл-Су в Приэльбрусье, где в сентябре 2017 года сель уничтожил декорации. Он победил в дебютном конкурсе «Кинотавра», получил приз за режиссуру на «Балтийских дебютах» и участвовал в конкурсе Карловых Вар. Сокуров говорил, что студенческий фильм Битокова «Анкер» убедил его: рождается «профессиональное кабардинское национальное игровое кино».</li>
+      <li><strong>Кира Коваленко</strong>. «Софичка» по повести Фазиля Искандера снята в Абхазии на абхазском языке и получила призы в Дублине в 2016 году. Ее второй полнометражный фильм «Разжимая кулаки» в 2021 году получил главный приз программы «Особый взгляд» в Каннах.</li>
+      <li><strong>Малика Мусаева</strong>. Фильм «Птица ищет клетку» о чеченской семье в Ингушетии, где непрофессиональные актеры говорят на родном языке, был отобран в программу «Встречи» Берлинале 2023 года.</li>
+    </ul>
+    <p>«Появилось черкесское кино», — сказал Сокуров, указывая на многих выпускников, готовящих новые полнометражные фильмы.</p>
+
+    <h2>Школа без продолжения</h2>
+    <p>История закончилась невесело. Сокуров говорил, что многие его студенты из региона не знали родного языка и, вероятно, никогда его не выучат. Балагов в 2017 году сказал, что не говорит по-черкесски, и Сокуров говорил то же о Битокове. В посте в Telegram в феврале 2023 года он написал, что его попытка изменить интерес местной публики к кино и культуре не удалась. По его словам, прокатчики на Кавказе блокировали усилия его фонда показывать фильмы северокавказских режиссеров, а местные чиновники и зрители не проявили интереса. Он призвал руководство республики поддержать молодые таланты: создать кинофакультет, молодежный театр, а также черкесские радио, телевидение и газету. Ничего из этого не появилось. В 2023 году Сокуров сказал, что из-за отказов прокатчиков и властей не может ни снимать, ни преподавать. Балагов уехал из России в марте 2022 года.</p>
+
+    <h2>Почему это важно</h2>
+    <p>Около пяти лет университет в Нальчике готовил режиссеров, которые привезли истории из Кабардино-Балкарии, Абхазии и Чечни в Канны, Берлин и Карловы Вары, а как минимум в одном случае сняли фестивальный фильм на черкесском языке. Это было результатом личной преданности одного режиссера, а не государственной политики в отношении черкесской культуры. Когда он ушел, ничто не пришло на смену.</p>
+    <p>Исключение из Совета эту историю не меняет. Но оно совпадает с тем, как Москва продвигает официальную версию черкесского наследия: <a href="2026-11-mfa-round-table.html?lang=ru">круглый стол МИД 28 октября</a> и <a href="2026-11-khabze-schools.html?lang=ru">включение хабзэ в федеральный предмет о патриотизме</a>. На этом фоне нальчикская мастерская напоминает: черкесская культура растет, когда ей дают инструменты, язык и собственное пространство.</p>
+
+    <div class="facts">
+      <h3>Коротко</h3>
+      <dl>
+        <dt>Мастерская</dt><dd>Режиссура кино и ТВ, КБГУ, Нальчик, 2010–2015 (один выпуск)</dd>
+        <dt>Создана вместе с</dt><dd>ректором КБГУ Барасби Карамурзовым</dd>
+        <dt>Самые известные выпускники</dt><dd>Кантемир Балагов, Кира Коваленко, Владимир Битоков, Малика Мусаева, Александр Золотухин</dd>
+        <dt>Фильм на черкесском</dt><dd>«Глубокие реки» (Владимир Битоков)</dd>
+        <dt>Исключение из Совета</dt><dd>Указ президента от 24 ноября 2026 года; причины не названы</dd>
+      </dl>
+    </div>
+    </div>
+<!-- ============================ DE ============================ -->
+    <div class="panel" id="lang-de" lang="de" hidden>
+    <p class="eyebrow">Nachrichten · Kultur</p>
+    <h1>Die Werkstatt, die das tscherkessische Kino schuf</h1>
+    <p class="dek">Wladimir Putin hat Alexander Sokurow aus dem Menschenrechtsrat des Präsidenten entfernt. In Kabardino-Balkarien erinnert man sich an den Regisseur aus einem anderen Grund: eine fünfjährige Werkstatt in Naltschik, aus der eine Generation von Filmschaffenden aus dem Nordkaukasus hervorging.</p>
+    <p class="byline">May21.org-Kollektiv · 26. November 2026</p>
+
+    <div class="divider"></div>
+
+    <p>Am 24. November 2026 unterzeichnete Putin einen Erlass, der die Zusammensetzung des Rates für die Entwicklung der Zivilgesellschaft und der Menschenrechte änderte. Alexander Sokurow, seit 2018 Mitglied, wurde abberufen, ebenso Jan Wlassow, Maxim Samschew und der Anwalt Wladimir Rjachowski. Kawkasski Usel, das über den Erlass berichtete, schrieb, es sei kein Grund genannt worden.</p>
+    <p>Sokurow hat sich schon früher offen mit den Behörden angelegt. Bei einer Ratssitzung im Dezember 2025 beklagte er sich bei Putin über Zensur in der Kunst und sprach sich gegen das Gesetz über „ausländische Agenten“ aus. 2019 unterstützte er im selben Gremium inguschische Demonstranten und fragte, ob Ramsan und Achmat Kadyrow den Titel „Held Russlands“ verdient hätten. Tschetschenische Funktionäre reagierten wütend.</p>
+
+    <h2>Naltschik, 2010–2015</h2>
+    <p>Für die Tscherkessen fand Sokurows wichtigste Arbeit nicht in Moskau statt. Im Herbst 2010 eröffnete er an der Kabardino-Balkarischen Staatlichen Universität (KBGU) in Naltschik eine Werkstatt für Film- und Fernsehregie und leitete den Lehrstuhl. Der Rektor der Universität, Barasbi Karamursow, hatte ihn jahrelang zu überzeugen versucht. Sokurow sagte, er wolle in einer Provinzstadt eine starke Gruppe junger Kulturschaffender aufbauen. Laut seiner Pressesprecherin Margarita Afonina bestand die Werkstatt, bis ihr einziger Jahrgang 2015 abschloss. Weitere Jahrgänge gab es nicht.</p>
+    <p>Die Verbindung war auch persönlich. Sokurow wurde 1951 im Gebiet Irkutsk geboren. Von seinen kabardinischen Vorfahren erfuhr er im Januar 2006, als ihn die Familie Sokurow aus Kabardino-Balkarien bei einer Retrospektive seiner Filme in Naltschik empfing.</p>
+
+    <h2>Was aus der Werkstatt hervorging</h2>
+    <p>Kawkasski Usel nennt zwölf Absolventen: Wladimir Bitokow, Beslan Sakurajew, Marianna Kasantschewa, Marjana Kalmykowa, Kira Kowalenko, Tina Mastafowa, Malika Mussajewa, Oleg Chamokow, Gadschimurat Efendijew, Kantemir Balagow, Ansor Dochow und Alexander Solotuchin. Arbeiten der Studierenden wurden in ihrem letzten Studienjahr in Cannes gezeigt. Binnen weniger Jahre hatten sich mehrere einen Namen gemacht:</p>
+    <ul>
+      <li><strong>Kantemir Balagow</strong> (geboren 1991 in Naltschik). Sein Debüt <em>Tesnota – Eine Nahaufnahme</em> (2017), das 1998 in Naltschik spielt, gewann beim Kinotawr den Preis für das beste Debüt und lief in Cannes in der Reihe Un Certain Regard. Sein zweiter Film, <em>Bohnenstange</em> (<em>Dylda</em>, 2019), erhielt in Un Certain Regard den Regiepreis und kam auf die Oscar-Shortlist für den besten internationalen Film.</li>
+      <li><strong>Wladimir Bitokow</strong>. <em>Tiefe Flüsse</em> (<em>Glubokije reki</em>) ist auf Tscherkessisch gedreht und läuft mit Untertiteln. Gedreht wurde in der Adyl-Su-Schlucht im Elbrus-Gebiet, wo im September 2017 eine Schlammlawine das Set zerstörte. Der Film gewann den Debütwettbewerb des Kinotawr und den Regiepreis bei den Baltic Debuts und lief im Wettbewerb von Karlovy Vary. Sokurow sagte, Bitokows Studentenfilm <em>Anker</em> habe ihn überzeugt, dass „ein professioneller kabardinischer nationaler Spielfilm“ im Entstehen sei.</li>
+      <li><strong>Kira Kowalenko</strong>. <em>Sofitschka</em>, nach einer Novelle von Fasil Iskander, wurde in Abchasien auf Abchasisch gedreht und 2016 in Dublin ausgezeichnet. Ihr zweiter Spielfilm, <em>Die Fäuste lösen</em> (<em>Raschimaja kulaki</em>), gewann 2021 in Cannes den Preis der Reihe Un Certain Regard.</li>
+      <li><strong>Malika Mussajewa</strong>. <em>Der Vogel sucht einen Käfig</em>, über eine tschetschenische Familie in Inguschetien, mit Laiendarstellern, die ihre eigene Sprache sprechen, lief 2023 in der Sektion Encounters der Berlinale.</li>
+    </ul>
+    <p>„Das tscherkessische Kino ist entstanden“, sagte Sokurow und verwies auf die vielen Absolventen, die neue Spielfilme vorbereiten.</p>
+
+    <h2>Eine Schule ohne Fortsetzung</h2>
+    <p>Die Geschichte ging nicht gut aus. Sokurow sagte, viele seiner Studierenden aus der Region hätten ihre Muttersprache nicht gekannt und würden sie wohl nie lernen. Balagow sagte 2017, er spreche kein Tscherkessisch; Sokurow sagte dasselbe über Bitokow. In einem Telegram-Beitrag vom Februar 2023 schrieb er, sein Versuch, das Interesse der Menschen vor Ort an Film und Kultur zu verändern, sei gescheitert. Verleiher im Kaukasus hätten die Bemühungen seiner Stiftung blockiert, Filme nordkaukasischer Regisseure zu zeigen, und lokale Funktionäre wie Publikum hätten kein Interesse gezeigt. Er rief die Führung der Republik auf, junge Talente mit einer Filmfakultät, einem Jugendtheater sowie tscherkessischem Radio, Fernsehen und einer Zeitung zu fördern. Nichts davon ist entstanden. 2023 sagte Sokurow, Absagen von Verleihern und Behörden hätten ihm Drehen und Lehren unmöglich gemacht. Balagow verließ Russland im März 2022.</p>
+
+    <h2>Warum das wichtig ist</h2>
+    <p>Rund fünf Jahre lang bildete eine Universität in Naltschik Regisseure aus, die Geschichten aus Kabardino-Balkarien, Abchasien und Tschetschenien nach Cannes, Berlin und Karlovy Vary brachten – und mindestens in einem Fall einen Festivalfilm auf Tscherkessisch drehten. Das ging auf den persönlichen Einsatz eines einzelnen Regisseurs zurück, nicht auf eine staatliche Politik für die tscherkessische Kultur. Als er ging, trat nichts an ihre Stelle.</p>
+    <p>Seine Abberufung aus dem Rat ändert an dieser Geschichte nichts. Sie fällt aber in eine Zeit, in der Moskau eine offizielle Version des tscherkessischen Erbes fördert – mit <a href="2026-11-mfa-round-table.html?lang=de">dem Runden Tisch des Außenministeriums am 28. Oktober</a> und <a href="2026-11-khabze-schools.html?lang=de">der Einbindung von Khabze in ein föderales Patriotismus-Fach</a>. Dagegen erinnert die Werkstatt in Naltschik daran, dass tscherkessische Kultur wächst, wenn man ihr Werkzeuge, eine Sprache und eigenen Raum gibt.</p>
+
+    <div class="facts">
+      <h3>Auf einen Blick</h3>
+      <dl>
+        <dt>Werkstatt</dt><dd>Film- und Fernsehregie, KBGU, Naltschik, 2010–2015 (ein Abschlussjahrgang)</dd>
+        <dt>Gegründet mit</dt><dd>KBGU-Rektor Barasbi Karamursow</dd>
+        <dt>Bekannteste Absolventen</dt><dd>Kantemir Balagow, Kira Kowalenko, Wladimir Bitokow, Malika Mussajewa, Alexander Solotuchin</dd>
+        <dt>Film auf Tscherkessisch</dt><dd><em>Tiefe Flüsse</em> (Wladimir Bitokow)</dd>
+        <dt>Abberufung aus dem Rat</dt><dd>Präsidentenerlass vom 24. November 2026; ohne Begründung</dd>
+      </dl>
+    </div>
+    </div>
+<!-- ============================ AR ============================ -->
+    <div class="panel" id="lang-ar" lang="ar" dir="rtl" hidden>
+    <p class="eyebrow">أخبار · ثقافة</p>
+    <h1>الورشة التي صنعت السينما الشركسية</h1>
+    <p class="dek">أقال فلاديمير بوتين ألكسندر سوكوروف من مجلس حقوق الإنسان الرئاسي. أما في قبردينو-بلقاريا فيُذكَر المخرج لسبب آخر: ورشة استمرت خمس سنوات في نالشيك وخرّجت جيلًا من صانعي الأفلام من شمال القوقاز.</p>
+    <p class="byline">مجموعة May21.org · 26 تشرين الثاني/نوفمبر 2026</p>
+
+    <div class="divider"></div>
+
+    <p>في 24 تشرين الثاني/نوفمبر 2026 وقّع بوتين مرسومًا يغيّر عضوية مجلس تنمية المجتمع المدني وحقوق الإنسان. وأُقيل ألكسندر سوكوروف، العضو منذ 2018، ومعه يان فلاسوف ومكسيم زامشيف والمحامي فلاديمير رياخوفسكي. وذكر موقع «كافكازسكي أوزيل» الذي نشر خبر المرسوم أنه لم يُذكر أي سبب.</p>
+    <p>سبق لسوكوروف أن اصطدم بالسلطات علنًا. ففي اجتماع للمجلس في كانون الأول/ديسمبر 2025 اشتكى لبوتين من الرقابة على الفنون وتحدث ضد قانون «العملاء الأجانب». وفي 2019 استخدم المنبر نفسه لدعم المحتجين الإنغوش، وتساءل عمّا إذا كان رمضان وأحمد قديروف يستحقان لقب بطل روسيا، فردّ المسؤولون الشيشان بغضب.</p>
+
+    <h2>نالشيك، 2010–2015</h2>
+    <p>بالنسبة إلى الشركس، لم يكن أهم أعمال سوكوروف في موسكو. ففي خريف 2010 افتتح ورشة لإخراج السينما والتلفزيون في جامعة قبردينو-بلقاريا الحكومية في نالشيك وترأس القسم. وكان رئيس الجامعة بارسبي كارامورزوف قد أمضى سنوات في إقناعه بالمجيء. وقال سوكوروف إنه أراد تكوين مجموعة قوية من الشباب العاملين في الثقافة في مدينة إقليمية. وبحسب السكرتيرة الصحفية مارغريتا أفونينا، استمرت الورشة حتى تخرّجت دفعتها الوحيدة عام 2015، ولم تُقبل دفعات بعدها.</p>
+    <p>وكانت الصلة شخصية أيضًا. فقد وُلد سوكوروف في منطقة إيركوتسك عام 1951، وعرف بأصوله القبردية في كانون الثاني/يناير 2006 حين استقبلته عائلة سوكوروف من قبردينو-بلقاريا في عرض استعادي لأفلامه في نالشيك.</p>
+
+    <h2>ماذا أنتجت الورشة</h2>
+    <p>يذكر «كافكازسكي أوزيل» اثني عشر خريجًا: فلاديمير بيتوكوف، وبيسلان زاكوراييف، وماريانا كازانتشيفا، ومريانا كالميكوفا، وكيرا كوفالينكو، وتينا ماستافوفا، وماليكا موساييفا، وأوليغ خاموكوف، وحاجي مراد أفندييف، وكانتيمير بالاغوف، وأنزور دوخوف، وألكسندر زولوتوخين. وعُرضت أعمال الطلاب في كان خلال سنتهم الأخيرة. وفي غضون سنوات قليلة اشتهر عدد منهم:</p>
+    <ul>
+      <li><strong>كانتيمير بالاغوف</strong> (مواليد نالشيك 1991). فاز فيلمه الأول «الضيق» (<em>Tesnota</em>، 2017)، الذي تدور أحداثه في نالشيك عام 1998، بجائزة أفضل عمل أول في مهرجان كينوتافر، واختير لقسم «نظرة ما» في مهرجان كان. ونال فيلمه الثاني «العمود الطويل» (<em>Dylda</em>، 2019) جائزة أفضل مخرج في «نظرة ما»، ودخل القائمة القصيرة لأوسكار أفضل فيلم دولي.</li>
+      <li><strong>فلاديمير بيتوكوف</strong>. صُوِّر فيلم «الأنهار العميقة» (<em>Glubokie reki</em>) باللغة الشركسية ويُعرض مترجمًا. جرى التصوير في وادي أديل-سو في منطقة إلبروس، حيث دمّر سيل طيني موقع التصوير في أيلول/سبتمبر 2017. فاز بمسابقة الأعمال الأولى في كينوتافر وبجائزة أفضل مخرج في مهرجان «البدايات البلطيقية»، وعُرض في مسابقة كارلوفي فاري. وقال سوكوروف إن فيلم بيتوكوف الطلابي «أنكر» أقنعه بأن «سينما روائية وطنية قبردية محترفة» بصدد الولادة.</li>
+      <li><strong>كيرا كوفالينكو</strong>. صُوِّر فيلم «صوفيتشكا»، المقتبس عن قصة لفاضل إسكندر، في أبخازيا باللغة الأبخازية، ونال جوائز في دبلن عام 2016. وفاز فيلمها الروائي الثاني «فكّ القبضتين» بجائزة قسم «نظرة ما» في كان عام 2021.</li>
+      <li><strong>ماليكا موساييفا</strong>. اختير فيلم «الطائر يبحث عن قفص»، عن عائلة شيشانية في إنغوشيا بممثلين غير محترفين يتحدثون لغتهم، لقسم «لقاءات» في مهرجان برلين 2023.</li>
+    </ul>
+    <p>وقال سوكوروف: «لقد ظهرت السينما الشركسية»، مشيرًا إلى كثير من الخريجين الذين يعدّون أفلامًا روائية جديدة.</p>
+
+    <h2>مدرسة بلا تتمّة</h2>
+    <p>لم تنتهِ القصة نهاية جيدة. فقد قال سوكوروف إن كثيرًا من طلابه من المنطقة لا يعرفون لغتهم الأم، وعلى الأرجح لن يتعلموها أبدًا. وقال بالاغوف عام 2017 إنه لا يتحدث الشركسية، وقال سوكوروف الشيء نفسه عن بيتوكوف. وفي منشور على تلغرام في شباط/فبراير 2023 كتب أن محاولته تغيير اهتمام الناس محليًا بالسينما والثقافة قد فشلت. وقال إن الموزعين في القوقاز عرقلوا جهود مؤسسته لعرض أفلام مخرجي شمال القوقاز، وإن المسؤولين والجمهور المحليين لم يبدوا اهتمامًا. ودعا قيادة الجمهورية إلى دعم المواهب الشابة بقسم للسينما ومسرح للشباب وإذاعة وتلفزيون وصحيفة يديرها الشركس. ولم يتحقق شيء من ذلك. وفي 2023 قال سوكوروف إن رفض الموزعين والسلطات جعله عاجزًا عن التصوير والتدريس. وغادر بالاغوف روسيا في آذار/مارس 2022.</p>
+
+    <h2>لماذا يهمّ ذلك</h2>
+    <p>على مدى نحو خمس سنوات، درّبت جامعة في نالشيك مخرجين حملوا قصصًا من قبردينو-بلقاريا وأبخازيا والشيشان إلى كان وبرلين وكارلوفي فاري، وصنعوا في حالة واحدة على الأقل فيلمًا مهرجانيًا باللغة الشركسية. جاء ذلك من التزام شخصي لمخرج واحد، لا من أي سياسة حكومية للثقافة الشركسية. وحين غادر لم يحلّ محلّها شيء.</p>
+    <p>إقالته من المجلس لا تغيّر هذا التاريخ. لكنها تأتي فيما تروّج موسكو لنسخة رسمية من التراث الشركسي، عبر <a href="2026-11-mfa-round-table.html?lang=ar">طاولة الحوار في وزارة الخارجية في 28 تشرين الأول/أكتوبر</a> و<a href="2026-11-khabze-schools.html?lang=ar">إدراج الخابزه في مادة فيدرالية عن الوطنية</a>. وفي مقابل ذلك، تذكّر ورشة نالشيك بأن الثقافة الشركسية تنمو حين تُمنح الأدوات واللغة ومساحة خاصة بها.</p>
+
+    <div class="facts">
+      <h3>باختصار</h3>
+      <dl>
+        <dt>الورشة</dt><dd>إخراج السينما والتلفزيون، جامعة قبردينو-بلقاريا، نالشيك، 2010–2015 (دفعة متخرجة واحدة)</dd>
+        <dt>أُسّست مع</dt><dd>رئيس الجامعة بارسبي كارامورزوف</dd>
+        <dt>أشهر الخريجين</dt><dd>كانتيمير بالاغوف، كيرا كوفالينكو، فلاديمير بيتوكوف، ماليكا موساييفا، ألكسندر زولوتوخين</dd>
+        <dt>فيلم بالشركسية</dt><dd>«الأنهار العميقة» (فلاديمير بيتوكوف)</dd>
+        <dt>الإقالة من المجلس</dt><dd>مرسوم رئاسي بتاريخ 24 تشرين الثاني/نوفمبر 2026؛ دون ذكر سبب</dd>
+      </dl>
+    </div>
+    </div>
+<!-- ============================ ADY ============================ -->
+    <div class="panel" id="lang-ady" lang="ady" hidden>
+    <p class="eyebrow">Къэбар · Шэн-хабзэ</p>
+    <h1>Адыгэ кинор къэзыгъэхъугъэ мастерскаяр</h1>
+    <p class="dek">Владимир Путиным Александр Сокуровыр президентым ицӀыф фитыныгъэхэмкӀэ и Совет хигъэкӀыгъ. Къэбэртэе-Бэлъкъарым режиссерыр нэмыкӀкӀэ агу къагъэкӀыжьы: Налщык илъэситфэ щылэжьэгъэ мастерскаяр, Кавказ Темырым икинорежиссер лӀэужъ къыхэзыщыгъэр.</p>
+    <p class="byline">May21.org · 2026-рэ илъэсым шэкӀогъум и 26</p>
+
+    <div class="divider"></div>
+
+    <p>2026-рэ илъэсым шэкӀогъум и 24-м Путиным Граждан обществэр гъэхъагъэнымкӀэ ыкӀи цӀыфым ифитыныгъэхэмкӀэ Советым хэтхэр зэблэзыхъурэ указым кӀэтхэжьыгъ. 2018-рэ илъэсым къыщегъэжьагъэу хэтыгъэ Александр Сокуровыр хагъэкӀыгъ. Ян Власов, Максим Замшев ыкӀи адвокатэу Владимир Ряховскэр ахэмэ ащыщых. Указым къэбар фэзытхыгъэ «Кавказский узел»-м зэритхыгъэмкӀэ, ушъхьагъу къаӀуагъэп.</p>
+    <p>Сокуровыр ыпэкӀи хабзэм нафэу пэуцужьыгъ. 2025-рэ илъэсым тыгъэгъазэм Советым изэхэсыгъо искусствэм цензурэ зэрилъым фэшӀ Путиным фэтхьаусыхагъ, «ӀэкӀыб агентхэм» яхэбзэгъэуцугъэ пэуцужьыгъ. 2019-рэ илъэсым а чӀыпӀэ дэдэм ингуш протестхэр ыӀыгъыгъэх, Рамзанрэ Ахьмэдрэ Кадыровхэм «Урысыем илӀыхъужъ» цӀэр къалэжьыгъагъа ыӀуи еупчӀыгъ. Шэшэн пащэхэр губжыгъэу къыпэджэжьыгъэх.</p>
+
+    <h2>Налщык, 2010–2015</h2>
+    <p>Адыгэхэм апае Сокуровым иӀофшӀагъэ анахь шъхьаӀэр Москва щыӀэп. 2010-рэ илъэсым бжыхьэм Налщык дэт Къэбэртэе-Бэлъкъар къэралыгъо университетым кинорэ телевидениемрэ ярежиссурэ имастерская къыщызэӀуихыгъ, кафедрэм ипащэу щытыгъ. Университетым иректорэу Къэрмыз Барасбый илъэс заулэрэ къыгъэгугъагъ. Сокуровым ыӀуагъ провинцие къалэм ныбжьыкӀэ шэн-хабзэ ӀофышӀэ куп лъэш щызэхищэнэу зэрэфэягъэр. Ипресс-секретарэу Афонина Маргаритэ зэриӀорэмкӀэ, мастерскаяр икурс закъо 2015-рэ илъэсым къаухыфэ лэжьагъ. Ащ ыуж кӀэлэеджакӀо кӀэхэр аштагъэхэп.</p>
+    <p>Зэпхыныгъэр ежь ыеуи щытыгъ. Сокуровыр 1951-рэ илъэсым Иркутскэ хэкум къыщыхъугъ. Илъапсэ къэбэртаеу зэрэщытыр 2006-рэ илъэсым щылэм зэригъэшӀагъ, Налщык ифильмхэм яретроспективэ Къэбэртэе-Бэлъкъарым щыпсэурэ Сокуровхэм яунагъо къызыщыпэгъокӀым.</p>
+
+    <h2>Мастерскаям къыхэкӀыгъэр</h2>
+    <p>«Кавказский узел»-м еджапӀэр къэзыухыгъэ пшӀыкӀутӀу къегъэлъагъо: Битокъо Владимир, Закъурэ Беслъэн, Къэзэнчэ Марианнэ, Къалмыкъ Марьянэ, Коваленко Кирэ, Мастафовэ Тинэ, Мусаевэ Маликэ, Хьамокъо Олег, Эфендиев Гаджимурат, Балэгъ Къантемир, Дохъо Анзор, Золотухин Александр. КӀэлэеджакӀохэм яӀофшӀагъэхэр якурс кӀэух Каннэ щагъэлъэгъуагъэх. Илъэс заулэ тешӀагъэу ахэм ащыщэу бэ цӀэрыӀо хъугъэ:</p>
+    <ul>
+      <li><strong>Балэгъ Къантемир</strong> (1991-рэ илъэсым Налщык къыщыхъугъ). Иапэрэ фильмэу «Теснота» (2017) 1998-рэ илъэсым Налщык щыкӀогъэ Ӏофым фэгъэхьыгъ; «Кинотавр»-м апэрэ фильм анахь дэгъум ишӀухьафтын къыщыдихыгъ, Каннэ фестивалым и «ЕплъыкӀэ хэшыпыкӀыгъ» программэ хагъэхьагъ. ЯтӀонэрэ фильмэу «Дылда» (2019) «ЕплъыкӀэ хэшыпыкӀыгъ»-м режиссурэ анахь дэгъум ишӀухьафтын къыщыдихыгъ, «Оскар»-м ишорт-лист хэхьагъ.</li>
+      <li><strong>Битокъо Владимир</strong>. «Глубокие реки» фильмыр адыгабзэкӀэ тырахыгъ, субтитрхэр игъусэхэу агъэлъагъо. Ӏуащхьэмафэ шъолъырым хэхьэрэ Адыл-Су ыкъуладжэ щытырахыгъ; 2017-рэ илъэсым Ӏоныгъом ятӀэ-псыкъиугъом декорациехэр зэхикъутагъэх. «Кинотавр»-м иапэрэ фильм зэнэкъокъу щытекӀуагъ, «Балтийские дебюты»-м режиссурэмкӀэ шӀухьафтын къыщыдихыгъ, Карловы Вары изэнэкъокъу хэлэжьагъ. Сокуровым ыӀуагъ Битокъом истудент фильмэу «Анкер» къызэригъэшӀагъэр «къэбэртае лъэпкъ кино профессиональнэр» къызэрэхъурэр.</li>
+      <li><strong>Коваленко Кирэ</strong>. Искандер Фазиль иповесть тегъэпсыхьагъэу «Софичка» Абхъазым абхъазыбзэкӀэ щытырахыгъ, 2016-рэ илъэсым Дублин шӀухьафтынхэр къыщыдихыгъэх. ЯтӀонэрэ фильмэу «Разжимая кулаки» 2021-рэ илъэсым Каннэ «ЕплъыкӀэ хэшыпыкӀыгъ» программэм ишӀухьафтын шъхьаӀэ къыщыдихыгъ.</li>
+      <li><strong>Мусаевэ Маликэ</strong>. Ингушым щыпсэурэ шэшэн унагъом фэгъэхьыгъэ «Птица ищет клетку» фильмым актер профессиональнэхэр хэтхэп, ябзэкӀэ мэгущыӀэх; 2023-рэ илъэсым Берлинале и «Встречи» программэ хагъэхьагъ.</li>
+    </ul>
+    <p>«Адыгэ кинор къежьагъ», — ыӀуагъ Сокуровым, фильм кӀэхэм афэхьазырхэрэ еджапӀэр къэзыухыгъэ бэмэ ягугъу ышӀэу.</p>
+
+    <h2>Лъыпытэныгъэ зимыӀэ еджапӀ</h2>
+    <p>Тарихъыр дэгъоу аухыгъэп. Сокуровым ыӀуагъ шъолъырым къикӀыгъэ икӀэлэеджакӀохэм ащыщ бэмэ яныдэлъфыбзэ амышӀэу, зэи зэрамыгъэшӀэщтэу щытынкӀи мэхъу. Балэгъ 2017-рэ илъэсым адыгабзэкӀэ зэрэмыгущыӀэрэр ыӀуагъ, Сокуровым Битокъоми ащ фэдэ ыӀуагъ. 2023-рэ илъэсым мэзаем Telegram-м итхыгъэ постым щитхыгъ чӀыпӀэ цӀыфхэм кинорэ шэн-хабзэмрэ зэрафыщытхэр зэблихъунэу игугъэ къызэрэдэмыхъугъэр. Кавказым ипрокатчикхэм Кавказ Темырым ирежиссерхэм яфильмхэр ыгъэлъэгъонхэу ифонд ыгъэпсыщтыгъэ Ӏофыр агъэуцугъэу, чӀыпӀэ пащэхэмрэ еплъыхэрэмрэ гу лъамытагъэу ыӀуагъ. Республикэм ипащэхэм ялъэӀугъ ныбжьыкӀэ сэнэхьатышӀухэм кино факультет, ныбжьыкӀэ театр, адыгэхэм аӀыгъ радио, телевидение, гъэзет афашӀынэу. Ахэм ащыщ зи къэхъугъэп. 2023-рэ илъэсым Сокуровым ыӀуагъ прокатчикхэмрэ хабзэмрэ зэрэфамыдэрэм къыхэкӀэу фильм тырихынэу е ригъэджэнэу зэрэфэмыкъужьырэр. Балэгъ Урысыем 2022-рэ илъэсым гъэтхапэм икӀыгъ.</p>
+
+    <h2>Сыда ащ мэхьанэшхо зыкӀиӀэр</h2>
+    <p>Илъэситф фэдизрэ Налщык дэт университетым Къэбэртэе-Бэлъкъарым, Абхъазым, Шэшэным ятарихъхэр Каннэ, Берлин, Карловы Вары нэзыгъэсыгъэ режиссерхэр щагъэсагъэх, зы гъогогъум нахь мымакӀэу адыгабзэкӀэ фестиваль фильм тырахыгъ. Ар къэралыгъом адыгэ шэн-хабзэм фыриӀэ политикэм къыхэкӀыгъэп, зы режиссерым ыгу къыхэкӀыгъ. Ар зыкӀожьым ычӀыпӀэ зи иуцуагъэп.</p>
+    <p>Советым зэрэхагъэкӀыгъэм а тарихъыр зэблихъурэп. Ау ар къызэрэхъугъэр Москва адыгэ кӀэным иверсие официальнэ щигъэлъагъорэ уахътэр ары: <a href="2026-11-mfa-round-table.html?lang=ady">ӀэкӀыб ӀофхэмкӀэ министерствэм чъэпыогъум и 28-м зэхищэгъэ «стол хъураер»</a>, <a href="2026-11-khabze-schools.html?lang=ady">адыгэ хабзэр хэгъэгу шӀулъэгъум фэгъэхьыгъэ федеральнэ предметым зэрэхагъэхьагъэр</a>. Ащ пэуцужьэу Налщык имастерская агу къегъэкӀыжьы адыгэ шэн-хабзэр Ӏэмэ-псымэ, бзэ, ежь ичӀыпӀэ зыратыкӀэ зэрэхахъорэр.</p>
+
+    <div class="facts">
+      <h3>КӀэкӀэу</h3>
+      <dl>
+        <dt>Мастерскаяр</dt><dd>Кинорэ ТВ-мрэ ярежиссурэ, КъБКъУ, Налщык, 2010–2015 (зы курс закъу)</dd>
+        <dt>Зыгъэпсыгъэр</dt><dd>КъБКъУ-м иректорэу Къэрмыз Барасбый игъусэу</dd>
+        <dt>Анахь цӀэрыӀохэр</dt><dd>Балэгъ Къантемир, Коваленко Кирэ, Битокъо Владимир, Мусаевэ Маликэ, Золотухин Александр</dd>
+        <dt>АдыгабзэкӀэ фильм</dt><dd>«Глубокие реки» (Битокъо Владимир)</dd>
+        <dt>Советым хагъэкӀыныр</dt><dd>2026-рэ илъэсым шэкӀогъум и 24-м президентым иуказ; ушъхьагъу къаӀуагъэп</dd>
+      </dl>
+    </div>
+    </div>
+
+    <section class="refs">
+      <h2 id="refs-title">Sources</h2>
+      <ol>
+        <li>Caucasian Knot, «Сокуров исключен из состава СПЧ», 24 Nov 2026. <a href="https://www.kavkaz-uzel.eu/articles/428627" target="_blank" rel="noopener">kavkaz-uzel.eu</a>.</li>
+        <li>Caucasian Knot, «Александр Сокуров: как рождалось черкесское кино» (reference), 25 Nov 2026. <a href="https://www.kavkaz-uzel.eu/articles/343778" target="_blank" rel="noopener">kavkaz-uzel.eu</a>.</li>
+        <li>Caucasian Knot, profile of Vladimir Bitokov. <a href="https://www.kavkaz-uzel.eu/articles/328759/" target="_blank" rel="noopener">kavkaz-uzel.eu</a>.</li>
+        <li>Caucasian Knot, profile of Kantemir Balagov, 6 Apr 2023. <a href="https://www.kavkaz-uzel.eu/articles/309567/" target="_blank" rel="noopener">kavkaz-uzel.eu</a>.</li>
+        <li>Alexander Sokurov, Telegram post, February 2023. <a href="https://t.me/sokurov_spb/547" target="_blank" rel="noopener">t.me/sokurov_spb</a>.</li>
+      </ol>
+    </section>
+  </article>
+
+  <footer id="foot">© 2026 May21.org · Quotations from Russian sources are translated by May21.org.</footer>
+
+  <script>
+    var LANGS = ["en", "tr", "kbd", "ru", "de", "ar", "ady"];
+    var UI = {"en": ["← Library", "Reader view", "Standard view", "Sources", "© 2026 May21.org · Quotations from Russian sources are translated by May21.org."], "tr": ["← Kütüphane", "Okuma görünümü", "Standart görünüm", "Kaynaklar", "© 2026 May21.org · Rusça kaynaklardan yapılan alıntılar May21.org tarafından çevrilmiştir."], "kbd": ["← Тхылъхэр", "Еджэн", "Хабзэм тету", "Тхылъхэр", "© 2026 May21.org"], "ru": ["← Библиотека", "Режим чтения", "Обычный вид", "Источники", "© 2026 May21.org"], "de": ["← Bibliothek", "Leseansicht", "Standardansicht", "Quellen", "© 2026 May21.org · Zitate aus russischen Quellen wurden von May21.org übersetzt."], "ar": ["→ المكتبة", "وضع القراءة", "العرض العادي", "المصادر", "© 2026 May21.org · ترجم موقع May21.org الاقتباسات من المصادر الروسية."], "ady": ["← Тхылъхэр", "Еджэн", "Шапхъэм тетэу", "Тхылъхэр", "© 2026 May21.org"]};
+    var TITLE = {"en": "The Workshop That Made Circassian Cinema", "tr": "Çerkes Sinemasını Yaratan Atölye", "kbd": "Адыгэ кинор къэзыгъэщӀа мастерскэр", "ru": "Мастерская, создавшая черкесское кино", "de": "Die Werkstatt, die das tscherkessische Kino schuf", "ar": "الورشة التي صنعت السينما الشركسية", "ady": "Адыгэ кинор къэзыгъэхъугъэ мастерскаяр"};
+    var params = new URLSearchParams(location.search);
+    var reader = params.get('view') === 'reader';
+    if (reader) document.body.classList.add('reader');
+    var current = 'en';
+    function link(lang, readerOn) {
+      var q = '?lang=' + lang + (readerOn ? '&view=reader' : '');
+      return location.pathname + q;
+    }
+    function show(lang) {
+      if (LANGS.indexOf(lang) < 0) lang = 'en';
+      current = lang;
+      document.querySelectorAll('.panel').forEach(function (p) { p.hidden = p.id !== 'lang-' + lang; });
+      document.querySelectorAll('.tabs button').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.lang === lang); });
+      document.documentElement.lang = lang;
+      var u = UI[lang];
+      document.getElementById('lib-link').textContent = u[0];
+      var t = document.getElementById('reader-toggle');
+      t.textContent = reader ? u[2] : u[1];
+      t.href = link(lang, !reader);
+      document.getElementById('refs-title').textContent = u[3];
+      document.getElementById('foot').textContent = u[4];
+      document.title = TITLE[lang] + ' · May21.org';
+      try { history.replaceState(null, '', link(lang, reader) + location.hash); } catch (e) {}
+    }
+    document.querySelectorAll('.tabs button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        show(b.dataset.lang);
+        try { localStorage.setItem('may21_lang', b.dataset.lang); } catch (e) {}
+      });
+    });
+    (function () {
+      var q = params.get('lang');
+      if (q) return show(q);
+      var saved = null;
+      try { saved = localStorage.getItem('may21_lang'); } catch (e) {}
+      if (saved && LANGS.indexOf(saved) >= 0) return show(saved);
+      var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
+      for (var i = 0; i < prefs.length; i++) {
+        var c = String(prefs[i]).toLowerCase().split('-')[0];
+        if (LANGS.indexOf(c) >= 0) return show(c);
+      }
+      show('en');
+    })();
+  </script>
+  <script data-goatcounter="https://may21.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>
