@@ -30,3 +30,14 @@ The "Library" section on may21.org lists every entry in `documents.json`
 - `date` uses the format `YYYY-MM-DD`.
 
 3. Commit. The site updates within a minute or two.
+
+
+## Share buttons and link previews
+
+Every article page loads the share bar with one line before `</body>`:
+
+    <script src="../assets/share.js" defer></script>
+
+It adds Facebook, X, WhatsApp, Telegram, VK, LinkedIn, email and copy-link buttons at the end of the article (before "Sources"), and a "Share ↓" link in the top menu. Shared links keep the language the reader is viewing (`?lang=`).
+
+For a good preview when the link is posted, the page `<head>` also carries `og:title`, `og:description`, `og:url`, `og:image` and `twitter:card` tags; copy them from an existing article and change title, description and URL.
