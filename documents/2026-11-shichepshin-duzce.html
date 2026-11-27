@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>From Horse Tail to Melody · May21.org</title>
+  <meta name="description" content="A conference at Düzce University put the spotlight on the shichepshin, the Circassian bowed instrument strung with horsehair, and on Faysal Şakuç, who has made them for fifteen years. In English, Turkish, Russian, German, Arabic and Circassian (Kabardian and Adyghe dialects)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400&family=DM+Sans:wght@300;400;500&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Noto+Sans+Arabic:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --black:#0a0a0a; --off-black:#111; --charcoal:#1c1c1c; --dim:#2a2a2a; --mid:#444;
+      --muted:#888; --smoke:#bbb; --white:#f0ede8; --accent:#c8382a; --accent2:#d47c2b;
+      --line:rgba(255,255,255,0.08);
+      --font-display:'Bebas Neue',sans-serif; --font-body:'DM Sans',sans-serif; --font-mono:'DM Mono',monospace;
+      --bg:var(--black); --fg:var(--white); --soft:var(--smoke);
+    }
+    *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+    body { background:var(--bg); color:var(--fg); font-family:var(--font-body); font-weight:300; line-height:1.75; }
+    a { color:var(--accent2); }
+    img { display:block; max-width:100%; }
+
+    .top { padding:18px 24px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap; }
+    .top a { text-decoration:none; color:var(--fg); }
+    .logo { font-family:var(--font-display); font-size:1.5rem; letter-spacing:0.06em; }
+    .logo span { color:var(--accent); }
+    .top-links { display:flex; gap:20px; font-family:var(--font-mono); font-size:0.68rem; letter-spacing:0.12em; text-transform:uppercase; }
+    .top-links a { color:var(--muted); }
+    .top-links a:hover { color:var(--accent2); }
+
+    article { max-width:760px; margin:0 auto; padding:64px 24px 96px; }
+    .eyebrow { font-family:var(--font-mono); font-size:0.7rem; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent); margin-bottom:16px; }
+    h1 { font-family:var(--font-display); font-weight:400; font-size:clamp(2.6rem,8vw,4.6rem); line-height:0.95; letter-spacing:0.02em; }
+    .dek { margin-top:24px; font-size:1.15rem; color:var(--soft); border-left:2px solid var(--accent); padding-left:18px; }
+    .byline { margin-top:28px; font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); }
+    .divider { width:48px; height:2px; background:var(--accent); margin:40px 0; }
+
+    article h2 { font-family:var(--font-display); font-weight:400; font-size:clamp(1.7rem,4vw,2.3rem); letter-spacing:0.03em; line-height:1.05; margin:56px 0 16px; }
+    article h3.who { font-family:var(--font-body); font-weight:500; font-size:1.1rem; color:var(--fg); margin:32px 0 8px; }
+    article h3.who span { font-family:var(--font-mono); font-weight:400; font-size:0.7rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); margin-left:8px; }
+    article p { margin-bottom:20px; font-size:1.05rem; color:var(--soft); }
+    article p strong { color:var(--fg); font-weight:500; }
+    article blockquote { margin:28px 0; padding:4px 0 4px 20px; border-left:2px solid var(--accent2); }
+    article blockquote p { color:var(--fg); font-size:1.05rem; margin-bottom:6px; }
+    article blockquote .ru { font-family:var(--font-mono); font-size:0.78rem; color:var(--muted); }
+    article ul { margin:0 0 24px 20px; color:var(--soft); }
+    article li { margin-bottom:10px; }
+
+    .facts { background:var(--charcoal); border:1px solid var(--dim); padding:24px 26px; margin:32px 0; font-size:0.95rem; }
+    .facts h3 { font-family:var(--font-mono); font-weight:400; font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--accent); margin-bottom:12px; }
+    .facts dl { display:grid; grid-template-columns:170px 1fr; gap:8px 16px; color:var(--soft); }
+    .facts dt { font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.06em; color:var(--muted); text-transform:uppercase; padding-top:3px; }
+
+    .refs { margin-top:64px; padding-top:24px; border-top:1px solid var(--line); }
+    .refs h2 { margin-top:0; }
+    .refs ol { margin-left:20px; font-size:0.9rem; color:var(--soft); }
+    .refs li { margin-bottom:10px; }
+    sup a { text-decoration:none; font-family:var(--font-mono); font-size:0.7em; }
+
+    footer { padding:32px 24px; border-top:1px solid var(--line); font-family:var(--font-mono); font-size:0.65rem; letter-spacing:0.1em; color:var(--muted); text-align:center; }
+
+    body.reader { --bg:#f7f4ee; --fg:#1a1a1a; --soft:#2b2b2b; --muted:#6b6b6b; --charcoal:#ece7de; --dim:#d9d2c6; --line:rgba(0,0,0,0.1); }
+    body.reader article p, body.reader article li, body.reader .dek { font-family:'Source Serif 4',Georgia,serif; font-size:1.12rem; }
+    body.reader a { color:#9a2a1f; }
+
+    @media (max-width:640px) {
+      article { padding:40px 16px 72px; }
+      .facts dl { grid-template-columns:1fr; gap:2px 0; }
+      .facts dd { margin-bottom:10px; }
+    }
+
+    .top-right { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+    .tabs { display:flex; flex-wrap:wrap; gap:4px; }
+    .tabs button { background:transparent; border:1px solid var(--mid); color:var(--muted); font-family:var(--font-mono); font-size:0.66rem; letter-spacing:0.1em; padding:5px 9px; cursor:pointer; }
+    .tabs button:hover { border-color:var(--soft); color:var(--fg); }
+    .tabs button[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:#fff; }
+    .status { font-family:var(--font-mono); font-size:0.75rem; line-height:1.8; color:var(--soft); background:var(--charcoal); border:1px solid var(--accent2); padding:14px 18px; margin:0 0 32px; }
+    [dir="rtl"] { font-family:'Noto Sans Arabic',var(--font-body); }
+    [dir="rtl"] .dek { border-left:none; border-right:2px solid var(--accent); padding-left:0; padding-right:18px; }
+    [dir="rtl"] article blockquote, article [dir="rtl"] blockquote { border-left:none; border-right:2px solid var(--accent2); padding:4px 20px 4px 0; }
+    [dir="rtl"] ul { margin:0 20px 24px 0; }
+    [dir="rtl"] h3.who span { margin-left:0; margin-right:8px; letter-spacing:0; }
+    [dir="rtl"] .eyebrow, [dir="rtl"] .byline, [dir="rtl"] .facts dt { letter-spacing:0; }
+    [dir="rtl"] h1, [dir="rtl"] h2 { font-family:'Noto Sans Arabic',sans-serif; font-weight:500; letter-spacing:0; line-height:1.3; }
+    [dir="rtl"] h1 { font-size:clamp(2.2rem,6vw,3.4rem); }
+    [dir="rtl"] article p, [dir="rtl"] article li { font-size:1.12rem; line-height:2; }
+    body.reader [dir="rtl"] article p, body.reader [dir="rtl"] p, body.reader [dir="rtl"] li { font-family:'Noto Sans Arabic',sans-serif; }
+    .sched { width:100%; border-collapse:collapse; margin:8px 0 28px; font-size:0.95rem; }
+    .sched th { font-family:var(--font-mono); font-weight:400; font-size:0.7rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--accent); text-align:start; padding:8px 10px; border-bottom:1px solid var(--accent); }
+    .sched td { padding:10px; border-bottom:1px solid var(--line); color:var(--soft); vertical-align:top; }
+    [dir="rtl"] .sched th { letter-spacing:0; }
+  </style>
+  <meta property="og:site_name" content="May21.org" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="From Horse Tail to Melody" />
+  <meta property="og:description" content="A conference at Düzce University put the spotlight on the shichepshin, the Circassian bowed instrument strung with horsehair, and on Faysal Şakuç, who has made them for fifteen years. In English, Turkish, Russian, German, Arabic and Circassian (Kabardian and Adyghe dialects)." />
+  <meta property="og:url" content="https://may21.org/documents/2026-11-shichepshin-duzce.html" />
+  <meta property="og:image" content="https://may21.org/img/may21-logo.png" />
+  <meta name="twitter:card" content="summary" />
+</head>
+<body>
+  <header class="top">
+    <a href="../index.html" class="logo">May21<span>.</span>org</a>
+    <div class="top-right">
+      <nav class="tabs" aria-label="Language"><button type="button" data-lang="en" title="English">EN</button><button type="button" data-lang="tr" title="Türkçe">TR</button><button type="button" data-lang="kbd" title="Адыгэбзэ (Къэбэрдей)">КАБ</button><button type="button" data-lang="ru" title="Русский">РУС</button><button type="button" data-lang="de" title="Deutsch">DE</button><button type="button" data-lang="ar" title="العربية">عر</button><button type="button" data-lang="ady" title="Адыгабзэ">АДЫ</button></nav>
+      <nav class="top-links">
+        <a href="../index.html#library" id="lib-link">← Library</a>
+        <a href="?view=reader" id="reader-toggle">Reader view</a>
+      </nav>
+    </div>
+  </header>
+
+  <article>
+<!-- ============================ EN ============================ -->
+    <div class="panel" id="lang-en" lang="en" hidden>
+    <p class="eyebrow">News · Culture</p>
+    <h1>From Horse Tail to Melody</h1>
+    <p class="dek">A conference at Düzce University has put the spotlight on the shichepshin, the Circassian bowed instrument strung with horsehair. Its maker, Faysal Şakuç, has spent fifteen years keeping a near-forgotten craft alive.</p>
+    <p class="byline">May21.org Collective · 27 November 2026</p>
+
+    <div class="divider"></div>
+
+    <p>On 26 November 2026, Düzce University's Research and Application Centre for Language, History and Cultural Heritage (DÜKMER) held a conference titled "A Vanishing Art: From Horse Tail to Melody (Shichepshin)". It took place in the Kutadgu Bilim conference hall of the Faculty of Arts and Sciences, and was reported by the İhlas News Agency (İHA).</p>
+    <p>The speaker was Faysal Şakuç, a maker of Circassian musical instruments. He talked about the instrument's history, how it is built, which woods are used and how they are prepared, and what it takes to keep a traditional craft going. Şakuç said he has been making shichepshins for about fifteen years and has worked with musicians to improve their sound and durability.</p>
+    <p>The conference was opened by Dr. Sibel Küçükkülahlı of the university's history department, who spoke about protecting intangible cultural heritage and passing traditional crafts on to the next generation. The audience joined in with questions, and the event closed with a certificate of thanks to the speaker.</p>
+
+    <h2>The instrument</h2>
+    <p>In Circassian the instrument is called <em>shichepshin</em> (шыкӏэпшынэ), usually explained as "horse-tail instrument": its strings and the hair of its bow are made of horsehair. It is a small upright fiddle with two strings, played with a curved bow. A Circassian shichepshin from Baksan in Kabarda, made before 1914, is held by the Horniman Museum in London: body, neck and pegbox are carved from a single piece of wood, and the neck carries six grooves marking the notes.</p>
+    <p>According to Şakuç, the shichepshin was once part of every side of Circassian life, from laments to celebrations. The reports on the conference describe it as an instrument on the verge of being forgotten.</p>
+
+    <h2>Why it matters</h2>
+    <p>Düzce is one of the places where Circassians exiled in 1864 rebuilt their lives, and it remains a centre of the diaspora in Turkey. The university also teaches Circassian language and literature. Much of this heritage has survived through individual craftsmen like Şakuç rather than through institutions. A university conference where people came to ask how a horsehair fiddle is made is a small sign that this is beginning to change.</p>
+
+    <div class="facts">
+      <h3>At a glance</h3>
+      <dl>
+        <dt>Event</dt><dd>"A Vanishing Art: From Horse Tail to Melody (Shichepshin)", 26 Nov 2026</dd>
+        <dt>Organiser</dt><dd>DÜKMER, Düzce University</dd>
+        <dt>Venue</dt><dd>Kutadgu Bilim conference hall, Faculty of Arts and Sciences, Düzce</dd>
+        <dt>Speaker</dt><dd>Faysal Şakuç, maker of Circassian instruments (about 15 years)</dd>
+        <dt>Instrument</dt><dd>Shichepshin (шыкӏэпшынэ): two-stringed bowed fiddle, horsehair strings and bow</dd>
+      </dl>
+    </div>
+    </div>
+<!-- ============================ TR ============================ -->
+    <div class="panel" id="lang-tr" lang="tr" hidden>
+    <p class="eyebrow">Haber · Kültür</p>
+    <h1>At Kuyruğundan Melodiye</h1>
+    <p class="dek">Düzce Üniversitesi'ndeki bir konferans, at kılından telleriyle Çerkeslerin yaylı çalgısı şikepşineyi gündeme taşıdı. Yapımcısı Faysal Şakuç, unutulmaya yüz tutan bu zanaatı on beş yıldır yaşatıyor.</p>
+    <p class="byline">May21.org Kolektifi · 27 Kasım 2026</p>
+
+    <div class="divider"></div>
+
+    <p>Düzce Üniversitesi Dil, Tarih ve Kültürel Zenginlikleri Araştırma ve Uygulama Merkezi (DÜKMER), 26 Kasım 2026'da "Kaybolan Sanat: At Kuyruğundan Melodiye (Şikepşine)" başlıklı bir konferans düzenledi. Fen Edebiyat Fakültesi Kutadgu Bilim Konferans Salonu'nda yapılan etkinliği İhlas Haber Ajansı (İHA) haberleştirdi.</p>
+    <p>Konuşmacı, Çerkes müzik aletleri yapımcısı Faysal Şakuç'tu. Şakuç, çalgının tarihini, nasıl yapıldığını, hangi ağaçların kullanıldığını ve nasıl hazırlandığını, geleneksel bir zanaatı sürdürmenin neler gerektirdiğini anlattı. Yaklaşık on beş yıldır şikepşine yaptığını, ses kalitesi ve dayanıklılık için müzisyenlerle birlikte çalıştığını söyledi.</p>
+    <p>Konferansın açılış konuşmasını, somut olmayan kültürel mirasın korunması ve geleneksel zanaatların gelecek kuşaklara aktarılması üzerine Tarih Bölümü öğretim üyesi Dr. Öğr. Üyesi Sibel Küçükkülahlı yaptı. Katılımcıların sorularıyla süren etkinlik, konuşmacıya teşekkür belgesi verilmesiyle sona erdi.</p>
+
+    <h2>Çalgı</h2>
+    <p>Çerkescede <em>şikepşine</em> (шыкӏэпшынэ) adı genellikle "at kuyruğu çalgısı" diye açıklanır: telleri de yayının kılları da at kılındandır. İki telli, dik tutulan ve kavisli bir yayla çalınan küçük bir yaylı çalgıdır. Londra'daki Horniman Müzesi'nde, 1914'ten önce yapılmış, Kabardey'in Baksan bölgesinden bir Çerkes şikepşinesi bulunuyor: gövdesi, sapı ve burgu kutusu tek parça ağaçtan oyulmuş, sapında notaları gösteren altı oyuk var.</p>
+    <p>Şakuç'a göre şikepşine bir zamanlar ağıtlardan eğlencelere kadar Çerkes yaşamının her alanında yer alıyordu. Konferansla ilgili haberler onu unutulmaya yüz tutmuş bir çalgı olarak anlatıyor.</p>
+
+    <h2>Neden önemli</h2>
+    <p>Düzce, 1864 sürgününden sonra Çerkeslerin hayatlarını yeniden kurdukları yerlerden biri ve bugün de Türkiye'deki diasporanın merkezlerinden. Üniversitede Çerkes dili ve edebiyatı da okutuluyor. Bu mirasın büyük kısmı kurumlar sayesinde değil, Şakuç gibi tek tek zanaatkârlar sayesinde ayakta kaldı. İnsanların at kılından bir çalgının nasıl yapıldığını sormaya geldiği bir üniversite konferansı, bunun değişmeye başladığına dair küçük ama anlamlı bir işaret.</p>
+
+    <div class="facts">
+      <h3>Kısaca</h3>
+      <dl>
+        <dt>Etkinlik</dt><dd>"Kaybolan Sanat: At Kuyruğundan Melodiye (Şikepşine)", 26 Kasım 2026</dd>
+        <dt>Düzenleyen</dt><dd>DÜKMER, Düzce Üniversitesi</dd>
+        <dt>Yer</dt><dd>Kutadgu Bilim Konferans Salonu, Fen Edebiyat Fakültesi, Düzce</dd>
+        <dt>Konuşmacı</dt><dd>Faysal Şakuç, Çerkes müzik aletleri yapımcısı (yaklaşık 15 yıl)</dd>
+        <dt>Çalgı</dt><dd>Şikepşine (шыкӏэпшынэ): iki telli yaylı çalgı; telleri ve yayı at kılından</dd>
+      </dl>
+    </div>
+    </div>
+<!-- ============================ KBD ============================ -->
+    <div class="panel" id="lang-kbd" lang="kbd" hidden>
+    <p class="eyebrow">Хъыбар · Щэнхабзэ</p>
+    <h1>Шыкӏэм къыщыщӏэдзауэ макъамэм нэс</h1>
+    <p class="dek">Дюздже университетым щекӏуэкӏа конференцым шыкӏэпшынэм — шыкӏэцым щӏа кӏапсэ зиӏэ адыгэ пшынэм — гу лъатащ. Ар зыщӏ Шакуч Фейсал илъэс пщыкӏутхукӏэ щыгъупщэжыным нэблэгъа ӏэщӏагъэр егъэпсэу.</p>
+    <p class="byline">May21.org · 2026 гъэм шэкӏуэгъуэм и 27</p>
+
+    <div class="divider"></div>
+
+    <p>2026 гъэм шэкӏуэгъуэм и 26-м Дюздже университетым и бзэмрэ тхыдэмрэ щэнхабзэ кӏэнымрэ щызэхэзыгъэкӏ центрым (DÜKMER) «ЗыкӏуэдыкӏыӀуэ гъуазджэ: шыкӏэм къыщыщӏэдзауэ макъамэм нэс (шыкӏэпшынэ)» фӀэщыгъэр зиӀэ конференц иригъэкӀуэкӀащ. Ар щекӀуэкӀащ щӀэныгъэ-гуманитар факультетым и «Кутадгу Билиг» залым; хъыбарыр İhlas (İHA) агентствэм итхащ.</p>
+    <p>Псалъэ щызыӀэтар адыгэ пшынэхэр зыщӀ Шакуч Фейсалщ. Абы пшынэм и тхыдэм, зэращӀым, къагъэсэбэп жыгхэм, ахэр зэрагъэхьэзырым, хабзэ ӀэщӀагъэр егъэпсэуным хуэныкъуэхэм тепсэлъыхьащ. Шакуч жиӀащ илъэс пщыкӀутху хуэдизкӀэ шыкӀэпшынэ зэрищӀыр, макъамэм и дахагъымрэ и быдагъымрэ щхьэкӀэ пшынауэхэм ядэлажьэу.</p>
+    <p>Конференцыр къызэӀуихащ университетым и тхыдэ факультетым и доктор Кючюккюлахлы Сибел; абы щэнхабзэ кӀэныр хъумэным, хабзэ ӀэщӀагъэхэр къэкӀуэну лӀэужьхэм ялъыгъэӀэсыным теухуауэ псэлъащ. КъекӀуэлӀахэм упщӀэхэр ятащ; иужьым псалъэ зыӀэтам фӀыщӀэ тхылъ иратащ.</p>
+
+    <h2>Пшынэр</h2>
+    <p>Адыгэбзэм пшынэм <em>шыкӀэпшынэ</em> фӀащ; «шыкӀэм щӀа пшынэ» жиӀэу къагъэбелджылыр: и кӀапсэхэри и бзэгупэм и цыхэри шыкӀэцщ. Ар кӀапситӀ зиӀэ, щыту зыщеуэ, бзэгупэ гъэшкӀакӀуэкӀэ щеуэ скрипкэ цӀыкӀущ. Лондон дэт Хорниман музейм Къэбэрдейм и Бахъсэн щӀыналъэм къикӀа, 1914 гъэм ипэкӀэ ящӀа адыгэ шыкӀэпшынэ щахъумэ: и щӀыбыр, и пщэр, и щхьэр жыг зы пкъыгъуэм къыхащӀыкӀащ, и пщэм нотэхэр къэзыгъэлъагъуэ дамыгъэ хы тетщ.</p>
+    <p>Шакуч зэрыжиӀэмкӀэ, зэгуэрым шыкӀэпшынэр адыгэ гъащӀэм и Ӏыхьэ псоми — гъыбзэм щыщӀэдзауэ гуфӀэгъуэм нэс — хэтащ. Конференцым теухуа хъыбархэм ар щыгъупщэжыным нэблэгъа пшынэу къыщагъэлъагъуэ.</p>
+
+    <h2>Сыт щхьэкӀэ ар мыхьэнэшхуэ зиӀэр</h2>
+    <p>Дюздже 1864 гъэм хэкум къырахуа адыгэхэм я гъащӀэр щаухуэжа щӀыпӀэхэм ящыщщ, иджыри Тыркум ис диаспорэм и щӀыпӀэ нэхъыщхьэхэм ящыщщ. Университетым адыгэбзэмрэ адыгэ литературэмрэ щрагъаджэ. А кӀэным и нэхъыбэр ӀуэхущӀапӀэхэм я фӀыгъэкӀэ мыхъуу, Шакуч хуэдэ ӀэщӀагъэлӀ закъуэхэм я фӀыгъэкӀэ къэнащ. ШыкӀэцым щӀа скрипкэр зэращӀыр щаупщӀыну цӀыхухэр къыщекӀуэлӀа университет конференцыр а Ӏуэхур зэхъуэкӀын зэрыщӀидзэм и дамыгъэ цӀыкӀущ.</p>
+
+    <div class="facts">
+      <h3>КӀэщӀу</h3>
+      <dl>
+        <dt>Зэхыхьэр</dt><dd>«ЗыкӀуэдыкӀыӀуэ гъуазджэ: шыкӀэм къыщыщӀэдзауэ макъамэм нэс (шыкӀэпшынэ)», 2026 гъэм шэкӀуэгъуэм и 26</dd>
+        <dt>ЗэхэзыгъэкӀар</dt><dd>DÜKMER, Дюздже университет</dd>
+        <dt>ЩӀыпӀэр</dt><dd>«Кутадгу Билиг» зал, Дюздже</dd>
+        <dt>Псалъэ зыӀэтар</dt><dd>Шакуч Фейсал, адыгэ пшынэхэр зыщӀ ӀэщӀагъэлӀ (илъэс 15 хуэдиз)</dd>
+        <dt>Пшынэр</dt><dd>ШыкӀэпшынэ: кӀапситӀ зиӀэ, бзэгупэкӀэ зыщеуэ пшынэ; кӀапсэхэри бзэгупэри шыкӀэцщ</dd>
+      </dl>
+    </div>
+    </div>
+<!-- ============================ RU ============================ -->
+    <div class="panel" id="lang-ru" lang="ru" hidden>
+    <p class="eyebrow">Новости · Культура</p>
+    <h1>От конского хвоста к мелодии</h1>
+    <p class="dek">Конференция в Университете Дюздже привлекла внимание к шычепшину — черкесскому смычковому инструменту со струнами из конского волоса. Его мастер Файсал Шакуч уже пятнадцать лет сохраняет почти забытое ремесло.</p>
+    <p class="byline">Коллектив May21.org · 27 ноября 2026</p>
+
+    <div class="divider"></div>
+
+    <p>26 ноября 2026 года Центр исследований языка, истории и культурного наследия Университета Дюздже (DÜKMER) провел конференцию «Исчезающее искусство: от конского хвоста к мелодии (шычепшин)». Она прошла в конференц-зале «Кутадгу Билиг» факультета естественных и гуманитарных наук; о ней сообщило агентство «Ихлас» (İHA).</p>
+    <p>Докладчиком был Файсал Шакуч, мастер черкесских музыкальных инструментов. Он рассказал об истории инструмента, о том, как его делают, какие породы дерева используют и как их готовят, и о том, чего стоит сохранять традиционное ремесло. По словам Шакуча, он делает шычепшины около пятнадцати лет и работает с музыкантами над звучанием и прочностью инструмента.</p>
+    <p>Конференцию открыла доктор Сибель Кючюккюлахлы с исторического факультета университета, говорившая о защите нематериального культурного наследия и передаче ремесел следующим поколениям. Слушатели задавали вопросы; в завершение докладчику вручили благодарственную грамоту.</p>
+
+    <h2>Инструмент</h2>
+    <p>По-черкесски инструмент называется <em>шычепшин</em> (шыкӏэпшынэ); название обычно объясняют как «инструмент из конского хвоста»: и струны, и волос смычка сделаны из конского волоса. Это небольшая двухструнная скрипка, на которой играют вертикально, изогнутым смычком. В лондонском музее Хорнимана хранится черкесский шычепшин из Баксана в Кабарде, сделанный до 1914 года: корпус, гриф и колковая коробка вырезаны из цельного куска дерева, на грифе — шесть насечек, отмечающих ноты.</p>
+    <p>По словам Шакуча, когда-то шычепшин сопровождал все стороны черкесской жизни — от плачей до праздников. В сообщениях о конференции его называют инструментом, которому грозит забвение.</p>
+
+    <h2>Почему это важно</h2>
+    <p>Дюздже — одно из мест, где черкесы, изгнанные в 1864 году, заново построили свою жизнь, и сегодня один из центров диаспоры в Турции. В университете преподают и черкесский язык и литературу. Большая часть этого наследия сохранилась благодаря отдельным мастерам вроде Шакуча, а не учреждениям. Университетская конференция, на которую люди пришли спросить, как делается скрипка из конского волоса, — небольшой знак того, что это начинает меняться.</p>
+
+    <div class="facts">
+      <h3>Коротко</h3>
+      <dl>
+        <dt>Событие</dt><dd>«Исчезающее искусство: от конского хвоста к мелодии (шычепшин)», 26 ноября 2026</dd>
+        <dt>Организатор</dt><dd>DÜKMER, Университет Дюздже</dd>
+        <dt>Место</dt><dd>Зал «Кутадгу Билиг», факультет естественных и гуманитарных наук, Дюздже</dd>
+        <dt>Докладчик</dt><dd>Файсал Шакуч, мастер черкесских инструментов (около 15 лет)</dd>
+        <dt>Инструмент</dt><dd>Шычепшин (шыкӏэпшынэ): двухструнный смычковый инструмент, струны и смычок из конского волоса</dd>
+      </dl>
+    </div>
+    </div>
+<!-- ============================ DE ============================ -->
+    <div class="panel" id="lang-de" lang="de" hidden>
+    <p class="eyebrow">Nachrichten · Kultur</p>
+    <h1>Vom Pferdeschweif zur Melodie</h1>
+    <p class="dek">Eine Konferenz an der Universität Düzce hat die Schitschepschin ins Licht gerückt, das tscherkessische Streichinstrument mit Saiten aus Rosshaar. Ihr Erbauer Faysal Şakuç hält seit fünfzehn Jahren ein fast vergessenes Handwerk am Leben.</p>
+    <p class="byline">May21.org-Kollektiv · 27. November 2026</p>
+
+    <div class="divider"></div>
+
+    <p>Am 26. November 2026 veranstaltete das Forschungs- und Anwendungszentrum für Sprache, Geschichte und kulturelles Erbe der Universität Düzce (DÜKMER) eine Konferenz mit dem Titel „Eine verschwindende Kunst: Vom Pferdeschweif zur Melodie (Schitschepschin)“. Sie fand im Konferenzsaal Kutadgu Bilig der Fakultät für Natur- und Geisteswissenschaften statt; die Nachrichtenagentur İhlas (İHA) berichtete darüber.</p>
+    <p>Redner war Faysal Şakuç, ein Erbauer tscherkessischer Musikinstrumente. Er sprach über die Geschichte des Instruments, seinen Bau, die verwendeten Hölzer und ihre Vorbereitung und darüber, was es braucht, ein traditionelles Handwerk am Leben zu halten. Şakuç sagte, er baue seit etwa fünfzehn Jahren Schitschepschins und arbeite mit Musikern an Klang und Haltbarkeit.</p>
+    <p>Eröffnet wurde die Konferenz von Dr. Sibel Küçükkülahlı vom Fachbereich Geschichte, die über den Schutz des immateriellen Kulturerbes und die Weitergabe traditioneller Handwerke an die nächste Generation sprach. Das Publikum beteiligte sich mit Fragen; zum Abschluss erhielt der Redner eine Dankesurkunde.</p>
+
+    <h2>Das Instrument</h2>
+    <p>Auf Tscherkessisch heißt das Instrument <em>Schitschepschin</em> (шыкӏэпшынэ), meist erklärt als „Pferdeschweif-Instrument“: Saiten und Bogenhaar sind aus Rosshaar. Es ist eine kleine, aufrecht gespielte Fiedel mit zwei Saiten und einem gebogenen Bogen. Das Horniman Museum in London besitzt eine tscherkessische Schitschepschin aus Baksan in Kabarda, gebaut vor 1914: Korpus, Hals und Wirbelkasten sind aus einem einzigen Stück Holz geschnitzt, der Hals trägt sechs Kerben, die die Töne markieren.</p>
+    <p>Laut Şakuç gehörte die Schitschepschin einst zu allen Bereichen des tscherkessischen Lebens, von Klageliedern bis zu Festen. Die Berichte über die Konferenz beschreiben sie als ein Instrument, das in Vergessenheit zu geraten droht.</p>
+
+    <h2>Warum das wichtig ist</h2>
+    <p>Düzce ist einer der Orte, an denen die 1864 vertriebenen Tscherkessen ihr Leben neu aufbauten, und bis heute ein Zentrum der Diaspora in der Türkei. An der Universität werden auch tscherkessische Sprache und Literatur gelehrt. Viel von diesem Erbe hat durch einzelne Handwerker wie Şakuç überlebt, nicht durch Institutionen. Eine Universitätskonferenz, zu der Menschen kommen, um zu fragen, wie eine Fiedel aus Rosshaar gebaut wird, ist ein kleines Zeichen, dass sich das zu ändern beginnt.</p>
+
+    <div class="facts">
+      <h3>Auf einen Blick</h3>
+      <dl>
+        <dt>Veranstaltung</dt><dd>„Eine verschwindende Kunst: Vom Pferdeschweif zur Melodie (Schitschepschin)“, 26. Nov. 2026</dd>
+        <dt>Veranstalter</dt><dd>DÜKMER, Universität Düzce</dd>
+        <dt>Ort</dt><dd>Konferenzsaal Kutadgu Bilig, Fakultät für Natur- und Geisteswissenschaften, Düzce</dd>
+        <dt>Redner</dt><dd>Faysal Şakuç, Erbauer tscherkessischer Instrumente (seit etwa 15 Jahren)</dd>
+        <dt>Instrument</dt><dd>Schitschepschin (шыкӏэпшынэ): zweisaitige Fiedel, Saiten und Bogen aus Rosshaar</dd>
+      </dl>
+    </div>
+    </div>
+<!-- ============================ AR ============================ -->
+    <div class="panel" id="lang-ar" lang="ar" dir="rtl" hidden>
+    <p class="eyebrow">أخبار · ثقافة</p>
+    <h1>من ذيل الحصان إلى اللحن</h1>
+    <p class="dek">سلّط مؤتمر في جامعة دوزجه الضوء على «الشيكبشينه»، الآلة الوترية الشركسية ذات الأوتار المصنوعة من شعر الخيل. وصانعها فيصل شاكوتش يحافظ منذ خمسة عشر عامًا على حرفة كادت تُنسى.</p>
+    <p class="byline">مجموعة May21.org · 27 تشرين الثاني/نوفمبر 2026</p>
+
+    <div class="divider"></div>
+
+    <p>في 26 تشرين الثاني/نوفمبر 2026 نظّم مركز أبحاث وتطبيقات اللغة والتاريخ والثروات الثقافية في جامعة دوزجه (DÜKMER) مؤتمرًا بعنوان «فنّ يتلاشى: من ذيل الحصان إلى اللحن (الشيكبشينه)». عُقد المؤتمر في قاعة «قوتادغو بيليغ» في كلية العلوم والآداب، ونقلت خبره وكالة إخلاص للأنباء (İHA).</p>
+    <p>كان المتحدث فيصل شاكوتش، صانع الآلات الموسيقية الشركسية. تحدث عن تاريخ الآلة وطريقة صنعها وأنواع الخشب المستخدمة وكيفية تحضيرها، وعمّا يتطلبه الحفاظ على حرفة تقليدية. وقال شاكوتش إنه يصنع الشيكبشينه منذ نحو خمسة عشر عامًا، ويعمل مع الموسيقيين على تحسين صوتها ومتانتها.</p>
+    <p>افتتحت المؤتمرَ الدكتورة سيبل كوتشوك كولاهلي من قسم التاريخ في الجامعة، وتحدثت عن حماية التراث الثقافي غير المادي ونقل الحرف التقليدية إلى الأجيال القادمة. وشارك الحضور بالأسئلة، واختُتم اللقاء بتقديم شهادة شكر للمتحدث.</p>
+
+    <h2>الآلة</h2>
+    <p>تُسمّى الآلة بالشركسية <em>شيكبشينه</em> (шыкӏэпшынэ)، ويُفسَّر الاسم عادةً بأنه «آلة ذيل الحصان»: فأوتارها وشعر قوسها من شعر الخيل. وهي كمان صغير بوترين يُعزف عليه قائمًا بقوس مقوّس. ويحتفظ متحف هورنيمان في لندن بآلة شيكبشينه شركسية من منطقة باكسان في قباردا، صُنعت قبل عام 1914: جسمها وعنقها وصندوق مفاتيحها منحوتة من قطعة خشب واحدة، وعلى العنق ستة حزوز تحدد النغمات.</p>
+    <p>وبحسب شاكوتش، كانت الشيكبشينه حاضرة يومًا في كل جوانب الحياة الشركسية، من المراثي إلى الأفراح. وتصفها التقارير عن المؤتمر بأنها آلة مهددة بالنسيان.</p>
+
+    <h2>لماذا يهمّ ذلك</h2>
+    <p>دوزجه من الأماكن التي أعاد فيها الشركس المهجَّرون عام 1864 بناء حياتهم، ولا تزال أحد مراكز الشتات في تركيا. وتدرّس الجامعة أيضًا اللغة والأدب الشركسيين. وقد نجا الكثير من هذا التراث بفضل حرفيين أفراد مثل شاكوتش، لا بفضل المؤسسات. ومؤتمر جامعي يأتيه الناس ليسألوا كيف يُصنع كمان من شعر الخيل علامة صغيرة على أن هذا بدأ يتغيّر.</p>
+
+    <div class="facts">
+      <h3>باختصار</h3>
+      <dl>
+        <dt>الفعالية</dt><dd>«فنّ يتلاشى: من ذيل الحصان إلى اللحن (الشيكبشينه)»، 26 تشرين الثاني/نوفمبر 2026</dd>
+        <dt>المنظِّم</dt><dd>مركز DÜKMER، جامعة دوزجه</dd>
+        <dt>المكان</dt><dd>قاعة «قوتادغو بيليغ»، كلية العلوم والآداب، دوزجه</dd>
+        <dt>المتحدث</dt><dd>فيصل شاكوتش، صانع آلات شركسية (منذ نحو 15 عامًا)</dd>
+        <dt>الآلة</dt><dd>الشيكبشينه (шыкӏэпшынэ): آلة وترية بقوس ووترين، أوتارها وقوسها من شعر الخيل</dd>
+      </dl>
+    </div>
+    </div>
+<!-- ============================ ADY ============================ -->
+    <div class="panel" id="lang-ady" lang="ady" hidden>
+    <p class="eyebrow">Къэбар · Шэн-хабзэ</p>
+    <h1>Шыкӏэм къыщегъэжьагъэу орэдым нэс</h1>
+    <p class="dek">Дюздже университетым щыкӏогъэ конференцием шыкӏэпщыным — шыцым хэшӏыкӏыгъэ кӏапсэхэр зиӏэ адыгэ пщынэм — гу лъитагъ. Ар зышӏырэ Шакуч Фейсал илъэс пшӏыкӏутфым къыкӏоцӏ щыгъупшэжьыным нэблэгъэгъэ ӏэпэӏэсэныгъэр егъэпсэу.</p>
+    <p class="byline">May21.org · 2026-рэ илъэсым шэкӏогъум и 27</p>
+
+    <div class="divider"></div>
+
+    <p>2026-рэ илъэсым шэкӀогъум и 26-м Дюздже университетым ибзэ, итарихъ ыкӀи ишэн-хабзэ кӀэн зэзгъашӀэрэ гупчэм (DÜKMER) «КӀодырэ искусств: шыкӀэм къыщегъэжьагъэу орэдым нэс (шыкӀэпщын)» зыфиӀорэ конференцие зэхищагъ. Ар щыкӀуагъ шӀэныгъэ-гуманитар факультетым и «Кутадгу Билиг» залэ; къэбарыр İhlas (İHA) агентствэм итхыгъ.</p>
+    <p>ГущыӀэ зышӀыгъэр адыгэ пщынэхэр зышӀырэ Шакуч Фейсал ары. Ащ пщынэм итарихъ, зэрашӀырэ шӀыкӀэр, агъэфедэрэ чъыгхэр ыкӀи ахэр зэрагъэхьазырхэрэр, хабзэ ӀэпэӀэсэныгъэр гъэпсэугъэным фэе хэтыр къыӀотагъ. Шакуч къызэриӀуагъэмкӀэ, илъэс пшӀыкӀутф фэдизрэ шыкӀэпщын ешӀы, ымакъэ идахагъэрэ ипытагъэрэ апае пщынаохэм адэлажьэ.</p>
+    <p>Конференциер къызэӀуихыгъ университетым итарихъ факультет идоктор Кючюккюлахлы Сибел; ащ шэн-хабзэ кӀэныр къэухъумэгъэным, хабзэ ӀэпэӀэсэныгъэхэр къэкӀощт лӀэужхэм алъыӀугъэхьэгъэным фэгъэхьыгъэу гущыӀагъ. КъекӀолӀагъэхэм упчӀэхэр атыгъэх; ыужым гущыӀэ зышӀыгъэм шӀуфэс тхылъ ратыгъ.</p>
+
+    <h2>Пщынэр</h2>
+    <p>Адыгабзэм пщынэм <em>шыкӀэпщын</em> фаусы; «шыкӀэм хэшӀыкӀыгъэ пщынэ» аӀоу къызэхафы: икӀапсэхэри ибзэгупэ ицыхэри шыцых. Ар кӀапситӀу зиӀэ, щытэу зыщытеоу, бзэгупэ гъэшъуагъэкӀэ зытеорэ скрипкэ цӀыкӀу. Лондон дэт Хорниман музеим Къэбэртаем и Бахъсэн шъолъыр къикӀыгъэ, 1914-рэ илъэсым ыпэкӀэ ашӀыгъэ адыгэ шыкӀэпщын щаухъумэ: ипкъ, ипшъэ, ишъхьэ чъыг зы пычыгъо къыхашӀыкӀыгъэх, ипшъэ нотэхэр къэзгъэлъагъорэ тамыгъэ хы тет.</p>
+    <p>Шакуч зэриӀорэмкӀэ, зэгорэм шыкӀэпщыныр адыгэ щыӀакӀэм ичӀыпӀэ пстэуми — гъыбзэм къыщегъэжьагъэу мэфэкӀым нэс — хэтыгъ. Конференцием фэгъэхьыгъэ къэбархэм ар щыгъупшэжьыным нэблэгъэгъэ пщынэу къащагъэлъагъо.</p>
+
+    <h2>Сыда ащ мэхьанэшхо зыкӀиӀэр</h2>
+    <p>Дюздже 1864-рэ илъэсым хэкум къырафыгъэ адыгэхэм ящыӀакӀэ щызэтырагъэуцожьыгъэ чӀыпӀэхэм ащыщ, джыри Тыркуем ис диаспорэм игупчэхэм ащыщ. Университетым адыгабзэмрэ адыгэ литературэмрэ щарагъашӀэ. А кӀэным инахьыбэр ӀофшӀапӀэхэм яшӀуагъэкӀэ къэмынэу, Шакуч фэдэ ӀэпэӀэсэ закъохэм яшӀуагъэкӀэ къэнагъ. Шыцым хэшӀыкӀыгъэ скрипкэр зэрашӀырэр аупчӀынэу цӀыфхэр къызыщекӀолӀагъэхэ университет конференциер а Ӏофыр зэблэхъугъэ зэрэхъурэм итамыгъэ цӀыкӀу.</p>
+
+    <div class="facts">
+      <h3>КӀэкӀэу</h3>
+      <dl>
+        <dt>Зэхахьэр</dt><dd>«КӀодырэ искусств: шыкӀэм къыщегъэжьагъэу орэдым нэс (шыкӀэпщын)», 2026-рэ илъэсым шэкӀогъум и 26</dd>
+        <dt>Зэхэзыщагъэр</dt><dd>DÜKMER, Дюздже университет</dd>
+        <dt>ЧӀыпӀэр</dt><dd>«Кутадгу Билиг» зал, Дюздже</dd>
+        <dt>ГущыӀэ зышӀыгъэр</dt><dd>Шакуч Фейсал, адыгэ пщынэхэр зышӀырэ ӀэпэӀас (илъэс 15 фэдиз)</dd>
+        <dt>Пщынэр</dt><dd>ШыкӀэпщын: кӀапситӀу зиӀэ, бзэгупэкӀэ зытеорэ пщын; кӀапсэхэри бзэгупэри шыцых</dd>
+      </dl>
+    </div>
+    </div>
+
+    <section class="refs">
+      <h2 id="refs-title">Sources</h2>
+      <ol>
+        <li>İhlas Haber Ajansı (İHA), «Çerkes kültürünün geleneksel sesi Şikepşine tanıtıldı», 26 Nov 2026. <a href="https://www.iha.com.tr/duzce-haberleri/cerkes-kulturunun-geleneksel-sesi-sikepsine-tanitildi-522217682" target="_blank" rel="noopener">iha.com.tr</a>; also carried by <a href="https://www.mersinhaber.com/haber-duzcede-cerkes-kulturunun-geleneksel-sesi-sikepsine-tanitildi/860880" target="_blank" rel="noopener">Mersin Haber</a>.</li>
+        <li>Düzce Hür Haber, «Düzce'de unutulmaya yüz tutan sanat: At kuyruğundan melodiye», 27 Nov 2026. <a href="https://www.duzcehurhaber.com/duzcede-unutulmaya-yuz-tutan-sanat-at-kuyrugundan-melodiye-5037246" target="_blank" rel="noopener">duzcehurhaber.com</a>.</li>
+        <li>Horniman Museum and Gardens, London, «Caucasian fiddle and bow», object 2012.133. <a href="https://www.horniman.ac.uk/object/2012.133" target="_blank" rel="noopener">horniman.ac.uk</a>.</li>
+        <li>Haberler.com, «Evinin yanındaki atölyesinde Kafkas müzik kültürüyle özdeşleşen "pheceg"i üretiyor» (on Circassian language and literature studies at Düzce University). <a href="https://www.haberler.com/kultur-sanat/evinin-yanindaki-atolyesinde-kafkas-muzik-19382509-haberi/" target="_blank" rel="noopener">haberler.com</a>.</li>
+      </ol>
+    </section>
+  </article>
+
+  <footer id="foot">© 2026 May21.org · Quotations from Russian sources are translated by May21.org.</footer>
+
+  <script>
+    var LANGS = ["en", "tr", "kbd", "ru", "de", "ar", "ady"];
+    var UI = {"en": ["← Library", "Reader view", "Standard view", "Sources", "© 2026 May21.org · Quotations from Russian sources are translated by May21.org."], "tr": ["← Kütüphane", "Okuma görünümü", "Standart görünüm", "Kaynaklar", "© 2026 May21.org · Rusça kaynaklardan yapılan alıntılar May21.org tarafından çevrilmiştir."], "kbd": ["← Тхылъхэр", "Еджэн", "Хабзэм тету", "Тхылъхэр", "© 2026 May21.org"], "ru": ["← Библиотека", "Режим чтения", "Обычный вид", "Источники", "© 2026 May21.org"], "de": ["← Bibliothek", "Leseansicht", "Standardansicht", "Quellen", "© 2026 May21.org · Zitate aus russischen Quellen wurden von May21.org übersetzt."], "ar": ["→ المكتبة", "وضع القراءة", "العرض العادي", "المصادر", "© 2026 May21.org · ترجم موقع May21.org الاقتباسات من المصادر الروسية."], "ady": ["← Тхылъхэр", "Еджэн", "Шапхъэм тетэу", "Тхылъхэр", "© 2026 May21.org"]};
+    var TITLE = {"en": "From Horse Tail to Melody", "tr": "At Kuyruğundan Melodiye", "kbd": "Шыкӏэм къыщыщӏэдзауэ макъамэм нэс", "ru": "От конского хвоста к мелодии", "de": "Vom Pferdeschweif zur Melodie", "ar": "من ذيل الحصان إلى اللحن", "ady": "Шыкӏэм къыщегъэжьагъэу орэдым нэс"};
+    var params = new URLSearchParams(location.search);
+    var reader = params.get('view') === 'reader';
+    if (reader) document.body.classList.add('reader');
+    var current = 'en';
+    function link(lang, readerOn) {
+      var q = '?lang=' + lang + (readerOn ? '&view=reader' : '');
+      return location.pathname + q;
+    }
+    function show(lang) {
+      if (LANGS.indexOf(lang) < 0) lang = 'en';
+      current = lang;
+      document.querySelectorAll('.panel').forEach(function (p) { p.hidden = p.id !== 'lang-' + lang; });
+      document.querySelectorAll('.tabs button').forEach(function (b) { b.setAttribute('aria-pressed', b.dataset.lang === lang); });
+      document.documentElement.lang = lang;
+      var u = UI[lang];
+      document.getElementById('lib-link').textContent = u[0];
+      var t = document.getElementById('reader-toggle');
+      t.textContent = reader ? u[2] : u[1];
+      t.href = link(lang, !reader);
+      document.getElementById('refs-title').textContent = u[3];
+      document.getElementById('foot').textContent = u[4];
+      document.title = TITLE[lang] + ' · May21.org';
+      try { history.replaceState(null, '', link(lang, reader) + location.hash); } catch (e) {}
+    }
+    document.querySelectorAll('.tabs button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        show(b.dataset.lang);
+        try { localStorage.setItem('may21_lang', b.dataset.lang); } catch (e) {}
+      });
+    });
+    (function () {
+      var q = params.get('lang');
+      if (q) return show(q);
+      var saved = null;
+      try { saved = localStorage.getItem('may21_lang'); } catch (e) {}
+      if (saved && LANGS.indexOf(saved) >= 0) return show(saved);
+      var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en'];
+      for (var i = 0; i < prefs.length; i++) {
+        var c = String(prefs[i]).toLowerCase().split('-')[0];
+        if (LANGS.indexOf(c) >= 0) return show(c);
+      }
+      show('en');
+    })();
+  </script>
+  <script data-goatcounter="https://may21.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+  <script src="../assets/share.js" defer></script>
+</body>
+</html>

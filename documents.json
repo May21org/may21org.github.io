@@ -1,6 +1,59 @@
 [
   {
     "type": "News",
+    "title": "From Horse Tail to Melody",
+    "author": "May21.org Collective",
+    "date": "2026-11-27",
+    "lang": "EN · TR · РУС · DE · عر · КАБ · АДЫ",
+    "url": "documents/2026-11-shichepshin-duzce.html?lang=en",
+    "description": "A conference at Düzce University has put the spotlight on the shichepshin, the Circassian bowed instrument strung with horsehair. Its maker, Faysal Şakuç, has spent fifteen years keeping a near-forgotten craft alive.",
+    "editions": {
+      "tr": {
+        "type": "Haber",
+        "title": "At Kuyruğundan Melodiye",
+        "description": "Düzce Üniversitesi'ndeki bir konferans, at kılından telleriyle Çerkeslerin yaylı çalgısı şikepşineyi gündeme taşıdı. Yapımcısı Faysal Şakuç, unutulmaya yüz tutan bu zanaatı on beş yıldır yaşatıyor.",
+        "url": "documents/2026-11-shichepshin-duzce.html?lang=tr",
+        "lang": "TR"
+      },
+      "kbd": {
+        "type": "Хъыбар",
+        "title": "Шыкӏэм къыщыщӏэдзауэ макъамэм нэс",
+        "description": "Дюздже университетым щекӏуэкӏа конференцым шыкӏэпшынэм — шыкӏэцым щӏа кӏапсэ зиӏэ адыгэ пшынэм — гу лъатащ. Ар зыщӏ Шакуч Фейсал илъэс пщыкӏутхукӏэ щыгъупщэжыным нэблэгъа ӏэщӏагъэр егъэпсэу.",
+        "url": "documents/2026-11-shichepshin-duzce.html?lang=kbd",
+        "lang": "КАБ"
+      },
+      "ru": {
+        "type": "Новости",
+        "title": "От конского хвоста к мелодии",
+        "description": "Конференция в Университете Дюздже привлекла внимание к шычепшину — черкесскому смычковому инструменту со струнами из конского волоса. Его мастер Файсал Шакуч уже пятнадцать лет сохраняет почти забытое ремесло.",
+        "url": "documents/2026-11-shichepshin-duzce.html?lang=ru",
+        "lang": "РУС"
+      },
+      "de": {
+        "type": "Nachrichten",
+        "title": "Vom Pferdeschweif zur Melodie",
+        "description": "Eine Konferenz an der Universität Düzce hat die Schitschepschin ins Licht gerückt, das tscherkessische Streichinstrument mit Saiten aus Rosshaar. Ihr Erbauer Faysal Şakuç hält seit fünfzehn Jahren ein fast vergessenes Handwerk am Leben.",
+        "url": "documents/2026-11-shichepshin-duzce.html?lang=de",
+        "lang": "DE"
+      },
+      "ar": {
+        "type": "أخبار",
+        "title": "من ذيل الحصان إلى اللحن",
+        "description": "سلّط مؤتمر في جامعة دوزجه الضوء على «الشيكبشينه»، الآلة الوترية الشركسية ذات الأوتار المصنوعة من شعر الخيل. وصانعها فيصل شاكوتش يحافظ منذ خمسة عشر عامًا على حرفة كادت تُنسى.",
+        "url": "documents/2026-11-shichepshin-duzce.html?lang=ar",
+        "lang": "عر"
+      },
+      "ady": {
+        "type": "Къэбар",
+        "title": "Шыкӏэм къыщегъэжьагъэу орэдым нэс",
+        "description": "Дюздже университетым щыкӏогъэ конференцием шыкӏэпщыным — шыцым хэшӏыкӏыгъэ кӏапсэхэр зиӏэ адыгэ пщынэм — гу лъитагъ. Ар зышӏырэ Шакуч Фейсал илъэс пшӏыкӏутфым къыкӏоцӏ щыгъупшэжьыным нэблэгъэгъэ ӏэпэӏэсэныгъэр егъэпсэу.",
+        "url": "documents/2026-11-shichepshin-duzce.html?lang=ady",
+        "lang": "АДЫ"
+      }
+    }
+  },
+  {
+    "type": "News",
     "title": "The Workshop That Made Circassian Cinema",
     "author": "May21.org Collective",
     "date": "2026-11-26",
