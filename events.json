@@ -1,5 +1,53 @@
 [
   {
+    "title": "Aslan Tlebzu — 45th Birthday & 25 Years on Stage Concerts",
+    "date": "2026-12-01",
+    "end": "2026-12-02",
+    "place": "Adyghe State University, Maikop",
+    "type": "Concert",
+    "lang": "TR",
+    "url": "https://www.infocherkessia.com/tr/haberler/cerkesya/mizikasiyla-dunyaya-tanitti-ipshyne-dunair-rigelegug",
+    "description": "Two-day jubilee concerts by Adyghe accordion (pshine) player and composer Aslan Tlebzu with the Adygea State Orchestra, marking his 45th birthday and 25 years on stage; the concerts will be recorded for the archive.",
+    "editions": {
+      "tr": {
+        "title": "Aslan Tlebzu — 45. Yaş ve Sahnede 25. Yıl Konserleri",
+        "place": "Adığe Devlet Üniversitesi, Mıyekuape (Maykop)",
+        "type": "Konser",
+        "description": "Adige mızıka (pşıne) sanatçısı ve besteci Aslan Tlebzu'nun 45. doğum günü ve sahnedeki 25. yılı için Adigey Devlet Orkestrası ile vereceği iki günlük jübile konserleri; konserler arşiv için kaydedilecek."
+      },
+      "ru": {
+        "title": "Аслан Тлебзу — юбилейные концерты: 45 лет и 25 лет на сцене",
+        "place": "Адыгейский государственный университет, Майкоп",
+        "type": "Концерт",
+        "description": "Двухдневные юбилейные концерты адыгского гармониста (пшинэ) и композитора Аслана Тлебзу с Государственным оркестром Адыгеи к его 45-летию и 25-летию на сцене; концерты будут записаны для архива."
+      },
+      "de": {
+        "title": "Aslan Tlebzu — Jubiläumskonzerte: 45. Geburtstag und 25 Jahre auf der Bühne",
+        "place": "Adygeische Staatliche Universität, Maikop",
+        "type": "Konzert",
+        "description": "Zweitägige Jubiläumskonzerte des adygischen Akkordeonspielers (Pschine) und Komponisten Aslan Tlebzu mit dem Staatsorchester Adygejas zu seinem 45. Geburtstag und 25 Jahren auf der Bühne; die Konzerte werden für das Archiv aufgezeichnet."
+      },
+      "ar": {
+        "title": "أصلان تليبزو — حفلات اليوبيل: 45 عامًا و25 عامًا على المسرح",
+        "place": "جامعة الأديغي الحكومية، مايكوب",
+        "type": "حفل موسيقي",
+        "description": "حفلات يوبيلية على مدى يومين لعازف الأكورديون الأديغي (بشينه) والملحن أصلان تليبزو مع الأوركسترا الحكومية لجمهورية الأديغي، بمناسبة عيد ميلاده الخامس والأربعين ومرور 25 عامًا على مسيرته الفنية؛ وستُسجَّل الحفلات للأرشيف."
+      },
+      "kbd": {
+        "title": "Тлэбзу Аслъэн — юбилей концертхэр",
+        "place": "Адыгэ къэрал университет, Мейкъуапэ",
+        "type": "Концерт",
+        "description": "Адыгэ пшынэуэ икӏи композитор Тлэбзу Аслъэн и илъэс 45-мрэ сценэм зэрытет илъэс 25-мрэ папщӏэ Адыгэ Республикэм и Къэрал оркестрым и гъусэу махуитӏ концерт ет; концертхэр архивым хуатхынущ."
+      },
+      "ady": {
+        "title": "Тлэбзэ Аслъан — юбилей концертхэр",
+        "place": "Адыгэ къэралыгъо университетыр, Мыекъуапэ",
+        "type": "Концерт",
+        "description": "Адыгэ пщынэо ыкӀи композитор Тлэбзэ Аслъан ыныбжь илъэс 45-рэ зэрэхъугъэм ыкӀи сценэм илъэс 25-рэ зэрэтетым афэгъэхьыгъэу Адыгэ Республикэм и Къэралыгъо оркестрэ игъусэу мэфитӀу концертхэр ешӀых; концертхэр архивым пае атхыщтых."
+      }
+    }
+  },
+  {
     "title": "Peoples of Russia. Adyghe (Circassians) — Exhibition",
     "date": "2026-11-11",
     "end": "2027-02-15",
